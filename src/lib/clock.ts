@@ -20,7 +20,7 @@ export function parseDateKey(key: string): number {
   return Date.UTC(y, m - 1, d);
 }
 
-/** The day Synonymy launched. Puzzle #1. */
+/** The day Kinword launched. Puzzle #1. */
 export const LAUNCH_DAY = '2026-10-28';
 
 /** "2026-10-30" -> 3. Used instead of the word when sharing, so results never spoil the answer. */

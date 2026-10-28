@@ -94,11 +94,11 @@ if (import.meta.env.DEV) {
   for (const p of allPuzzles) {
     const lists = [p.synonyms, p.antonyms, p.contextual, p.chaos];
     if (lists.some((l) => l.length !== 5)) {
-      console.warn(`[Synonymy] Puzzle ${p.id} must have exactly 5 words per category.`);
+      console.warn(`[Kinword] Puzzle ${p.id} must have exactly 5 words per category.`);
     }
     const all = lists.flat().map((w) => w.toLowerCase());
     if (new Set(all).size !== all.length) {
-      console.warn(`[Synonymy] Puzzle ${p.id} has duplicate words.`);
+      console.warn(`[Kinword] Puzzle ${p.id} has duplicate words.`);
     }
   }
 }

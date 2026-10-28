@@ -8,7 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
  */
 function seoFiles(siteUrl: string): Plugin {
   return {
-    name: 'synonymy-seo-files',
+    name: 'kinword-seo-files',
     apply: 'build',
     generateBundle() {
       const today = new Date().toISOString().slice(0, 10);

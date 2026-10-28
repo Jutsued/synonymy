@@ -1,4 +1,4 @@
-# Synonymy
+# Kinword
 
 One target word. Twenty floating words. Find the five true synonyms before your five energy charges run out. New puzzle every day at 00:00 UTC.
 
@@ -70,5 +70,5 @@ Locally: `npm run puzzles` rebuilds and checks the bank.
 ## Moving to a custom domain
 
 1. Buy the domain and point it at GitHub Pages (repo **Settings → Pages → Custom domain**; GitHub shows the DNS records to add).
-2. Change the one line in `.env` to the new address, e.g. `VITE_SITE_URL=https://playsynonymy.com/`.
+2. Change the one line in `.env` to the new address, e.g. `VITE_SITE_URL=https://kinword.app/`.
 3. Commit. The share link, link previews, canonical URL, sitemap, robots.txt and asset paths all follow that setting.

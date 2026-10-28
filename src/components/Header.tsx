@@ -17,7 +17,7 @@ export default function Header({ streak, msLeft, onOpenStats, onOpenHelp }: Head
       <div className="flex items-center gap-2.5">
         <LogoMark className="text-zinc-300" />
         <span className="hidden font-display text-2xl italic tracking-tight text-zinc-100 min-[380px]:inline">
-          Synonymy
+          Kinword
         </span>
       </div>
 

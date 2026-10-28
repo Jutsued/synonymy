@@ -32,7 +32,7 @@ function pickGrid(words: BoardWord[], state: GameState): string {
 function buildShareText(words: BoardWord[], state: GameState, streak: number): string {
   const result = state.status === 'won' ? `⚡${state.energy}/${MAX_ENERGY}` : `💥 0/${MAX_ENERGY}`;
   return [
-    `Synonymy #${puzzleNumber(state.dateKey)}`,
+    `Kinword #${puzzleNumber(state.dateKey)}`,
     pickGrid(words, state),
     `${result} · ⏱ ${formatDuration(state.elapsedMs)} · 🔥 ${streak}`,
     import.meta.env.VITE_SITE_URL, // every shared result links back to the game
@@ -215,7 +215,7 @@ export default function StatsModal({ open, onClose, puzzle, words, state, stats,
       {/* Header */}
       <div className="pr-10">
         <p className="text-[10px] tracking-[0.3em] text-zinc-500 uppercase">
-          Synonymy #{puzzleNumber(state.dateKey)} · {formatDateKey(state.dateKey)}
+          Kinword #{puzzleNumber(state.dateKey)} · {formatDateKey(state.dateKey)}
         </p>
         <h2
           id="stats-title"

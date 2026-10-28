@@ -1,6 +1,6 @@
 {
-  "name": "Synonymy — Daily Word Puzzle",
-  "short_name": "Synonymy",
+  "name": "Kinword — Daily Word Puzzle",
+  "short_name": "Kinword",
   "description": "Find the 5 true synonyms hidden among 20 floating words. New puzzle every day.",
   "start_url": "./",
   "scope": "./",

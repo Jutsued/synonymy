@@ -4,6 +4,9 @@ import type { GameState, PlayerStats } from '../types';
  * Everything that touches localStorage lives here.
  * Keys are versioned (":v1") so a future shape change can just bump the
  * version instead of crashing on old data.
+ *
+ * The keys still say "synonymy" (the game's original name) on purpose:
+ * renaming them would wipe every existing player's streak and stats.
  */
 const GAME_KEY = 'synonymy:game:v1';
 const STATS_KEY = 'synonymy:stats:v1';

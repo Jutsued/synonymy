@@ -117,7 +117,7 @@ export function HelpIcon(props: IconProps) {
   );
 }
 
-/** The Synonymy mark: two overlapping rings = two words that mean the same thing. */
+/** The Kinword mark: two overlapping rings = two words that mean the same thing. */
 export function LogoMark(props: IconProps) {
   return (
     <svg width={28} height={28} viewBox="0 0 32 32" fill="none" aria-hidden {...props}>

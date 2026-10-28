@@ -68,7 +68,7 @@ export async function saveScoreToSupabase(
 ): Promise<IntegrationResult> {
   // TODO(supabase): replace this stub with the insert above.
   if (import.meta.env.DEV) {
-    console.info('[Synonymy] saveScoreToSupabase (stub)', { score, streak, ...meta });
+    console.info('[Kinword] saveScoreToSupabase (stub)', { score, streak, ...meta });
   }
   return { ok: true };
 }
@@ -100,7 +100,7 @@ export async function saveScoreToSupabase(
 export async function triggerResendNewsletter(email: string): Promise<IntegrationResult> {
   // TODO(resend): replace this stub with the fetch above.
   if (import.meta.env.DEV) {
-    console.info('[Synonymy] triggerResendNewsletter (stub)', { email });
+    console.info('[Kinword] triggerResendNewsletter (stub)', { email });
   }
   await new Promise((r) => setTimeout(r, 700)); // fake network delay so the loading state is visible
   return { ok: true };
