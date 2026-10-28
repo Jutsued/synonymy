@@ -1,16 +1,17 @@
-import { useEffect, useState, type FormEvent } from 'react';
+import { useState, type FormEvent } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import type { BoardWord, GameState, PlayerStats, Puzzle } from '../types';
-import { DAY_MS, formatCountdown, formatDateKey, formatDuration, parseDateKey } from '../lib/clock';
+import { formatCountdown, formatDateKey, formatDuration, puzzleNumber } from '../lib/clock';
+import { CATEGORY } from '../lib/categories';
 import { MAX_ENERGY, winRate } from '../lib/stats';
 import { triggerResendNewsletter } from '../lib/integrations';
 import { loadNewsletterSubscribed, saveNewsletterSubscribed } from '../lib/storage';
-import { CheckIcon, CloseIcon, MailIcon, ShareIcon } from './icons';
+import Modal from './Modal';
+import { BoltIcon, CheckIcon, MailIcon, ShareIcon } from './icons';
 
 interface StatsModalProps {
   open: boolean;
-  /** Leave undefined to make the modal non-dismissible (today's game already finished on load). */
-  onClose?: () => void;
+  onClose: () => void;
   puzzle: Puzzle;
   words: BoardWord[];
   state: GameState;
@@ -22,20 +23,17 @@ interface StatsModalProps {
 
 /* ───────────────────────────── share text ───────────────────────────── */
 
-/** Day 1 = launch day. A number instead of the word, so sharing never spoils the answer. */
-const LAUNCH_DAY = '2026-10-28';
-const puzzleNumber = (dateKey: string) =>
-  Math.round((parseDateKey(dateKey) - parseDateKey(LAUNCH_DAY)) / DAY_MS) + 1;
+/** One emoji per pick, in the order they were made. */
+function pickGrid(words: BoardWord[], state: GameState): string {
+  const byId = new Map(words.map((w) => [w.id, w]));
+  return state.selected.map((id) => CATEGORY[byId.get(id)?.category ?? 'chaos'].emoji).join('');
+}
 
 function buildShareText(words: BoardWord[], state: GameState, streak: number): string {
-  const byId = new Map(words.map((w) => [w.id, w]));
-  const grid = state.selected
-    .map((id) => (byId.get(id)?.category === 'synonym' ? '🟩' : '🟥'))
-    .join('');
-  const result = state.status === 'won' ? `⚡${state.energy}/${MAX_ENERGY}` : '💥 0/5';
+  const result = state.status === 'won' ? `⚡${state.energy}/${MAX_ENERGY}` : `💥 0/${MAX_ENERGY}`;
   return [
     `Synonymy #${puzzleNumber(state.dateKey)}`,
-    grid,
+    pickGrid(words, state),
     `${result} · ⏱ ${formatDuration(state.elapsedMs)} · 🔥 ${streak}`,
     import.meta.env.VITE_SITE_URL, // every shared result links back to the game
   ].join('\n');
@@ -45,9 +43,59 @@ function buildShareText(words: BoardWord[], state: GameState, streak: number): s
 
 function StatTile({ label, value }: { label: string; value: string | number }) {
   return (
-    <div className="flex flex-col items-center gap-1 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 px-2 py-3">
+    <div className="flex flex-col items-center gap-1 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 px-1 py-3">
       <span className="font-mono text-xl font-medium tabular-nums text-zinc-100 sm:text-2xl">{value}</span>
-      <span className="text-[10px] tracking-[0.18em] text-zinc-500 uppercase">{label}</span>
+      <span className="text-[10px] tracking-[0.16em] text-zinc-500 uppercase">{label}</span>
+    </div>
+  );
+}
+
+/** Wordle-style bar chart: how many charges were left when you won (or lost). */
+function Distribution({ stats, state }: { stats: PlayerStats; state: GameState }) {
+  const rows = [5, 4, 3, 2, 1, 0];
+  const max = Math.max(1, ...stats.distribution);
+  const todayRow = state.status === 'won' ? Math.max(1, state.energy) : state.status === 'lost' ? 0 : null;
+
+  return (
+    <div>
+      <p className="mb-2 text-[10px] tracking-[0.25em] text-zinc-500 uppercase">Charges left when solved</p>
+      <ul className="flex flex-col gap-1.5">
+        {rows.map((row, i) => {
+          const count = stats.distribution[row] ?? 0;
+          const isToday = row === todayRow;
+          const pct = Math.max(8, (count / max) * 100);
+          return (
+            <li key={row} className="flex items-center gap-2">
+              <span className="flex w-9 shrink-0 items-center justify-end gap-0.5 font-mono text-xs text-zinc-500">
+                {row === 0 ? (
+                  'Lost'
+                ) : (
+                  <>
+                    <BoltIcon width={11} height={11} />
+                    {row}
+                  </>
+                )}
+              </span>
+              <div className="flex-1">
+                <motion.div
+                  className={`flex h-5 items-center justify-end rounded-md px-1.5 font-mono text-[11px] font-medium tabular-nums ${
+                    isToday
+                      ? row === 0
+                        ? 'bg-rose-500/70 text-white'
+                        : 'bg-emerald-500/80 text-slate-950'
+                      : 'bg-zinc-800 text-zinc-300'
+                  }`}
+                  initial={{ width: '8%' }}
+                  animate={{ width: `${pct}%` }}
+                  transition={{ type: 'spring', stiffness: 140, damping: 20, delay: 0.15 + i * 0.05 }}
+                >
+                  {count}
+                </motion.div>
+              </div>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }
@@ -97,7 +145,7 @@ function NewsletterForm() {
         Get a one-line reminder when the next puzzle drops.
       </label>
       <div className="flex gap-2">
-        <div className="relative flex-1">
+        <div className="relative min-w-0 flex-1">
           <MailIcon className="pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-zinc-500" />
           <input
             id="reminder-email"
@@ -111,7 +159,7 @@ function NewsletterForm() {
               if (status === 'error') setStatus('idle');
             }}
             aria-invalid={status === 'error'}
-            className="h-11 w-full min-w-0 rounded-xl border border-zinc-800 bg-zinc-900/60 pr-3 pl-9 text-sm text-zinc-100 placeholder:text-zinc-600 outline-none transition-colors focus:border-zinc-600 aria-invalid:border-rose-500/50"
+            className="h-11 w-full min-w-0 rounded-xl border border-zinc-800 bg-zinc-900/60 pr-3 pl-9 text-base text-zinc-100 placeholder:text-zinc-600 outline-none transition-colors focus:border-zinc-600 aria-invalid:border-rose-500/50 sm:text-sm"
           />
         </div>
         <button
@@ -129,36 +177,10 @@ function NewsletterForm() {
 
 /* ───────────────────────────── modal ───────────────────────────── */
 
-export default function StatsModal({
-  open,
-  onClose,
-  puzzle,
-  words,
-  state,
-  stats,
-  streak,
-  score,
-  msLeft,
-}: StatsModalProps) {
+export default function StatsModal({ open, onClose, puzzle, words, state, stats, streak, score, msLeft }: StatsModalProps) {
   const [copied, setCopied] = useState(false);
   const over = state.status !== 'playing';
   const won = state.status === 'won';
-  const dismissible = Boolean(onClose);
-
-  // Escape to close + lock page scroll behind the modal.
-  useEffect(() => {
-    if (!open) return;
-    const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose?.();
-    };
-    window.addEventListener('keydown', onKey);
-    return () => {
-      document.body.style.overflow = prevOverflow;
-      window.removeEventListener('keydown', onKey);
-    };
-  }, [open, onClose]);
 
   const handleShare = async () => {
     const text = buildShareText(words, state, streak);
@@ -183,150 +205,121 @@ export default function StatsModal({
   const subline = !over
     ? 'Finish today’s puzzle to lock in your streak.'
     : won
-      ? 'Every true synonym, found.'
+      ? state.energy === MAX_ENERGY
+        ? 'Flawless. Not a single charge spent.'
+        : 'Every true synonym, found.'
       : 'So close. A fresh word is on the way.';
 
   return (
-    <AnimatePresence>
-      {open && (
-        <motion.div
-          key="stats-modal"
-          className="fixed inset-0 z-50 flex items-end justify-center p-3 sm:items-center sm:p-6"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.25 }}
+    <Modal open={open} onClose={onClose} labelledBy="stats-title">
+      {/* Header */}
+      <div className="pr-10">
+        <p className="text-[10px] tracking-[0.3em] text-zinc-500 uppercase">
+          Synonymy #{puzzleNumber(state.dateKey)} · {formatDateKey(state.dateKey)}
+        </p>
+        <h2
+          id="stats-title"
+          className={`mt-1 font-display text-4xl italic ${!over ? 'text-zinc-100' : won ? 'text-emerald-300' : 'text-rose-300'}`}
         >
-          {/* Backdrop */}
-          <div
-            aria-hidden
-            className="absolute inset-0 bg-slate-950/70 backdrop-blur-sm"
-            onClick={() => onClose?.()}
-          />
+          {headline}
+        </h2>
+        <p className="mt-1 text-sm text-zinc-400">{subline}</p>
+      </div>
 
-          {/* Panel */}
-          <motion.div
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="stats-title"
-            className="relative flex max-h-[92dvh] w-full max-w-md flex-col gap-6 overflow-y-auto rounded-3xl border border-zinc-800 bg-zinc-950/85 p-5 shadow-[0_40px_120px_-30px_rgba(0,0,0,0.9)] backdrop-blur-xl sm:p-7"
-            initial={{ y: 40, opacity: 0, scale: 0.97 }}
-            animate={{ y: 0, opacity: 1, scale: 1 }}
-            exit={{ y: 30, opacity: 0, scale: 0.97 }}
-            transition={{ type: 'spring', stiffness: 320, damping: 30 }}
-          >
-            {/* Header */}
-            <div className="flex items-start justify-between gap-4">
-              <div>
-                <p className="text-[10px] tracking-[0.3em] text-zinc-500 uppercase">
-                  Puzzle · {formatDateKey(state.dateKey)}
-                </p>
-                <h2
-                  id="stats-title"
-                  className={`mt-1 font-display text-4xl italic ${
-                    !over ? 'text-zinc-100' : won ? 'text-emerald-300' : 'text-rose-300'
+      {/* Today's answers — only after the game is over, so nothing gets spoiled */}
+      {over && (
+        <div className="rounded-2xl border border-zinc-800/80 bg-zinc-900/30 p-4">
+          <p className="text-[10px] tracking-[0.25em] text-zinc-500 uppercase">
+            Synonyms for <span className="text-zinc-300">{puzzle.targetWord}</span>
+          </p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {synonymWords.map((w) => {
+              const hit = selected.has(w.id);
+              return (
+                <span
+                  key={w.id}
+                  className={`flex items-center gap-1 rounded-full border px-3 py-1 text-sm ${
+                    hit ? CATEGORY.synonym.badge : 'border-dashed border-zinc-700 text-zinc-500'
                   }`}
                 >
-                  {headline}
-                </h2>
-                <p className="mt-1 text-sm text-zinc-400">{subline}</p>
-              </div>
-              {dismissible && (
-                <button
-                  type="button"
-                  onClick={onClose}
-                  aria-label="Close"
-                  className="flex h-9 w-9 shrink-0 cursor-pointer items-center justify-center rounded-full border border-zinc-800 text-zinc-400 transition-colors outline-none hover:border-zinc-600 hover:text-zinc-100 focus-visible:ring-2 focus-visible:ring-emerald-400/60"
-                >
-                  <CloseIcon />
-                </button>
-              )}
-            </div>
-
-            {/* Today's answers — only after the game is over, so nothing gets spoiled */}
-            {over && (
-              <div className="rounded-2xl border border-zinc-800/80 bg-zinc-900/30 p-4">
-                <p className="text-[10px] tracking-[0.25em] text-zinc-500 uppercase">
-                  Synonyms for{' '}
-                  <span className="text-zinc-300">{puzzle.targetWord}</span>
-                </p>
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {synonymWords.map((w) => {
-                    const hit = selected.has(w.id);
-                    return (
-                      <span
-                        key={w.id}
-                        className={`flex items-center gap-1 rounded-full border px-3 py-1 text-sm ${
-                          hit
-                            ? 'border-emerald-400/50 bg-emerald-500/10 text-emerald-200'
-                            : 'border-dashed border-zinc-700 text-zinc-500'
-                        }`}
-                      >
-                        {hit && <CheckIcon width={12} height={12} />}
-                        {w.text}
-                      </span>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-            {/* Today's result */}
-            {over && (
-              <div className="grid grid-cols-3 gap-2">
-                <StatTile label="Time" value={formatDuration(state.elapsedMs)} />
-                <StatTile label="Charges" value={`${state.energy}/${MAX_ENERGY}`} />
-                <StatTile label="Score" value={score} />
-              </div>
-            )}
-
-            {/* Lifetime stats */}
-            <div>
-              <p className="mb-2 text-[10px] tracking-[0.25em] text-zinc-500 uppercase">Lifetime</p>
-              <div className="grid grid-cols-4 gap-2">
-                <StatTile label="Played" value={stats.played} />
-                <StatTile label="Win %" value={winRate(stats)} />
-                <StatTile label="Streak" value={streak} />
-                <StatTile label="Best" value={stats.maxStreak} />
-              </div>
-              {stats.bestTimeMs !== null && (
-                <p className="mt-2 text-center text-xs text-zinc-500">
-                  Fastest solve: <span className="font-mono text-zinc-300">{formatDuration(stats.bestTimeMs)}</span>
-                </p>
-              )}
-            </div>
-
-            {/* Countdown + share */}
-            <div className="flex items-stretch gap-2">
-              <div className="flex flex-1 flex-col justify-center rounded-2xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-3">
-                <span className="text-[10px] tracking-[0.25em] text-zinc-500 uppercase">Next puzzle</span>
-                <span className="font-mono text-2xl tabular-nums text-zinc-100">{formatCountdown(msLeft)}</span>
-              </div>
-              {over && (
-                <motion.button
-                  type="button"
-                  onClick={handleShare}
-                  whileTap={{ scale: 0.95 }}
-                  className={`flex min-w-[7.5rem] cursor-pointer items-center justify-center gap-2 rounded-2xl px-5 text-sm font-semibold transition-colors outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/70 ${
-                    copied ? 'bg-emerald-500 text-slate-950' : 'bg-zinc-100 text-slate-950 hover:bg-white'
-                  }`}
-                >
-                  {copied ? <CheckIcon /> : <ShareIcon />}
-                  {copied ? 'Copied' : 'Share'}
-                </motion.button>
-              )}
-            </div>
-
-            <div className="h-px bg-zinc-800/80" />
-
-            <NewsletterForm />
-
-            <p className="text-center text-[11px] text-zinc-600">
-              Progress is saved on this device. New puzzle daily at 00:00 UTC.
-            </p>
-          </motion.div>
-        </motion.div>
+                  {hit && <CheckIcon width={12} height={12} />}
+                  {w.text}
+                </span>
+              );
+            })}
+          </div>
+          <p className="mt-3 text-xs text-zinc-500">
+            Your picks: <span className="tracking-[0.15em]">{pickGrid(words, state)}</span>
+          </p>
+        </div>
       )}
-    </AnimatePresence>
+
+      {/* Today's result */}
+      {over && (
+        <div className="grid grid-cols-3 gap-2">
+          <StatTile label="Time" value={formatDuration(state.elapsedMs)} />
+          <StatTile label="Charges" value={`${state.energy}/${MAX_ENERGY}`} />
+          <StatTile label="Score" value={score} />
+        </div>
+      )}
+
+      {/* Lifetime stats */}
+      <div>
+        <p className="mb-2 text-[10px] tracking-[0.25em] text-zinc-500 uppercase">Lifetime</p>
+        <div className="grid grid-cols-4 gap-2">
+          <StatTile label="Played" value={stats.played} />
+          <StatTile label="Win %" value={winRate(stats)} />
+          <StatTile label="Streak" value={streak} />
+          <StatTile label="Best" value={stats.maxStreak} />
+        </div>
+        {stats.bestTimeMs !== null && (
+          <p className="mt-2 text-center text-xs text-zinc-500">
+            Fastest solve: <span className="font-mono text-zinc-300">{formatDuration(stats.bestTimeMs)}</span>
+          </p>
+        )}
+      </div>
+
+      {stats.played > 0 && <Distribution stats={stats} state={state} />}
+
+      {/* Countdown + share */}
+      <div className="flex items-stretch gap-2">
+        <div className="flex flex-1 flex-col justify-center rounded-2xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-3">
+          <span className="text-[10px] tracking-[0.25em] text-zinc-500 uppercase">Next puzzle</span>
+          <span className="font-mono text-2xl tabular-nums text-zinc-100">{formatCountdown(msLeft)}</span>
+        </div>
+        {over && (
+          <motion.button
+            type="button"
+            onClick={handleShare}
+            whileTap={{ scale: 0.95 }}
+            className={`flex min-w-[7.5rem] cursor-pointer items-center justify-center gap-2 rounded-2xl px-5 text-sm font-semibold transition-colors outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/70 ${
+              copied ? 'bg-emerald-500 text-slate-950' : 'bg-zinc-100 text-slate-950 hover:bg-white'
+            }`}
+          >
+            <AnimatePresence mode="wait" initial={false}>
+              <motion.span
+                key={copied ? 'copied' : 'share'}
+                className="flex items-center gap-2"
+                initial={{ opacity: 0, y: 6 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -6 }}
+                transition={{ duration: 0.15 }}
+              >
+                {copied ? <CheckIcon /> : <ShareIcon />}
+                {copied ? 'Copied' : 'Share'}
+              </motion.span>
+            </AnimatePresence>
+          </motion.button>
+        )}
+      </div>
+
+      <div className="h-px shrink-0 bg-zinc-800/80" />
+
+      <NewsletterForm />
+
+      <p className="text-center text-[11px] text-zinc-600">
+        Progress is saved on this device. New puzzle daily at 00:00 UTC.
+      </p>
+    </Modal>
   );
 }

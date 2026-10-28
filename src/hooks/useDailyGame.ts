@@ -67,7 +67,17 @@ export function useDailyGame(dateKey: string) {
   }
   const { state, restoredComplete } = session;
 
-  const [stats, setStats] = useState<PlayerStats>(loadStats);
+  const [stats, setStats] = useState<PlayerStats>(() => {
+    const loaded = loadStats();
+    // Saves from before the results chart existed: we can at least count today's finished game.
+    const charted = loaded.distribution.reduce((a, b) => a + b, 0);
+    const today = session.state;
+    if (charted === 0 && loaded.played > 0 && loaded.lastPlayedDate === dateKey && today.status !== 'playing') {
+      loaded.distribution[today.status === 'won' ? Math.max(1, today.energy) : 0] = 1;
+      saveStats(loaded);
+    }
+    return loaded;
+  });
 
   // Refs let the click handler read the very latest values, even on
   // rapid double-clicks that happen before React re-renders.
@@ -131,7 +141,7 @@ export function useDailyGame(dateKey: string) {
 
       if (status !== 'playing') {
         const won = status === 'won';
-        const newStats = recordResult(statsRef.current, prev.dateKey, won, next.elapsedMs);
+        const newStats = recordResult(statsRef.current, prev.dateKey, won, next.elapsedMs, next.energy);
         if (newStats !== statsRef.current) {
           statsRef.current = newStats;
           saveStats(newStats);

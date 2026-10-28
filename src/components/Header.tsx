@@ -1,14 +1,15 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { formatCountdown } from '../lib/clock';
-import { ChartIcon, ClockIcon, FlameIcon, LogoMark } from './icons';
+import { ChartIcon, ClockIcon, FlameIcon, HelpIcon, LogoMark } from './icons';
 
 interface HeaderProps {
   streak: number;
   msLeft: number;
   onOpenStats: () => void;
+  onOpenHelp: () => void;
 }
 
-export default function Header({ streak, msLeft, onOpenStats }: HeaderProps) {
+export default function Header({ streak, msLeft, onOpenStats, onOpenHelp }: HeaderProps) {
   const hot = streak > 0;
 
   return (
@@ -56,6 +57,15 @@ export default function Header({ streak, msLeft, onOpenStats }: HeaderProps) {
             {formatCountdown(msLeft)}
           </span>
         </div>
+
+        <button
+          type="button"
+          onClick={onOpenHelp}
+          className="flex h-9 w-9 cursor-pointer items-center justify-center rounded-full border border-zinc-800 bg-zinc-900/50 text-zinc-400 backdrop-blur-md transition-colors outline-none hover:border-zinc-600 hover:text-zinc-100 focus-visible:ring-2 focus-visible:ring-emerald-400/60"
+          aria-label="How to play"
+        >
+          <HelpIcon />
+        </button>
 
         <button
           type="button"

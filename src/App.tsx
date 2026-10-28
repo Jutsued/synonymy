@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import Header from './components/Header';
 import GameBoard from './components/GameBoard';
 import StatsModal from './components/StatsModal';
+import HowToPlayModal from './components/HowToPlayModal';
 import { LogoMark } from './components/icons';
 import { useDailyGame } from './hooks/useDailyGame';
 import { useServerNow } from './hooks/useServerNow';
@@ -13,6 +14,7 @@ import {
   toUtcDateKey,
   type ClockSync,
 } from './lib/clock';
+import { loadSeenHelp, saveSeenHelp } from './lib/storage';
 
 /* ───────────────────────────── background ───────────────────────────── */
 
@@ -61,45 +63,59 @@ function Game({ clock }: { clock: ClockSync }) {
 
   const game = useDailyGame(dateKey);
   const msLeft = msUntilNextUtcMidnight(now);
+  const { restoredComplete } = game;
 
-  // Already finished today on load? Stats open immediately (and can't be closed).
-  const [statsOpen, setStatsOpen] = useState(game.restoredComplete);
-  const [statsForDate, setStatsForDate] = useState(dateKey);
-  if (statsForDate !== dateKey) {
-    setStatsForDate(dateKey);
-    setStatsOpen(game.restoredComplete);
+  // Already finished today on load? Open results straight away (closable, board stays visible behind).
+  const [statsOpen, setStatsOpen] = useState(restoredComplete);
+  // First visit ever, with nothing played yet? Show the How to play guide.
+  const [helpOpen, setHelpOpen] = useState(
+    () => !loadSeenHelp() && !restoredComplete && game.state.selected.length === 0,
+  );
+
+  // A new day rolled in while the tab was open: close results, start fresh.
+  const [modalsForDate, setModalsForDate] = useState(dateKey);
+  if (modalsForDate !== dateKey) {
+    setModalsForDate(dateKey);
+    setStatsOpen(restoredComplete);
   }
 
   // Finished during this session -> let the final animation breathe, then show results.
   const { completedAt } = game.state;
-  const { restoredComplete } = game;
   useEffect(() => {
     if (!completedAt || restoredComplete) return;
-    const t = window.setTimeout(() => setStatsOpen(true), 1400);
+    const t = window.setTimeout(() => setStatsOpen(true), 1600);
     return () => window.clearTimeout(t);
   }, [completedAt, restoredComplete]);
 
+  const closeHelp = useCallback(() => {
+    saveSeenHelp();
+    setHelpOpen(false);
+  }, []);
+  const closeStats = useCallback(() => setStatsOpen(false), []);
+  const openHelp = useCallback(() => setHelpOpen(true), []);
+  const openStats = useCallback(() => setStatsOpen(true), []);
+
   return (
     <>
-      <Header streak={game.displayStreak} msLeft={msLeft} onOpenStats={() => setStatsOpen(true)} />
+      <Header streak={game.displayStreak} msLeft={msLeft} onOpenStats={openStats} onOpenHelp={openHelp} />
 
       <main className="relative z-10">
-        {!game.restoredComplete && (
-          <GameBoard
-            key={dateKey}
-            puzzle={game.puzzle}
-            words={game.words}
-            state={game.state}
-            foundCount={game.foundCount}
-            onSelect={game.selectWord}
-            onShowResults={() => setStatsOpen(true)}
-          />
-        )}
+        <GameBoard
+          key={dateKey}
+          puzzle={game.puzzle}
+          words={game.words}
+          state={game.state}
+          foundCount={game.foundCount}
+          restoredComplete={restoredComplete}
+          onSelect={game.selectWord}
+          onShowResults={openStats}
+          onOpenHelp={openHelp}
+        />
       </main>
 
       <StatsModal
-        open={statsOpen}
-        onClose={game.restoredComplete ? undefined : () => setStatsOpen(false)}
+        open={statsOpen && !helpOpen}
+        onClose={closeStats}
         puzzle={game.puzzle}
         words={game.words}
         state={game.state}
@@ -108,6 +124,7 @@ function Game({ clock }: { clock: ClockSync }) {
         score={game.score}
         msLeft={msLeft}
       />
+      <HowToPlayModal open={helpOpen} onClose={closeHelp} />
     </>
   );
 }

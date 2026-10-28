@@ -14,8 +14,12 @@ export function recordResult(
   dateKey: string,
   won: boolean,
   elapsedMs: number,
+  energyLeft: number,
 ): PlayerStats {
   if (stats.lastPlayedDate === dateKey) return stats;
+
+  const distribution = [...stats.distribution];
+  distribution[won ? Math.min(5, Math.max(1, energyLeft)) : 0] += 1;
 
   const yesterday = shiftDateKey(dateKey, -1);
   const currentStreak = won ? (stats.lastWinDate === yesterday ? stats.currentStreak + 1 : 1) : 0;
@@ -32,6 +36,7 @@ export function recordResult(
         ? elapsedMs
         : Math.min(stats.bestTimeMs, elapsedMs)
       : stats.bestTimeMs,
+    distribution,
   };
 }
 

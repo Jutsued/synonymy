@@ -1,20 +1,29 @@
 import { useMemo, useRef, useState } from 'react';
 import { AnimatePresence, motion, useAnimationControls, useReducedMotion } from 'framer-motion';
-import type { BadgeSize, BoardWord, GameState, Puzzle } from '../types';
+import type { BadgeSize, BoardWord, GameState, Puzzle, WordCategory } from '../types';
 import type { SelectResult } from '../hooks/useDailyGame';
 import { MAX_ENERGY, TARGET_SYNONYMS } from '../lib/stats';
-import { formatDuration } from '../lib/clock';
-import { BoltIcon, CheckIcon, ClockIcon } from './icons';
+import { formatDateKey, formatDuration, puzzleNumber } from '../lib/clock';
+import { CATEGORY } from '../lib/categories';
+import { BoltIcon, CategoryIcon, ClockIcon } from './icons';
 
-type BadgeStatus = 'idle' | 'correct' | 'wrong' | 'revealed' | 'inactive';
+/**
+ * idle     -> still in play
+ * picked   -> the player tapped it (correct or not)
+ * revealed -> game over, the player never tapped it
+ */
+type BadgeState = 'idle' | 'picked' | 'revealed';
 
 interface GameBoardProps {
   puzzle: Puzzle;
   words: BoardWord[];
   state: GameState;
   foundCount: number;
+  /** True if the page loaded with today's game already finished (no celebration replay). */
+  restoredComplete: boolean;
   onSelect: (wordId: string) => SelectResult;
   onShowResults: () => void;
+  onOpenHelp: () => void;
 }
 
 /* ───────────────────────────── helpers ───────────────────────────── */
@@ -25,21 +34,38 @@ const SIZE_CLASSES: Record<BadgeSize, string> = {
   lg: 'px-4 py-2 text-[15px] sm:px-5 sm:py-2.5 sm:text-lg',
 };
 
-const STATUS_CLASSES: Record<BadgeStatus, string> = {
-  idle:
-    'cursor-pointer border-zinc-800 bg-zinc-900/50 text-zinc-200 shadow-[0_10px_30px_-14px_rgba(0,0,0,0.9)] hover:border-zinc-600 hover:bg-zinc-800/60 hover:text-white',
-  correct:
-    'border-emerald-400/60 bg-emerald-500/15 text-emerald-200 shadow-[0_0_28px_-6px_rgba(16,185,129,0.6)]',
-  wrong: 'border-rose-500/40 bg-rose-500/10 text-rose-300/80 line-through decoration-rose-400/60',
-  revealed: 'border-dashed border-emerald-400/50 bg-emerald-500/5 text-emerald-300/90',
-  inactive: 'border-zinc-800/60 bg-zinc-900/30 text-zinc-600',
-};
+const IDLE_CLASSES =
+  'cursor-pointer border-zinc-800 bg-zinc-900/50 text-zinc-200 shadow-[0_10px_30px_-14px_rgba(0,0,0,0.9)] hover:border-zinc-600 hover:bg-zinc-800/60 hover:text-white';
 
-function getStatus(word: BoardWord, selected: Set<string>, over: boolean): BadgeStatus {
-  const isSynonym = word.category === 'synonym';
-  if (selected.has(word.id)) return isSynonym ? 'correct' : 'wrong';
-  if (over) return isSynonym ? 'revealed' : 'inactive';
-  return 'idle';
+function badgeClasses(category: WordCategory, badgeState: BadgeState): string {
+  if (badgeState === 'idle') return IDLE_CLASSES;
+  if (category === 'synonym') {
+    return badgeState === 'picked'
+      ? `${CATEGORY.synonym.badge} shadow-[0_0_28px_-6px_rgba(16,185,129,0.6)]`
+      : CATEGORY.synonym.muted;
+  }
+  // Wrong picks keep a strike-through so they read as "spent" even without color.
+  return badgeState === 'picked'
+    ? `${CATEGORY[category].badge} line-through decoration-current/50`
+    : CATEGORY[category].muted;
+}
+
+function badgeLabel(word: BoardWord, badgeState: BadgeState): string {
+  if (badgeState === 'idle') return word.text;
+  const kind = CATEGORY[word.category].label.toLowerCase();
+  if (badgeState === 'picked') {
+    return `${word.text}, ${word.category === 'synonym' ? 'correct synonym' : `wrong, ${kind}`}`;
+  }
+  return `${word.text}, ${word.category === 'synonym' ? 'missed synonym' : kind}`;
+}
+
+/** Tiny buzz on phones that support it (Android). iPhones simply ignore it. */
+function buzz(pattern: number | number[]) {
+  try {
+    if ('vibrate' in navigator) navigator.vibrate(pattern);
+  } catch {
+    /* not supported */
+  }
 }
 
 /* ───────────────────────────── WordBadge ───────────────────────────── */
@@ -47,7 +73,7 @@ function getStatus(word: BoardWord, selected: Set<string>, over: boolean): Badge
 interface WordBadgeProps {
   word: BoardWord;
   index: number;
-  status: BadgeStatus;
+  badgeState: BadgeState;
   reduceMotion: boolean;
   onSelect: (word: BoardWord) => SelectResult;
 }
@@ -58,11 +84,13 @@ interface WordBadgeProps {
  *   2. middle div -> wrong-answer shake (x), triggered imperatively
  *   3. button     -> spring scale/rotate on hover, tap and success
  */
-function WordBadge({ word, index, status, reduceMotion, onSelect }: WordBadgeProps) {
+function WordBadge({ word, index, badgeState, reduceMotion, onSelect }: WordBadgeProps) {
   const shake = useAnimationControls();
-  // Remember the status we mounted with, so bursts only play for NEW clicks, not on refresh.
-  const mountedStatus = useRef(status);
-  const interactive = status === 'idle';
+  // Remember how we mounted, so bursts only play for NEW taps, not after a refresh.
+  const mountedState = useRef(badgeState);
+  const interactive = badgeState === 'idle';
+  const isSynonym = word.category === 'synonym';
+  const freshPick = badgeState === 'picked' && mountedState.current !== 'picked';
 
   const handleClick = () => {
     if (!interactive) return;
@@ -83,12 +111,7 @@ function WordBadge({ word, index, status, reduceMotion, onSelect }: WordBadgePro
         scale: { type: 'spring', stiffness: 260, damping: 18, delay: index * 0.035 },
         y: reduceMotion
           ? { duration: 0 }
-          : {
-              duration: word.visual.floatDuration,
-              delay: word.visual.floatDelay,
-              repeat: Infinity,
-              ease: 'easeInOut',
-            },
+          : { duration: word.visual.floatDuration, delay: word.visual.floatDelay, repeat: Infinity, ease: 'easeInOut' },
       }}
     >
       <motion.div animate={shake}>
@@ -96,35 +119,34 @@ function WordBadge({ word, index, status, reduceMotion, onSelect }: WordBadgePro
           type="button"
           onClick={handleClick}
           disabled={!interactive}
-          aria-pressed={status === 'correct' || status === 'wrong'}
-          aria-label={
-            status === 'correct'
-              ? `${word.text}, correct synonym`
-              : status === 'wrong'
-                ? `${word.text}, not a synonym`
-                : status === 'revealed'
-                  ? `${word.text}, missed synonym`
-                  : word.text
-          }
+          aria-pressed={badgeState === 'picked'}
+          aria-label={badgeLabel(word, badgeState)}
           animate={{
-            scale: status === 'correct' ? 1.07 : 1,
-            rotate: status === 'idle' ? word.visual.rotate : 0,
+            scale: badgeState === 'picked' && isSynonym ? 1.07 : 1,
+            rotate: interactive ? word.visual.rotate : 0,
           }}
           whileHover={interactive && !reduceMotion ? { scale: 1.07, rotate: 0 } : undefined}
           whileTap={interactive ? { scale: 0.86 } : undefined}
           transition={{ type: 'spring', stiffness: 520, damping: 14, mass: 0.8 }}
-          className={`relative flex items-center gap-1.5 rounded-full border font-medium tracking-wide whitespace-nowrap backdrop-blur-md transition-colors duration-300 outline-none select-none focus-visible:ring-2 focus-visible:ring-emerald-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 ${SIZE_CLASSES[word.visual.size]} ${STATUS_CLASSES[status]}`}
+          className={`relative flex items-center gap-1.5 rounded-full border font-medium tracking-wide whitespace-nowrap backdrop-blur-md transition-colors duration-300 outline-none select-none focus-visible:ring-2 focus-visible:ring-emerald-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 ${SIZE_CLASSES[word.visual.size]} ${badgeClasses(word.category, badgeState)}`}
         >
-          {status === 'correct' && <CheckIcon width={14} height={14} className="text-emerald-400" />}
+          {badgeState !== 'idle' && (
+            <motion.span
+              className="flex"
+              initial={freshPick ? { scale: 0, rotate: -45 } : false}
+              animate={{ scale: 1, rotate: 0 }}
+              transition={{ type: 'spring', stiffness: 600, damping: 18 }}
+            >
+              <CategoryIcon category={word.category} width={13} height={13} />
+            </motion.span>
+          )}
           {word.text}
 
-          {/* One-shot ring burst on a fresh click */}
-          {(status === 'correct' || status === 'wrong') && mountedStatus.current !== status && !reduceMotion && (
+          {/* One-shot ring burst on a fresh tap */}
+          {freshPick && !reduceMotion && (
             <motion.span
               aria-hidden
-              className={`pointer-events-none absolute inset-0 rounded-full border-2 ${
-                status === 'correct' ? 'border-emerald-400' : 'border-rose-500'
-              }`}
+              className={`pointer-events-none absolute inset-0 rounded-full border-2 ${isSynonym ? 'border-emerald-400' : 'border-rose-500'}`}
               initial={{ scale: 1, opacity: 0.8 }}
               animate={{ scale: 1.6, opacity: 0 }}
               transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -156,7 +178,7 @@ function EnergyMeter({ energy, over }: { energy: number; over: boolean }) {
           return (
             <motion.span
               key={i}
-              className={`h-2 w-4 rounded-full transition-colors duration-300 sm:w-6 ${
+              className={`h-2 w-3.5 rounded-full transition-colors duration-300 min-[360px]:w-4 sm:w-6 ${
                 filled
                   ? critical
                     ? 'bg-rose-400 shadow-[0_0_10px_rgba(251,113,133,0.6)]'
@@ -193,9 +215,55 @@ function FoundTracker({ found }: { found: number }) {
   );
 }
 
+/** Emerald sparks that fly out of the target word on a win. */
+function WinBurst() {
+  const sparks = Array.from({ length: 16 }, (_, i) => {
+    const angle = (i / 16) * Math.PI * 2;
+    const dist = 110 + (i % 3) * 40;
+    return { x: Math.cos(angle) * dist, y: Math.sin(angle) * dist * 0.6, size: 4 + (i % 3) * 2, delay: (i % 4) * 0.03 };
+  });
+  return (
+    <div aria-hidden className="pointer-events-none absolute top-1/2 left-1/2">
+      {sparks.map((s, i) => (
+        <motion.span
+          key={i}
+          className="absolute rounded-full bg-emerald-300 shadow-[0_0_12px_rgba(110,231,183,0.9)]"
+          style={{ width: s.size, height: s.size, marginLeft: -s.size / 2, marginTop: -s.size / 2 }}
+          initial={{ x: 0, y: 0, opacity: 1, scale: 1 }}
+          animate={{ x: s.x, y: s.y, opacity: 0, scale: 0.4 }}
+          transition={{ duration: 1.1, delay: s.delay, ease: [0.16, 1, 0.3, 1] }}
+        />
+      ))}
+    </div>
+  );
+}
+
+function Legend() {
+  const order: WordCategory[] = ['synonym', 'antonym', 'contextual', 'chaos'];
+  return (
+    <ul className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1.5 text-xs">
+      {order.map((c) => (
+        <li key={c} className={`flex items-center gap-1.5 ${CATEGORY[c].text}`}>
+          <CategoryIcon category={c} width={12} height={12} />
+          {CATEGORY[c].plural}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 /* ───────────────────────────── GameBoard ───────────────────────────── */
 
-export default function GameBoard({ puzzle, words, state, foundCount, onSelect, onShowResults }: GameBoardProps) {
+export default function GameBoard({
+  puzzle,
+  words,
+  state,
+  foundCount,
+  restoredComplete,
+  onSelect,
+  onShowResults,
+  onOpenHelp,
+}: GameBoardProps) {
   const reduceMotion = useReducedMotion() ?? false;
   const [flashKey, setFlashKey] = useState(0);
   const [announcement, setAnnouncement] = useState('');
@@ -203,6 +271,7 @@ export default function GameBoard({ puzzle, words, state, foundCount, onSelect, 
   const selected = useMemo(() => new Set(state.selected), [state.selected]);
   const over = state.status !== 'playing';
   const won = state.status === 'won';
+  const celebrate = won && !restoredComplete && !reduceMotion;
 
   // Split the cloud in two so the words orbit above and below the target word.
   const half = Math.ceil(words.length / 2);
@@ -213,12 +282,17 @@ export default function GameBoard({ puzzle, words, state, foundCount, onSelect, 
     const result = onSelect(word.id);
     if (result === 'wrong') {
       setFlashKey((k) => k + 1);
-      setAnnouncement(`${word.text} is not a synonym. One energy charge lost.`);
+      buzz([30, 40, 30]);
+      setAnnouncement(`${word.text} is ${CATEGORY[word.category].label.toLowerCase()}, not a synonym. One charge lost.`);
     } else if (result === 'correct') {
+      buzz(12);
       setAnnouncement(`${word.text} is correct.`);
     }
     return result;
   };
+
+  const badgeStateFor = (word: BoardWord): BadgeState =>
+    selected.has(word.id) ? 'picked' : over ? 'revealed' : 'idle';
 
   const renderCloud = (list: BoardWord[], offset: number) => (
     <div className="mx-auto flex w-full max-w-3xl flex-wrap items-start justify-center gap-x-2 gap-y-2.5 sm:gap-x-4 sm:gap-y-4">
@@ -227,7 +301,7 @@ export default function GameBoard({ puzzle, words, state, foundCount, onSelect, 
           key={word.id}
           word={word}
           index={offset + i}
-          status={getStatus(word, selected, over)}
+          badgeState={badgeStateFor(word)}
           reduceMotion={reduceMotion}
           onSelect={handleSelect}
         />
@@ -236,7 +310,7 @@ export default function GameBoard({ puzzle, words, state, foundCount, onSelect, 
   );
 
   return (
-    <section className="relative mx-auto flex w-full max-w-5xl flex-col items-center px-3 pb-16 sm:px-6">
+    <section className="relative mx-auto flex w-full max-w-5xl flex-col items-center px-3 pb-12 sm:px-6">
       {/* HUD */}
       <div className="mb-6 flex w-full max-w-xl items-center justify-between gap-3 rounded-2xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-3 backdrop-blur-md sm:mb-10">
         <EnergyMeter energy={state.energy} over={over} />
@@ -253,25 +327,27 @@ export default function GameBoard({ puzzle, words, state, foundCount, onSelect, 
       <div className="relative my-8 flex flex-col items-center sm:my-12">
         <motion.div
           aria-hidden
-          className={`absolute top-1/2 left-1/2 -z-10 h-40 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl sm:w-[28rem] ${
+          className={`absolute top-1/2 left-1/2 -z-10 h-40 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full blur-3xl transition-colors duration-700 sm:w-[28rem] ${
             won ? 'bg-emerald-500/25' : state.status === 'lost' ? 'bg-rose-500/15' : 'bg-emerald-500/10'
           }`}
           animate={reduceMotion ? undefined : { scale: [1, 1.08, 1], opacity: [0.8, 1, 0.8] }}
           transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
         />
+        {celebrate && <WinBurst />}
         <span className="mb-1 text-[10px] font-medium tracking-[0.35em] text-zinc-500 uppercase sm:text-[11px]">
-          Find {TARGET_SYNONYMS} synonyms for
+          #{puzzleNumber(state.dateKey)} · Find {TARGET_SYNONYMS} synonyms for
         </span>
         <motion.h1
           key={puzzle.id}
           initial={{ opacity: 0, y: 12, filter: 'blur(8px)' }}
-          animate={{ opacity: 1, y: 0, filter: 'blur(0px)', scale: won ? [1, 1.06, 1] : 1 }}
+          animate={{ opacity: 1, y: 0, filter: 'blur(0px)', scale: celebrate ? [1, 1.08, 1] : 1 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="bg-linear-to-b from-white via-zinc-100 to-zinc-500 bg-clip-text px-2 text-center font-display text-[clamp(2.75rem,12vw,5.5rem)] leading-none text-transparent italic"
         >
           {puzzle.targetWord.charAt(0)}
           {puzzle.targetWord.slice(1).toLowerCase()}
         </motion.h1>
+        <span className="sr-only">{formatDateKey(state.dateKey)}</span>
       </div>
 
       {renderCloud(bottomWords, half)}
@@ -280,17 +356,15 @@ export default function GameBoard({ puzzle, words, state, foundCount, onSelect, 
       <div className="mt-10 flex min-h-[4.5rem] w-full max-w-xl flex-col items-center justify-center text-center">
         <AnimatePresence mode="wait">
           {!over ? (
-            <motion.p
-              key="hint"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="text-sm text-zinc-500"
-            >
+            <motion.p key="hint" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="text-sm text-zinc-500">
               Tap only the true synonyms. Every miss drains <span className="text-zinc-300">1 charge</span>.{' '}
-              <a href="#about" className="whitespace-nowrap text-zinc-400 underline decoration-zinc-700 underline-offset-4 hover:text-zinc-200">
+              <button
+                type="button"
+                onClick={onOpenHelp}
+                className="cursor-pointer whitespace-nowrap text-zinc-400 underline decoration-zinc-700 underline-offset-4 outline-none hover:text-zinc-200 focus-visible:text-zinc-100"
+              >
                 How to play
-              </a>
+              </button>
             </motion.p>
           ) : (
             <motion.div
@@ -298,13 +372,14 @@ export default function GameBoard({ puzzle, words, state, foundCount, onSelect, 
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ type: 'spring', stiffness: 300, damping: 24 }}
-              className="flex flex-col items-center gap-3"
+              className="flex flex-col items-center gap-4"
             >
               <p className={`text-sm ${won ? 'text-emerald-300' : 'text-rose-300'}`}>
                 {won
                   ? `Solved in ${formatDuration(state.elapsedMs)} with ${state.energy} ${state.energy === 1 ? 'charge' : 'charges'} to spare.`
-                  : 'Out of charge. The missed synonyms are outlined above.'}
+                  : 'Out of charge. Every word is revealed above.'}
               </p>
+              <Legend />
               <motion.button
                 type="button"
                 onClick={onShowResults}
@@ -313,6 +388,7 @@ export default function GameBoard({ puzzle, words, state, foundCount, onSelect, 
               >
                 View results
               </motion.button>
+              <p className="text-xs text-zinc-600">Come back tomorrow for a new word.</p>
             </motion.div>
           )}
         </AnimatePresence>

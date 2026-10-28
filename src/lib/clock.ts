@@ -20,6 +20,14 @@ export function parseDateKey(key: string): number {
   return Date.UTC(y, m - 1, d);
 }
 
+/** The day Synonymy launched. Puzzle #1. */
+export const LAUNCH_DAY = '2026-10-28';
+
+/** "2026-10-30" -> 3. Used instead of the word when sharing, so results never spoil the answer. */
+export function puzzleNumber(dateKey: string): number {
+  return Math.round((parseDateKey(dateKey) - parseDateKey(LAUNCH_DAY)) / DAY_MS) + 1;
+}
+
 export function shiftDateKey(key: string, days: number): string {
   return toUtcDateKey(parseDateKey(key) + days * DAY_MS);
 }

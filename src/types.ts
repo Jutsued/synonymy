@@ -49,4 +49,9 @@ export interface PlayerStats {
   lastWinDate: string | null;
   lastPlayedDate: string | null;
   bestTimeMs: number | null;
+  /**
+   * How games ended, for the results chart.
+   * Index 0 = losses, 1..5 = wins with that many charges left.
+   */
+  distribution: number[];
 }

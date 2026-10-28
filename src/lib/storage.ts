@@ -9,6 +9,7 @@ const GAME_KEY = 'synonymy:game:v1';
 const STATS_KEY = 'synonymy:stats:v1';
 const HIGHEST_DATE_KEY = 'synonymy:highestDate:v1';
 const NEWSLETTER_KEY = 'synonymy:newsletter:v1';
+const SEEN_HELP_KEY = 'synonymy:seenHelp:v1';
 
 function read(key: string): unknown {
   try {
@@ -63,12 +64,18 @@ export const DEFAULT_STATS: PlayerStats = {
   lastWinDate: null,
   lastPlayedDate: null,
   bestTimeMs: null,
+  distribution: [0, 0, 0, 0, 0, 0],
 };
 
 export function loadStats(): PlayerStats {
   const saved = read(STATS_KEY);
-  if (!saved || typeof saved !== 'object') return { ...DEFAULT_STATS };
-  return { ...DEFAULT_STATS, ...(saved as Partial<PlayerStats>) };
+  if (!saved || typeof saved !== 'object') return { ...DEFAULT_STATS, distribution: [...DEFAULT_STATS.distribution] };
+  const merged = { ...DEFAULT_STATS, ...(saved as Partial<PlayerStats>) };
+  // Older saves (before the results chart existed) have no distribution.
+  const d = merged.distribution;
+  merged.distribution =
+    Array.isArray(d) && d.length === 6 && d.every((n) => typeof n === 'number') ? d : [0, 0, 0, 0, 0, 0];
+  return merged;
 }
 
 export function saveStats(stats: PlayerStats): void {
@@ -91,4 +98,13 @@ export function loadNewsletterSubscribed(): boolean {
 
 export function saveNewsletterSubscribed(): void {
   write(NEWSLETTER_KEY, true);
+}
+
+/** True once the player has seen the How to play guide. */
+export function loadSeenHelp(): boolean {
+  return read(SEEN_HELP_KEY) === true;
+}
+
+export function saveSeenHelp(): void {
+  write(SEEN_HELP_KEY, true);
 }
