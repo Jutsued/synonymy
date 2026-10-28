@@ -30,3 +30,24 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Plain-HTML "How to play" section below the game (lives in index.html). */
+.about {
+  @apply relative z-10 mx-auto max-w-2xl border-t border-zinc-800/80 px-5 pt-14 pb-20 text-[15px] leading-relaxed text-zinc-400;
+}
+.about h2 {
+  @apply mt-10 mb-3 font-display text-3xl text-zinc-100 italic first:mt-0;
+}
+.about h3 {
+  @apply mt-6 mb-1 text-sm font-semibold tracking-wide text-zinc-200;
+}
+.about p {
+  @apply mb-3;
+}
+.about ul {
+  @apply mb-4 space-y-1.5 pl-5;
+  list-style: disc;
+}
+.about strong {
+  @apply font-semibold text-zinc-200;
+}

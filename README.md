@@ -66,3 +66,9 @@ There are 365 handpicked puzzles (Oct 28, 2026 → Oct 27, 2027). After that the
 **Editing from GitHub's website** (no local setup needed): open a `content/batch*.txt` file, click the pencil, edit, commit. The deploy rebuilds `src/data/curated.json` and checks every puzzle. If a line is broken (wrong word count, duplicate word, a target used twice), the deploy fails and the live site stays on the last good version.
 
 Locally: `npm run puzzles` rebuilds and checks the bank.
+
+## Moving to a custom domain
+
+1. Buy the domain and point it at GitHub Pages (repo **Settings → Pages → Custom domain**; GitHub shows the DNS records to add).
+2. Change the one line in `.env` to the new address, e.g. `VITE_SITE_URL=https://playsynonymy.com/`.
+3. Commit. The share link, link previews, canonical URL, sitemap, robots.txt and asset paths all follow that setting.

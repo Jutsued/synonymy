@@ -4,11 +4,107 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#020617" />
-    <meta name="description" content="Synonymy — one word, five synonyms, five charges. A new puzzle every day." />
-    <title>Synonymy — Daily Word Puzzle</title>
+
+    <!-- Search -->
+    <title>Synonymy — Free Daily Synonym Word Puzzle</title>
+    <meta
+      name="description"
+      content="A free daily word game. Find the 5 true synonyms hidden among 20 floating words before your energy runs out. New puzzle every day, no sign-up."
+    />
+    <link rel="canonical" href="%VITE_SITE_URL%" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Link previews (iMessage, WhatsApp, Slack, Facebook, LinkedIn...) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Synonymy" />
+    <meta property="og:title" content="Synonymy — Find the 5 synonyms" />
+    <meta
+      property="og:description"
+      content="One word. Twenty floating words. Five true synonyms and five lives. A new puzzle every day."
+    />
+    <meta property="og:url" content="%VITE_SITE_URL%" />
+    <meta property="og:image" content="%VITE_SITE_URL%og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Synonymy: find the five synonyms of today's word" />
+
+    <!-- X / Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Synonymy — Find the 5 synonyms" />
+    <meta
+      name="twitter:description"
+      content="One word. Twenty floating words. Five true synonyms and five lives. A new puzzle every day."
+    />
+    <meta name="twitter:image" content="%VITE_SITE_URL%og-image.png" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Tells Google this is a free browser game -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Synonymy",
+        "url": "%VITE_SITE_URL%",
+        "description": "A free daily word puzzle. Find the 5 true synonyms of the day's word hidden among 20 floating words.",
+        "applicationCategory": "GameApplication",
+        "genre": "Word puzzle",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": "en",
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+
+    <noscript>
+      <p style="padding: 2rem; text-align: center; color: #e4e4e7; font-family: system-ui, sans-serif">
+        Synonymy needs JavaScript to run. Turn it on to play today's puzzle.
+      </p>
+    </noscript>
+
+    <!--
+      Plain-HTML guide that lives outside the React app. Search engines read it
+      straight from the page, and players can scroll down to it.
+    -->
+    <section id="about" aria-labelledby="how-to-play" class="about">
+      <h2 id="how-to-play">How to play Synonymy</h2>
+      <p>
+        Every day there's one <strong>target word</strong> in the middle of the screen, surrounded by 20 floating
+        words. Your job is to tap the <strong>5 true synonyms</strong>, the words that mean the same thing.
+      </p>
+      <ul>
+        <li><strong>5 synonyms</strong> are the answers. Find all five to win.</li>
+        <li><strong>5 antonyms</strong> mean the opposite. Easy to spot, easy to tap by accident.</li>
+        <li><strong>5 related words</strong> belong to the same scene but don't mean the same thing.</li>
+        <li><strong>5 bombs</strong> have nothing to do with the target at all.</li>
+      </ul>
+      <p>
+        You start with <strong>5 energy charges</strong>. Every wrong tap costs one. Run out and the game ends. Win
+        on consecutive days to build your streak, then share your result grid with friends.
+      </p>
+
+      <h2>Frequently asked questions</h2>
+      <h3>When does the new puzzle come out?</h3>
+      <p>
+        A new puzzle unlocks every day at midnight UTC (8 PM Eastern in summer, 7 PM in winter). The countdown at the
+        top of the page shows exactly how long is left.
+      </p>
+      <h3>Is Synonymy free?</h3>
+      <p>Yes. It's free to play, there's no account, and nothing to download. It works on phones, tablets and computers.</p>
+      <h3>Does everyone get the same word?</h3>
+      <p>Yes. Every player around the world gets the same puzzle each day, so you can compare results with friends.</p>
+      <h3>Where is my streak saved?</h3>
+      <p>Your progress and streak are saved in your browser on this device. Clearing your browser data resets them.</p>
+    </section>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

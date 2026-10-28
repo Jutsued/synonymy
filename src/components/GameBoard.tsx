@@ -287,7 +287,10 @@ export default function GameBoard({ puzzle, words, state, foundCount, onSelect, 
               exit={{ opacity: 0 }}
               className="text-sm text-zinc-500"
             >
-              Tap only the true synonyms. Every miss drains <span className="text-zinc-300">1 charge</span>.
+              Tap only the true synonyms. Every miss drains <span className="text-zinc-300">1 charge</span>.{' '}
+              <a href="#about" className="whitespace-nowrap text-zinc-400 underline decoration-zinc-700 underline-offset-4 hover:text-zinc-200">
+                How to play
+              </a>
             </motion.p>
           ) : (
             <motion.div

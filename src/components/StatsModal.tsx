@@ -1,7 +1,7 @@
 import { useEffect, useState, type FormEvent } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import type { BoardWord, GameState, PlayerStats, Puzzle } from '../types';
-import { formatCountdown, formatDateKey, formatDuration } from '../lib/clock';
+import { DAY_MS, formatCountdown, formatDateKey, formatDuration, parseDateKey } from '../lib/clock';
 import { MAX_ENERGY, winRate } from '../lib/stats';
 import { triggerResendNewsletter } from '../lib/integrations';
 import { loadNewsletterSubscribed, saveNewsletterSubscribed } from '../lib/storage';
@@ -22,17 +22,22 @@ interface StatsModalProps {
 
 /* ───────────────────────────── share text ───────────────────────────── */
 
-function buildShareText(puzzle: Puzzle, words: BoardWord[], state: GameState, streak: number): string {
+/** Day 1 = launch day. A number instead of the word, so sharing never spoils the answer. */
+const LAUNCH_DAY = '2026-10-28';
+const puzzleNumber = (dateKey: string) =>
+  Math.round((parseDateKey(dateKey) - parseDateKey(LAUNCH_DAY)) / DAY_MS) + 1;
+
+function buildShareText(words: BoardWord[], state: GameState, streak: number): string {
   const byId = new Map(words.map((w) => [w.id, w]));
   const grid = state.selected
     .map((id) => (byId.get(id)?.category === 'synonym' ? '🟩' : '🟥'))
     .join('');
   const result = state.status === 'won' ? `⚡${state.energy}/${MAX_ENERGY}` : '💥 0/5';
   return [
-    `Synonymy · ${formatDateKey(state.dateKey)}`,
-    `${puzzle.targetWord}`,
+    `Synonymy #${puzzleNumber(state.dateKey)}`,
     grid,
     `${result} · ⏱ ${formatDuration(state.elapsedMs)} · 🔥 ${streak}`,
+    import.meta.env.VITE_SITE_URL, // every shared result links back to the game
   ].join('\n');
 }
 
@@ -156,7 +161,7 @@ export default function StatsModal({
   }, [open, onClose]);
 
   const handleShare = async () => {
-    const text = buildShareText(puzzle, words, state, streak);
+    const text = buildShareText(words, state, streak);
     try {
       const isTouch = window.matchMedia('(pointer: coarse)').matches;
       if (isTouch && 'share' in navigator) {
