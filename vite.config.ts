@@ -40,7 +40,7 @@ export default defineConfig(({ command, mode, isPreview }) => {
   const siteUrl = env.VITE_SITE_URL ?? 'http://localhost:5173/';
 
   return {
-    // The path part of the site URL: "/synonymy/" on GitHub Pages, "/" on a custom domain.
+    // The path part of the site URL: "/" on kinword.app, "/<repo>/" if served from a github.io address.
     // Local dev always runs at "/".
     base: command === 'serve' && !isPreview ? '/' : new URL(siteUrl).pathname,
     plugins: [react(), tailwindcss(), seoFiles(siteUrl)],
