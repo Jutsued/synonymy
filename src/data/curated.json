@@ -1,0 +1,11522 @@
+[
+ {
+  "id": "2026-11-02",
+  "targetWord": "BRAVE",
+  "synonyms": [
+   "Courageous",
+   "Fearless",
+   "Valiant",
+   "Heroic",
+   "Daring"
+  ],
+  "antonyms": [
+   "Cowardly",
+   "Timid",
+   "Fearful",
+   "Craven",
+   "Meek"
+  ],
+  "contextual": [
+   "Battle",
+   "Knight",
+   "Rescue",
+   "Firefighter",
+   "Dragon"
+  ],
+  "chaos": [
+   "Nutmeg",
+   "Battery",
+   "Rhubarb",
+   "Manatee",
+   "Antenna"
+  ]
+ },
+ {
+  "id": "2026-11-03",
+  "targetWord": "ANCIENT",
+  "synonyms": [
+   "Antique",
+   "Archaic",
+   "Primeval",
+   "Prehistoric",
+   "Aged"
+  ],
+  "antonyms": [
+   "Modern",
+   "Recent",
+   "New",
+   "Current",
+   "Contemporary"
+  ],
+  "contextual": [
+   "Ruins",
+   "Pyramid",
+   "Fossil",
+   "Scroll",
+   "Museum"
+  ],
+  "chaos": [
+   "Asparagus",
+   "Spatula",
+   "Kaleidoscope",
+   "Sherbet",
+   "Cufflink"
+  ]
+ },
+ {
+  "id": "2026-11-04",
+  "targetWord": "GENEROUS",
+  "synonyms": [
+   "Charitable",
+   "Lavish",
+   "Giving",
+   "Magnanimous",
+   "Unselfish"
+  ],
+  "antonyms": [
+   "Stingy",
+   "Selfish",
+   "Miserly",
+   "Greedy",
+   "Tight"
+  ],
+  "contextual": [
+   "Donation",
+   "Gift",
+   "Volunteer",
+   "Charity",
+   "Tip"
+  ],
+  "chaos": [
+   "Casserole",
+   "Kebab",
+   "Hubcap",
+   "Jukebox",
+   "Walrus"
+  ]
+ },
+ {
+  "id": "2026-11-05",
+  "targetWord": "FRAGILE",
+  "synonyms": [
+   "Delicate",
+   "Brittle",
+   "Breakable",
+   "Flimsy",
+   "Frail"
+  ],
+  "antonyms": [
+   "Sturdy",
+   "Robust",
+   "Durable",
+   "Tough",
+   "Unbreakable"
+  ],
+  "contextual": [
+   "Glass",
+   "Porcelain",
+   "Package",
+   "Eggshell",
+   "Vase"
+  ],
+  "chaos": [
+   "Omelet",
+   "Ravioli",
+   "Alpaca",
+   "Oboe",
+   "Beetle"
+  ]
+ },
+ {
+  "id": "2026-11-06",
+  "targetWord": "SWIFT",
+  "synonyms": [
+   "Quick",
+   "Rapid",
+   "Speedy",
+   "Fleet",
+   "Hasty"
+  ],
+  "antonyms": [
+   "Slow",
+   "Sluggish",
+   "Leisurely",
+   "Plodding",
+   "Unhurried"
+  ],
+  "contextual": [
+   "Cheetah",
+   "Sprint",
+   "Arrow",
+   "Courier",
+   "Falcon"
+  ],
+  "chaos": [
+   "Pumpkin",
+   "Cucumber",
+   "Anteater",
+   "Dulcimer",
+   "Platypus"
+  ]
+ },
+ {
+  "id": "2026-11-07",
+  "targetWord": "HONEST",
+  "synonyms": [
+   "Truthful",
+   "Sincere",
+   "Candid",
+   "Frank",
+   "Genuine"
+  ],
+  "antonyms": [
+   "Deceitful",
+   "Dishonest",
+   "Lying",
+   "Crooked",
+   "Fraudulent"
+  ],
+  "contextual": [
+   "Confession",
+   "Oath",
+   "Witness",
+   "Promise",
+   "Courtroom"
+  ],
+  "chaos": [
+   "Almond",
+   "Granola",
+   "Hamster",
+   "Possum",
+   "Satellite"
+  ]
+ },
+ {
+  "id": "2026-11-08",
+  "targetWord": "HUGE",
+  "synonyms": [
+   "Enormous",
+   "Gigantic",
+   "Massive",
+   "Immense",
+   "Colossal"
+  ],
+  "antonyms": [
+   "Tiny",
+   "Minute",
+   "Miniature",
+   "Petite",
+   "Microscopic"
+  ],
+  "contextual": [
+   "Elephant",
+   "Mountain",
+   "Whale",
+   "Skyscraper",
+   "Stadium"
+  ],
+  "chaos": [
+   "Chipmunk",
+   "Tadpole",
+   "Sundial",
+   "Walnut",
+   "Bagel"
+  ]
+ },
+ {
+  "id": "2026-11-09",
+  "targetWord": "HAPPY",
+  "synonyms": [
+   "Joyful",
+   "Cheerful",
+   "Glad",
+   "Content",
+   "Delighted"
+  ],
+  "antonyms": [
+   "Sad",
+   "Miserable",
+   "Gloomy",
+   "Unhappy",
+   "Sorrowful"
+  ],
+  "contextual": [
+   "Birthday",
+   "Smile",
+   "Party",
+   "Laughter",
+   "Sunshine"
+  ],
+  "chaos": [
+   "Llama",
+   "Faucet",
+   "Haddock",
+   "Rickshaw",
+   "Cymbal"
+  ]
+ },
+ {
+  "id": "2026-11-10",
+  "targetWord": "ANGRY",
+  "synonyms": [
+   "Furious",
+   "Irate",
+   "Livid",
+   "Enraged",
+   "Mad"
+  ],
+  "antonyms": [
+   "Calm",
+   "Pleased",
+   "Content",
+   "Placid",
+   "Serene"
+  ],
+  "contextual": [
+   "Argument",
+   "Traffic",
+   "Shouting",
+   "Temper",
+   "Thunder"
+  ],
+  "chaos": [
+   "Lamppost",
+   "Stencil",
+   "Newt",
+   "Overalls",
+   "Pigeon"
+  ]
+ },
+ {
+  "id": "2026-11-11",
+  "targetWord": "QUIET",
+  "synonyms": [
+   "Silent",
+   "Hushed",
+   "Muted",
+   "Noiseless",
+   "Soundless"
+  ],
+  "antonyms": [
+   "Loud",
+   "Noisy",
+   "Raucous",
+   "Deafening",
+   "Boisterous"
+  ],
+  "contextual": [
+   "Library",
+   "Whisper",
+   "Midnight",
+   "Snow",
+   "Monastery"
+  ],
+  "chaos": [
+   "Turbine",
+   "Lobster",
+   "Puffin",
+   "Saucer",
+   "Cinnamon"
+  ]
+ },
+ {
+  "id": "2026-11-12",
+  "targetWord": "DIRTY",
+  "synonyms": [
+   "Filthy",
+   "Grimy",
+   "Soiled",
+   "Muddy",
+   "Unclean"
+  ],
+  "antonyms": [
+   "Clean",
+   "Spotless",
+   "Pristine",
+   "Immaculate",
+   "Washed"
+  ],
+  "contextual": [
+   "Laundry",
+   "Puddle",
+   "Garage",
+   "Boots",
+   "Sponge"
+  ],
+  "chaos": [
+   "Tangerine",
+   "Hedgehog",
+   "Ketchup",
+   "Zeppelin",
+   "Halibut"
+  ]
+ },
+ {
+  "id": "2026-11-13",
+  "targetWord": "RICH",
+  "synonyms": [
+   "Wealthy",
+   "Affluent",
+   "Prosperous",
+   "Loaded",
+   "Opulent"
+  ],
+  "antonyms": [
+   "Poor",
+   "Broke",
+   "Destitute",
+   "Needy",
+   "Impoverished"
+  ],
+  "contextual": [
+   "Mansion",
+   "Yacht",
+   "Diamond",
+   "Banker",
+   "Inheritance"
+  ],
+  "chaos": [
+   "Parsley",
+   "Rutabaga",
+   "Trombone",
+   "Seagull",
+   "Keychain"
+  ]
+ },
+ {
+  "id": "2026-11-14",
+  "targetWord": "SMART",
+  "synonyms": [
+   "Clever",
+   "Intelligent",
+   "Bright",
+   "Brilliant",
+   "Sharp"
+  ],
+  "antonyms": [
+   "Foolish",
+   "Dim",
+   "Dense",
+   "Dull",
+   "Ignorant"
+  ],
+  "contextual": [
+   "Exam",
+   "Genius",
+   "Chess",
+   "Library",
+   "Professor"
+  ],
+  "chaos": [
+   "Dumpling",
+   "Lasagna",
+   "Koala",
+   "Cricket",
+   "Bagpipe"
+  ]
+ },
+ {
+  "id": "2026-11-15",
+  "targetWord": "EMPTY",
+  "synonyms": [
+   "Vacant",
+   "Hollow",
+   "Bare",
+   "Blank",
+   "Void"
+  ],
+  "antonyms": [
+   "Full",
+   "Packed",
+   "Crowded",
+   "Stuffed",
+   "Loaded"
+  ],
+  "contextual": [
+   "Wallet",
+   "Stadium",
+   "Bottle",
+   "Parking",
+   "Tank"
+  ],
+  "chaos": [
+   "Apricot",
+   "Kiwi",
+   "Gecko",
+   "Bucket",
+   "Globe"
+  ]
+ },
+ {
+  "id": "2026-11-16",
+  "targetWord": "HIDDEN",
+  "synonyms": [
+   "Concealed",
+   "Secret",
+   "Covert",
+   "Veiled",
+   "Unseen"
+  ],
+  "antonyms": [
+   "Visible",
+   "Exposed",
+   "Obvious",
+   "Open",
+   "Revealed"
+  ],
+  "contextual": [
+   "Treasure",
+   "Attic",
+   "Cave",
+   "Code",
+   "Spy"
+  ],
+  "chaos": [
+   "Pudding",
+   "Bison",
+   "Pretzel",
+   "Drawer",
+   "Fedora"
+  ]
+ },
+ {
+  "id": "2026-11-17",
+  "targetWord": "STRONG",
+  "synonyms": [
+   "Powerful",
+   "Mighty",
+   "Sturdy",
+   "Robust",
+   "Muscular"
+  ],
+  "antonyms": [
+   "Weak",
+   "Feeble",
+   "Frail",
+   "Puny",
+   "Flimsy"
+  ],
+  "contextual": [
+   "Gym",
+   "Ox",
+   "Weightlifter",
+   "Steel",
+   "Bridge"
+  ],
+  "chaos": [
+   "Burrito",
+   "Saffron",
+   "Beaver",
+   "Flamingo",
+   "Thimble"
+  ]
+ },
+ {
+  "id": "2026-11-18",
+  "targetWord": "BEGIN",
+  "synonyms": [
+   "Start",
+   "Commence",
+   "Launch",
+   "Initiate",
+   "Open"
+  ],
+  "antonyms": [
+   "End",
+   "Finish",
+   "Conclude",
+   "Stop",
+   "Terminate"
+  ],
+  "contextual": [
+   "Race",
+   "Chapter",
+   "Journey",
+   "Countdown",
+   "Ceremony"
+  ],
+  "chaos": [
+   "Lemur",
+   "Papaya",
+   "Gherkin",
+   "Beret",
+   "Magnet"
+  ]
+ },
+ {
+  "id": "2026-11-19",
+  "targetWord": "DANGER",
+  "synonyms": [
+   "Peril",
+   "Hazard",
+   "Risk",
+   "Threat",
+   "Menace"
+  ],
+  "antonyms": [
+   "Safety",
+   "Security",
+   "Protection",
+   "Shelter",
+   "Haven"
+  ],
+  "contextual": [
+   "Warning",
+   "Cliff",
+   "Shark",
+   "Alarm",
+   "Helmet"
+  ],
+  "chaos": [
+   "Dinghy",
+   "Parsnip",
+   "Pickle",
+   "Aardvark",
+   "Tapir"
+  ]
+ },
+ {
+  "id": "2026-11-20",
+  "targetWord": "COLD",
+  "synonyms": [
+   "Chilly",
+   "Freezing",
+   "Icy",
+   "Frigid",
+   "Frosty"
+  ],
+  "antonyms": [
+   "Hot",
+   "Warm",
+   "Boiling",
+   "Scorching",
+   "Toasty"
+  ],
+  "contextual": [
+   "Winter",
+   "Snow",
+   "Igloo",
+   "Glacier",
+   "Penguin"
+  ],
+  "chaos": [
+   "Waffle",
+   "Radish",
+   "Mandolin",
+   "Bonnet",
+   "Tambourine"
+  ]
+ },
+ {
+  "id": "2026-11-21",
+  "targetWord": "FAMOUS",
+  "synonyms": [
+   "Renowned",
+   "Celebrated",
+   "Notable",
+   "Legendary",
+   "Eminent"
+  ],
+  "antonyms": [
+   "Unknown",
+   "Obscure",
+   "Anonymous",
+   "Forgotten",
+   "Nameless"
+  ],
+  "contextual": [
+   "Autograph",
+   "Paparazzi",
+   "Hollywood",
+   "Statue",
+   "Award"
+  ],
+  "chaos": [
+   "Croissant",
+   "Biscuit",
+   "Gondola",
+   "Tricycle",
+   "Meerkat"
+  ]
+ },
+ {
+  "id": "2026-11-22",
+  "targetWord": "BEAUTIFUL",
+  "synonyms": [
+   "Lovely",
+   "Gorgeous",
+   "Stunning",
+   "Attractive",
+   "Pretty"
+  ],
+  "antonyms": [
+   "Ugly",
+   "Hideous",
+   "Unsightly",
+   "Homely",
+   "Plain"
+  ],
+  "contextual": [
+   "Sunset",
+   "Painting",
+   "Garden",
+   "Bride",
+   "Rose"
+  ],
+  "chaos": [
+   "Paprika",
+   "Muffin",
+   "Ladybug",
+   "Bassoon",
+   "Metronome"
+  ]
+ },
+ {
+  "id": "2026-11-23",
+  "targetWord": "DIFFICULT",
+  "synonyms": [
+   "Hard",
+   "Tough",
+   "Challenging",
+   "Demanding",
+   "Arduous"
+  ],
+  "antonyms": [
+   "Easy",
+   "Simple",
+   "Effortless",
+   "Straightforward",
+   "Painless"
+  ],
+  "contextual": [
+   "Puzzle",
+   "Exam",
+   "Mountain",
+   "Marathon",
+   "Riddle"
+  ],
+  "chaos": [
+   "Zucchini",
+   "Forklift",
+   "Squid",
+   "Camel",
+   "Lantern"
+  ]
+ },
+ {
+  "id": "2026-11-24",
+  "targetWord": "FRIENDLY",
+  "synonyms": [
+   "Amiable",
+   "Cordial",
+   "Genial",
+   "Affable",
+   "Sociable"
+  ],
+  "antonyms": [
+   "Hostile",
+   "Unfriendly",
+   "Cold",
+   "Aloof",
+   "Rude"
+  ],
+  "contextual": [
+   "Neighbor",
+   "Handshake",
+   "Puppy",
+   "Greeting",
+   "Picnic"
+  ],
+  "chaos": [
+   "Salmon",
+   "Headband",
+   "Zipper",
+   "Mop",
+   "Salamander"
+  ]
+ },
+ {
+  "id": "2026-11-25",
+  "targetWord": "LAZY",
+  "synonyms": [
+   "Idle",
+   "Sluggish",
+   "Slothful",
+   "Lethargic",
+   "Indolent"
+  ],
+  "antonyms": [
+   "Diligent",
+   "Industrious",
+   "Energetic",
+   "Active",
+   "Hardworking"
+  ],
+  "contextual": [
+   "Couch",
+   "Nap",
+   "Sofa",
+   "Hammock",
+   "Weekend"
+  ],
+  "chaos": [
+   "Parakeet",
+   "Hinge",
+   "Fountain",
+   "Raccoon",
+   "Fig"
+  ]
+ },
+ {
+  "id": "2026-11-26",
+  "targetWord": "WISE",
+  "synonyms": [
+   "Sage",
+   "Sensible",
+   "Prudent",
+   "Judicious",
+   "Insightful"
+  ],
+  "antonyms": [
+   "Foolish",
+   "Unwise",
+   "Reckless",
+   "Silly",
+   "Imprudent"
+  ],
+  "contextual": [
+   "Owl",
+   "Elder",
+   "Advice",
+   "Proverb",
+   "Wizard"
+  ],
+  "chaos": [
+   "Kayak",
+   "Hose",
+   "Hazelnut",
+   "Avocado",
+   "Sardine"
+  ]
+ },
+ {
+  "id": "2026-11-27",
+  "targetWord": "COURAGE",
+  "synonyms": [
+   "Bravery",
+   "Valor",
+   "Nerve",
+   "Daring",
+   "Fortitude"
+  ],
+  "antonyms": [
+   "Cowardice",
+   "Fear",
+   "Timidity",
+   "Fright",
+   "Weakness"
+  ],
+  "contextual": [
+   "Hero",
+   "Lion",
+   "Medal",
+   "Soldier",
+   "Quest"
+  ],
+  "chaos": [
+   "Barometer",
+   "Scooter",
+   "Pistachio",
+   "Sombrero",
+   "Caterpillar"
+  ]
+ },
+ {
+  "id": "2026-11-28",
+  "targetWord": "EAGER",
+  "synonyms": [
+   "Keen",
+   "Enthusiastic",
+   "Avid",
+   "Zealous",
+   "Willing"
+  ],
+  "antonyms": [
+   "Reluctant",
+   "Indifferent",
+   "Unwilling",
+   "Apathetic",
+   "Hesitant"
+  ],
+  "contextual": [
+   "Puppy",
+   "Volunteer",
+   "Student",
+   "Audition",
+   "Countdown"
+  ],
+  "chaos": [
+   "Stapler",
+   "Buckle",
+   "Bugle",
+   "Coconut",
+   "Popcorn"
+  ]
+ },
+ {
+  "id": "2026-11-29",
+  "targetWord": "GLOOMY",
+  "synonyms": [
+   "Dismal",
+   "Bleak",
+   "Dreary",
+   "Somber",
+   "Murky"
+  ],
+  "antonyms": [
+   "Cheerful",
+   "Bright",
+   "Sunny",
+   "Upbeat",
+   "Radiant"
+  ],
+  "contextual": [
+   "Rain",
+   "Cemetery",
+   "Fog",
+   "Winter",
+   "Dungeon"
+  ],
+  "chaos": [
+   "Yak",
+   "Maraca",
+   "Ladle",
+   "Bobbin",
+   "Zebra"
+  ]
+ },
+ {
+  "id": "2026-11-30",
+  "targetWord": "POLITE",
+  "synonyms": [
+   "Courteous",
+   "Respectful",
+   "Gracious",
+   "Mannerly",
+   "Civil"
+  ],
+  "antonyms": [
+   "Rude",
+   "Impolite",
+   "Discourteous",
+   "Insolent",
+   "Crude"
+  ],
+  "contextual": [
+   "Etiquette",
+   "Butler",
+   "Greeting",
+   "Thanks",
+   "Napkin"
+  ],
+  "chaos": [
+   "Quiche",
+   "Gourd",
+   "Funnel",
+   "Seesaw",
+   "Pelican"
+  ]
+ },
+ {
+  "id": "2026-12-01",
+  "targetWord": "SHINY",
+  "synonyms": [
+   "Glossy",
+   "Gleaming",
+   "Lustrous",
+   "Polished",
+   "Sparkling"
+  ],
+  "antonyms": [
+   "Dull",
+   "Matte",
+   "Tarnished",
+   "Drab",
+   "Lackluster"
+  ],
+  "contextual": [
+   "Trophy",
+   "Coin",
+   "Mirror",
+   "Chrome",
+   "Jewelry"
+  ],
+  "chaos": [
+   "Raisin",
+   "Poncho",
+   "Rhino",
+   "Thumbtack",
+   "Marmalade"
+  ]
+ },
+ {
+  "id": "2026-12-02",
+  "targetWord": "STRANGE",
+  "synonyms": [
+   "Odd",
+   "Weird",
+   "Peculiar",
+   "Bizarre",
+   "Unusual"
+  ],
+  "antonyms": [
+   "Normal",
+   "Ordinary",
+   "Typical",
+   "Common",
+   "Familiar"
+  ],
+  "contextual": [
+   "Alien",
+   "Mystery",
+   "Noise",
+   "Dream",
+   "Creature"
+  ],
+  "chaos": [
+   "Toboggan",
+   "Donkey",
+   "Periscope",
+   "Doughnut",
+   "Sitar"
+  ]
+ },
+ {
+  "id": "2026-12-03",
+  "targetWord": "VAST",
+  "synonyms": [
+   "Immense",
+   "Expansive",
+   "Boundless",
+   "Sweeping",
+   "Extensive"
+  ],
+  "antonyms": [
+   "Narrow",
+   "Cramped",
+   "Confined",
+   "Limited",
+   "Tiny"
+  ],
+  "contextual": [
+   "Ocean",
+   "Desert",
+   "Galaxy",
+   "Prairie",
+   "Horizon"
+  ],
+  "chaos": [
+   "Pincushion",
+   "Stork",
+   "Jigsaw",
+   "Beanie",
+   "Moose"
+  ]
+ },
+ {
+  "id": "2026-12-04",
+  "targetWord": "ANXIOUS",
+  "synonyms": [
+   "Worried",
+   "Nervous",
+   "Uneasy",
+   "Tense",
+   "Fretful"
+  ],
+  "antonyms": [
+   "Relaxed",
+   "Calm",
+   "Carefree",
+   "Composed",
+   "Untroubled"
+  ],
+  "contextual": [
+   "Exam",
+   "Interview",
+   "Deadline",
+   "Waiting",
+   "Dentist"
+  ],
+  "chaos": [
+   "Trellis",
+   "Apron",
+   "Iguana",
+   "Shrimp",
+   "Escalator"
+  ]
+ },
+ {
+  "id": "2026-12-05",
+  "targetWord": "ROUGH",
+  "synonyms": [
+   "Coarse",
+   "Rugged",
+   "Bumpy",
+   "Uneven",
+   "Jagged"
+  ],
+  "antonyms": [
+   "Smooth",
+   "Sleek",
+   "Silky",
+   "Even",
+   "Polished"
+  ],
+  "contextual": [
+   "Sandpaper",
+   "Gravel",
+   "Bark",
+   "Terrain",
+   "Road"
+  ],
+  "chaos": [
+   "Macaw",
+   "Falafel",
+   "Ferret",
+   "Cashew",
+   "Chimney"
+  ]
+ },
+ {
+  "id": "2026-12-06",
+  "targetWord": "LOYAL",
+  "synonyms": [
+   "Faithful",
+   "Devoted",
+   "Steadfast",
+   "True",
+   "Dedicated"
+  ],
+  "antonyms": [
+   "Disloyal",
+   "Treacherous",
+   "Unfaithful",
+   "Traitorous",
+   "Fickle"
+  ],
+  "contextual": [
+   "Dog",
+   "Knight",
+   "Oath",
+   "Ally",
+   "Fan"
+  ],
+  "chaos": [
+   "Woodpecker",
+   "Basil",
+   "Gooseberry",
+   "Spool",
+   "Wallpaper"
+  ]
+ },
+ {
+  "id": "2026-12-07",
+  "targetWord": "FREEDOM",
+  "synonyms": [
+   "Liberty",
+   "Independence",
+   "Autonomy",
+   "Release",
+   "Emancipation"
+  ],
+  "antonyms": [
+   "Captivity",
+   "Oppression",
+   "Bondage",
+   "Confinement",
+   "Imprisonment"
+  ],
+  "contextual": [
+   "Flag",
+   "Bird",
+   "Revolution",
+   "Prison",
+   "Escape"
+  ],
+  "chaos": [
+   "Anklet",
+   "Moped",
+   "Kettle",
+   "Pajamas",
+   "Narwhal"
+  ]
+ },
+ {
+  "id": "2026-12-08",
+  "targetWord": "GRATEFUL",
+  "synonyms": [
+   "Thankful",
+   "Appreciative",
+   "Indebted",
+   "Obliged",
+   "Beholden"
+  ],
+  "antonyms": [
+   "Ungrateful",
+   "Thankless",
+   "Unappreciative",
+   "Entitled",
+   "Spoiled"
+  ],
+  "contextual": [
+   "Gift",
+   "Thanksgiving",
+   "Card",
+   "Favor",
+   "Prayer"
+  ],
+  "chaos": [
+   "Whisk",
+   "Hippo",
+   "Dustpan",
+   "Antelope",
+   "Bowtie"
+  ]
+ },
+ {
+  "id": "2026-12-09",
+  "targetWord": "ACCURATE",
+  "synonyms": [
+   "Precise",
+   "Exact",
+   "Correct",
+   "Flawless",
+   "Faultless"
+  ],
+  "antonyms": [
+   "Inaccurate",
+   "Wrong",
+   "Incorrect",
+   "Imprecise",
+   "Faulty"
+  ],
+  "contextual": [
+   "Target",
+   "Ruler",
+   "Archery",
+   "Measurement",
+   "Calculator"
+  ],
+  "chaos": [
+   "Squash",
+   "Kilt",
+   "Pomegranate",
+   "Wrench",
+   "Unicycle"
+  ]
+ },
+ {
+  "id": "2026-12-10",
+  "targetWord": "NARROW",
+  "synonyms": [
+   "Thin",
+   "Slim",
+   "Tight",
+   "Slender",
+   "Constricted"
+  ],
+  "antonyms": [
+   "Wide",
+   "Broad",
+   "Spacious",
+   "Vast",
+   "Roomy"
+  ],
+  "contextual": [
+   "Alley",
+   "Bridge",
+   "Corridor",
+   "Hallway",
+   "Path"
+  ],
+  "chaos": [
+   "Lentil",
+   "Oregano",
+   "Octopus",
+   "Clogs",
+   "Thermostat"
+  ]
+ },
+ {
+  "id": "2026-12-11",
+  "targetWord": "FIERCE",
+  "synonyms": [
+   "Ferocious",
+   "Savage",
+   "Wild",
+   "Vicious",
+   "Feral"
+  ],
+  "antonyms": [
+   "Gentle",
+   "Tame",
+   "Mild",
+   "Docile",
+   "Meek"
+  ],
+  "contextual": [
+   "Tiger",
+   "Wolf",
+   "Storm",
+   "Battle",
+   "Roar"
+  ],
+  "chaos": [
+   "Pulley",
+   "Rake",
+   "Mongoose",
+   "Wombat",
+   "Ukulele"
+  ]
+ },
+ {
+  "id": "2026-12-12",
+  "targetWord": "RARE",
+  "synonyms": [
+   "Uncommon",
+   "Unusual",
+   "Infrequent",
+   "Exceptional",
+   "Sporadic"
+  ],
+  "antonyms": [
+   "Common",
+   "Frequent",
+   "Ordinary",
+   "Everyday",
+   "Plentiful"
+  ],
+  "contextual": [
+   "Diamond",
+   "Comet",
+   "Eclipse",
+   "Collector",
+   "Orchid"
+  ],
+  "chaos": [
+   "Tugboat",
+   "Sieve",
+   "Capybara",
+   "Gerbil",
+   "Pecan"
+  ]
+ },
+ {
+  "id": "2026-12-13",
+  "targetWord": "TIRED",
+  "synonyms": [
+   "Exhausted",
+   "Weary",
+   "Fatigued",
+   "Drained",
+   "Sleepy"
+  ],
+  "antonyms": [
+   "Energetic",
+   "Rested",
+   "Lively",
+   "Refreshed",
+   "Alert"
+  ],
+  "contextual": [
+   "Bedtime",
+   "Pillow",
+   "Marathon",
+   "Yawn",
+   "Shift"
+  ],
+  "chaos": [
+   "Ottoman",
+   "Hacksaw",
+   "Grasshopper",
+   "Cello",
+   "Banjo"
+  ]
+ },
+ {
+  "id": "2026-12-14",
+  "targetWord": "HUMBLE",
+  "synonyms": [
+   "Modest",
+   "Meek",
+   "Unassuming",
+   "Lowly",
+   "Unpretentious"
+  ],
+  "antonyms": [
+   "Arrogant",
+   "Proud",
+   "Boastful",
+   "Vain",
+   "Conceited"
+  ],
+  "contextual": [
+   "Monk",
+   "Servant",
+   "Cottage",
+   "Apology",
+   "Peasant"
+  ],
+  "chaos": [
+   "Caboose",
+   "Trowel",
+   "Armadillo",
+   "Cabbage",
+   "Kazoo"
+  ]
+ },
+ {
+  "id": "2026-12-15",
+  "targetWord": "CHEAP",
+  "synonyms": [
+   "Inexpensive",
+   "Affordable",
+   "Economical",
+   "Budget",
+   "Bargain"
+  ],
+  "antonyms": [
+   "Expensive",
+   "Costly",
+   "Pricey",
+   "Luxurious",
+   "Lavish"
+  ],
+  "contextual": [
+   "Coupon",
+   "Sale",
+   "Discount",
+   "Thrift",
+   "Dollar"
+  ],
+  "chaos": [
+   "Abacus",
+   "Pliers",
+   "Toad",
+   "Fiddle",
+   "Brownie"
+  ]
+ },
+ {
+  "id": "2026-12-16",
+  "targetWord": "HEAL",
+  "synonyms": [
+   "Cure",
+   "Mend",
+   "Recover",
+   "Remedy",
+   "Restore"
+  ],
+  "antonyms": [
+   "Injure",
+   "Wound",
+   "Harm",
+   "Hurt",
+   "Damage"
+  ],
+  "contextual": [
+   "Doctor",
+   "Bandage",
+   "Hospital",
+   "Medicine",
+   "Scar"
+  ],
+  "chaos": [
+   "Peanut",
+   "Teapot",
+   "Tweezers",
+   "Bongo",
+   "Tuba"
+  ]
+ },
+ {
+  "id": "2026-12-17",
+  "targetWord": "CREATE",
+  "synonyms": [
+   "Make",
+   "Build",
+   "Invent",
+   "Form",
+   "Produce"
+  ],
+  "antonyms": [
+   "Destroy",
+   "Demolish",
+   "Ruin",
+   "Wreck",
+   "Erase"
+  ],
+  "contextual": [
+   "Artist",
+   "Workshop",
+   "Canvas",
+   "Blueprint",
+   "Clay"
+  ],
+  "chaos": [
+   "Pinwheel",
+   "Stethoscope",
+   "Galoshes",
+   "Piccolo",
+   "Monocle"
+  ]
+ },
+ {
+  "id": "2026-12-18",
+  "targetWord": "ALLOW",
+  "synonyms": [
+   "Permit",
+   "Let",
+   "Authorize",
+   "Enable",
+   "Approve"
+  ],
+  "antonyms": [
+   "Forbid",
+   "Prohibit",
+   "Ban",
+   "Deny",
+   "Prevent"
+  ],
+  "contextual": [
+   "Rules",
+   "Gate",
+   "Ticket",
+   "Parent",
+   "License"
+  ],
+  "chaos": [
+   "Windmill",
+   "Mailbox",
+   "Emu",
+   "Trout",
+   "Gong"
+  ]
+ },
+ {
+  "id": "2026-12-19",
+  "targetWord": "INCREASE",
+  "synonyms": [
+   "Grow",
+   "Rise",
+   "Expand",
+   "Boost",
+   "Raise"
+  ],
+  "antonyms": [
+   "Decrease",
+   "Reduce",
+   "Lower",
+   "Shrink",
+   "Decline"
+  ],
+  "contextual": [
+   "Price",
+   "Population",
+   "Volume",
+   "Temperature",
+   "Salary"
+  ],
+  "chaos": [
+   "Canoe",
+   "Hopscotch",
+   "Toucan",
+   "Walrus",
+   "Sherbet"
+  ]
+ },
+ {
+  "id": "2026-12-20",
+  "targetWord": "AWKWARD",
+  "synonyms": [
+   "Clumsy",
+   "Ungainly",
+   "Gawky",
+   "Uncomfortable",
+   "Graceless"
+  ],
+  "antonyms": [
+   "Graceful",
+   "Smooth",
+   "Elegant",
+   "Poised",
+   "Suave"
+  ],
+  "contextual": [
+   "Silence",
+   "Date",
+   "Interview",
+   "Stumble",
+   "Teenager"
+  ],
+  "chaos": [
+   "Notepad",
+   "Teaspoon",
+   "Rhubarb",
+   "Manatee",
+   "Alpaca"
+  ]
+ },
+ {
+  "id": "2026-12-21",
+  "targetWord": "CURIOUS",
+  "synonyms": [
+   "Inquisitive",
+   "Nosy",
+   "Interested",
+   "Questioning",
+   "Prying"
+  ],
+  "antonyms": [
+   "Indifferent",
+   "Uninterested",
+   "Apathetic",
+   "Incurious",
+   "Bored"
+  ],
+  "contextual": [
+   "Cat",
+   "Explorer",
+   "Question",
+   "Telescope",
+   "Detective"
+  ],
+  "chaos": [
+   "Hubcap",
+   "Dulcimer",
+   "Battery",
+   "Cucumber",
+   "Anteater"
+  ]
+ },
+ {
+  "id": "2026-12-22",
+  "targetWord": "DELICIOUS",
+  "synonyms": [
+   "Tasty",
+   "Scrumptious",
+   "Yummy",
+   "Flavorful",
+   "Appetizing"
+  ],
+  "antonyms": [
+   "Bland",
+   "Tasteless",
+   "Disgusting",
+   "Unappetizing",
+   "Revolting"
+  ],
+  "contextual": [
+   "Dessert",
+   "Chef",
+   "Feast",
+   "Recipe",
+   "Bakery"
+  ],
+  "chaos": [
+   "Hamster",
+   "Jukebox",
+   "Possum",
+   "Kaleidoscope",
+   "Oboe"
+  ]
+ },
+ {
+  "id": "2026-12-23",
+  "targetWord": "STUBBORN",
+  "synonyms": [
+   "Obstinate",
+   "Headstrong",
+   "Willful",
+   "Inflexible",
+   "Mulish"
+  ],
+  "antonyms": [
+   "Flexible",
+   "Compliant",
+   "Agreeable",
+   "Docile",
+   "Yielding"
+  ],
+  "contextual": [
+   "Mule",
+   "Toddler",
+   "Argument",
+   "Stain",
+   "Goat"
+  ],
+  "chaos": [
+   "Granola",
+   "Chipmunk",
+   "Tadpole",
+   "Bagel",
+   "Satellite"
+  ]
+ },
+ {
+  "id": "2026-12-24",
+  "targetWord": "MESSY",
+  "synonyms": [
+   "Untidy",
+   "Cluttered",
+   "Disorderly",
+   "Chaotic",
+   "Sloppy"
+  ],
+  "antonyms": [
+   "Tidy",
+   "Neat",
+   "Orderly",
+   "Organized",
+   "Clean"
+  ],
+  "contextual": [
+   "Bedroom",
+   "Toddler",
+   "Paint",
+   "Kitchen",
+   "Desk"
+  ],
+  "chaos": [
+   "Haddock",
+   "Cymbal",
+   "Faucet",
+   "Walnut",
+   "Pumpkin"
+  ]
+ },
+ {
+  "id": "2026-12-25",
+  "targetWord": "BOLD",
+  "synonyms": [
+   "Daring",
+   "Audacious",
+   "Fearless",
+   "Brazen",
+   "Intrepid"
+  ],
+  "antonyms": [
+   "Cautious",
+   "Timid",
+   "Shy",
+   "Wary",
+   "Hesitant"
+  ],
+  "contextual": [
+   "Explorer",
+   "Leap",
+   "Font",
+   "Color",
+   "Adventure"
+  ],
+  "chaos": [
+   "Stencil",
+   "Overalls",
+   "Rickshaw",
+   "Platypus",
+   "Nutmeg"
+  ]
+ },
+ {
+  "id": "2026-12-26",
+  "targetWord": "ELEGANT",
+  "synonyms": [
+   "Graceful",
+   "Stylish",
+   "Refined",
+   "Chic",
+   "Sophisticated"
+  ],
+  "antonyms": [
+   "Clumsy",
+   "Tacky",
+   "Crude",
+   "Gaudy",
+   "Inelegant"
+  ],
+  "contextual": [
+   "Ballroom",
+   "Gown",
+   "Swan",
+   "Ballet",
+   "Chandelier"
+  ],
+  "chaos": [
+   "Puffin",
+   "Saucer",
+   "Antenna",
+   "Almond",
+   "Kebab"
+  ]
+ },
+ {
+  "id": "2026-12-27",
+  "targetWord": "SOFT",
+  "synonyms": [
+   "Fluffy",
+   "Plush",
+   "Velvety",
+   "Tender",
+   "Downy"
+  ],
+  "antonyms": [
+   "Hard",
+   "Rigid",
+   "Firm",
+   "Stiff",
+   "Rough"
+  ],
+  "contextual": [
+   "Pillow",
+   "Kitten",
+   "Cotton",
+   "Cloud",
+   "Feather"
+  ],
+  "chaos": [
+   "Ketchup",
+   "Halibut",
+   "Hedgehog",
+   "Tangerine",
+   "Lamppost"
+  ]
+ },
+ {
+  "id": "2026-12-28",
+  "targetWord": "VICTORY",
+  "synonyms": [
+   "Triumph",
+   "Win",
+   "Success",
+   "Conquest",
+   "Mastery"
+  ],
+  "antonyms": [
+   "Defeat",
+   "Loss",
+   "Failure",
+   "Collapse",
+   "Surrender"
+  ],
+  "contextual": [
+   "Trophy",
+   "Medal",
+   "Parade",
+   "Champion",
+   "Finals"
+  ],
+  "chaos": [
+   "Keychain",
+   "Seagull",
+   "Parsley",
+   "Trombone",
+   "Omelet"
+  ]
+ },
+ {
+  "id": "2026-12-29",
+  "targetWord": "ENTHUSIASM",
+  "synonyms": [
+   "Passion",
+   "Zeal",
+   "Eagerness",
+   "Excitement",
+   "Fervor"
+  ],
+  "antonyms": [
+   "Apathy",
+   "Indifference",
+   "Boredom",
+   "Reluctance",
+   "Disinterest"
+  ],
+  "contextual": [
+   "Fan",
+   "Cheerleader",
+   "Rally",
+   "Concert",
+   "Pep"
+  ],
+  "chaos": [
+   "Dumpling",
+   "Koala",
+   "Bagpipe",
+   "Cricket",
+   "Lasagna"
+  ]
+ },
+ {
+  "id": "2026-12-30",
+  "targetWord": "SPARKLE",
+  "synonyms": [
+   "Glitter",
+   "Twinkle",
+   "Shimmer",
+   "Glint",
+   "Gleam"
+  ],
+  "antonyms": [
+   "Darken",
+   "Dim",
+   "Dull",
+   "Fade",
+   "Cloud"
+  ],
+  "contextual": [
+   "Diamond",
+   "Star",
+   "Firework",
+   "Sequin",
+   "Champagne"
+  ],
+  "chaos": [
+   "Apricot",
+   "Gecko",
+   "Bucket",
+   "Llama",
+   "Sundial"
+  ]
+ },
+ {
+  "id": "2026-12-31",
+  "targetWord": "CAREFUL",
+  "synonyms": [
+   "Cautious",
+   "Attentive",
+   "Meticulous",
+   "Watchful",
+   "Thorough"
+  ],
+  "antonyms": [
+   "Careless",
+   "Reckless",
+   "Sloppy",
+   "Negligent",
+   "Hasty"
+  ],
+  "contextual": [
+   "Surgeon",
+   "Tightrope",
+   "Eggs",
+   "Ladder",
+   "Crosswalk"
+  ],
+  "chaos": [
+   "Bison",
+   "Pretzel",
+   "Drawer",
+   "Pudding",
+   "Fedora"
+  ]
+ },
+ {
+  "id": "2027-01-01",
+  "targetWord": "BRIEF",
+  "synonyms": [
+   "Short",
+   "Concise",
+   "Fleeting",
+   "Quick",
+   "Momentary"
+  ],
+  "antonyms": [
+   "Long",
+   "Lengthy",
+   "Extended",
+   "Prolonged",
+   "Endless"
+  ],
+  "contextual": [
+   "Meeting",
+   "Memo",
+   "Summary",
+   "Glance",
+   "Interview"
+  ],
+  "chaos": [
+   "Thimble",
+   "Beaver",
+   "Saffron",
+   "Spatula",
+   "Burrito"
+  ]
+ },
+ {
+  "id": "2027-01-02",
+  "targetWord": "CHAOS",
+  "synonyms": [
+   "Disorder",
+   "Mayhem",
+   "Turmoil",
+   "Havoc",
+   "Pandemonium"
+  ],
+  "antonyms": [
+   "Order",
+   "Calm",
+   "Harmony",
+   "Peace",
+   "Stability"
+  ],
+  "contextual": [
+   "Riot",
+   "Storm",
+   "Party",
+   "Earthquake",
+   "Classroom"
+  ],
+  "chaos": [
+   "Papaya",
+   "Lemur",
+   "Magnet",
+   "Beret",
+   "Beetle"
+  ]
+ },
+ {
+  "id": "2027-01-03",
+  "targetWord": "CONFIDENT",
+  "synonyms": [
+   "Assured",
+   "Certain",
+   "Poised",
+   "Positive",
+   "Secure"
+  ],
+  "antonyms": [
+   "Insecure",
+   "Doubtful",
+   "Unsure",
+   "Timid",
+   "Hesitant"
+  ],
+  "contextual": [
+   "Speech",
+   "Interview",
+   "Stage",
+   "Captain",
+   "Swagger"
+  ],
+  "chaos": [
+   "Pickle",
+   "Dinghy",
+   "Tapir",
+   "Flamingo",
+   "Ravioli"
+  ]
+ },
+ {
+  "id": "2027-01-04",
+  "targetWord": "CRUEL",
+  "synonyms": [
+   "Brutal",
+   "Heartless",
+   "Merciless",
+   "Vicious",
+   "Ruthless"
+  ],
+  "antonyms": [
+   "Kind",
+   "Gentle",
+   "Compassionate",
+   "Merciful",
+   "Humane"
+  ],
+  "contextual": [
+   "Villain",
+   "Tyrant",
+   "Bully",
+   "Dungeon",
+   "Punishment"
+  ],
+  "chaos": [
+   "Mandolin",
+   "Bonnet",
+   "Waffle",
+   "Globe",
+   "Aardvark"
+  ]
+ },
+ {
+  "id": "2027-01-05",
+  "targetWord": "DENSE",
+  "synonyms": [
+   "Thick",
+   "Compact",
+   "Packed",
+   "Solid",
+   "Crowded"
+  ],
+  "antonyms": [
+   "Sparse",
+   "Thin",
+   "Scattered",
+   "Airy",
+   "Loose"
+  ],
+  "contextual": [
+   "Forest",
+   "Fog",
+   "Jungle",
+   "Crowd",
+   "Traffic"
+  ],
+  "chaos": [
+   "Biscuit",
+   "Tricycle",
+   "Meerkat",
+   "Croissant",
+   "Gondola"
+  ]
+ },
+ {
+  "id": "2027-01-06",
+  "targetWord": "FRESH",
+  "synonyms": [
+   "Crisp",
+   "New",
+   "Raw",
+   "Unspoiled",
+   "Recent"
+  ],
+  "antonyms": [
+   "Stale",
+   "Rotten",
+   "Spoiled",
+   "Moldy",
+   "Old"
+  ],
+  "contextual": [
+   "Bread",
+   "Bakery",
+   "Market",
+   "Breeze",
+   "Fruit"
+  ],
+  "chaos": [
+   "Metronome",
+   "Ladybug",
+   "Bassoon",
+   "Zeppelin",
+   "Cufflink"
+  ]
+ },
+ {
+  "id": "2027-01-07",
+  "targetWord": "GRIM",
+  "synonyms": [
+   "Bleak",
+   "Dire",
+   "Somber",
+   "Stern",
+   "Forbidding"
+  ],
+  "antonyms": [
+   "Cheerful",
+   "Bright",
+   "Hopeful",
+   "Pleasant",
+   "Jolly"
+  ],
+  "contextual": [
+   "Reaper",
+   "News",
+   "Forecast",
+   "Expression",
+   "Winter"
+  ],
+  "chaos": [
+   "Lantern",
+   "Muffin",
+   "Forklift",
+   "Paprika",
+   "Squid"
+  ]
+ },
+ {
+  "id": "2027-01-08",
+  "targetWord": "HARSH",
+  "synonyms": [
+   "Severe",
+   "Stern",
+   "Strict",
+   "Rough",
+   "Grating"
+  ],
+  "antonyms": [
+   "Gentle",
+   "Mild",
+   "Soft",
+   "Lenient",
+   "Kind"
+  ],
+  "contextual": [
+   "Winter",
+   "Criticism",
+   "Sunlight",
+   "Punishment",
+   "Desert"
+  ],
+  "chaos": [
+   "Mop",
+   "Salmon",
+   "Salamander",
+   "Zipper",
+   "Headband"
+  ]
+ },
+ {
+  "id": "2027-01-09",
+  "targetWord": "HOLLOW",
+  "synonyms": [
+   "Empty",
+   "Vacant",
+   "Concave",
+   "Sunken",
+   "Void"
+  ],
+  "antonyms": [
+   "Solid",
+   "Full",
+   "Filled",
+   "Dense",
+   "Packed"
+  ],
+  "contextual": [
+   "Tree",
+   "Drum",
+   "Cave",
+   "Tunnel",
+   "Shell"
+  ],
+  "chaos": [
+   "Hinge",
+   "Parakeet",
+   "Fig",
+   "Kiwi",
+   "Fountain"
+  ]
+ },
+ {
+  "id": "2027-01-10",
+  "targetWord": "JOVIAL",
+  "synonyms": [
+   "Jolly",
+   "Merry",
+   "Cheery",
+   "Genial",
+   "Hearty"
+  ],
+  "antonyms": [
+   "Grumpy",
+   "Glum",
+   "Sullen",
+   "Morose",
+   "Somber"
+  ],
+  "contextual": [
+   "Santa",
+   "Pub",
+   "Laughter",
+   "Uncle",
+   "Banquet"
+  ],
+  "chaos": [
+   "Hazelnut",
+   "Kayak",
+   "Sardine",
+   "Hose",
+   "Avocado"
+  ]
+ },
+ {
+  "id": "2027-01-11",
+  "targetWord": "KIND",
+  "synonyms": [
+   "Caring",
+   "Compassionate",
+   "Gentle",
+   "Benevolent",
+   "Considerate"
+  ],
+  "antonyms": [
+   "Cruel",
+   "Mean",
+   "Unkind",
+   "Harsh",
+   "Callous"
+  ],
+  "contextual": [
+   "Nurse",
+   "Neighbor",
+   "Volunteer",
+   "Gesture",
+   "Grandmother"
+  ],
+  "chaos": [
+   "Sombrero",
+   "Barometer",
+   "Caterpillar",
+   "Scooter",
+   "Pistachio"
+  ]
+ },
+ {
+  "id": "2027-01-12",
+  "targetWord": "LUCKY",
+  "synonyms": [
+   "Fortunate",
+   "Blessed",
+   "Charmed",
+   "Favored",
+   "Providential"
+  ],
+  "antonyms": [
+   "Unlucky",
+   "Unfortunate",
+   "Hapless",
+   "Cursed",
+   "Jinxed"
+  ],
+  "contextual": [
+   "Clover",
+   "Horseshoe",
+   "Lottery",
+   "Dice",
+   "Rabbit"
+  ],
+  "chaos": [
+   "Popcorn",
+   "Bugle",
+   "Buckle",
+   "Stapler",
+   "Coconut"
+  ]
+ },
+ {
+  "id": "2027-01-13",
+  "targetWord": "OPTIMISTIC",
+  "synonyms": [
+   "Hopeful",
+   "Positive",
+   "Confident",
+   "Upbeat",
+   "Sanguine"
+  ],
+  "antonyms": [
+   "Pessimistic",
+   "Gloomy",
+   "Negative",
+   "Cynical",
+   "Hopeless"
+  ],
+  "contextual": [
+   "Sunrise",
+   "Dream",
+   "Future",
+   "Goal",
+   "Forecast"
+  ],
+  "chaos": [
+   "Zebra",
+   "Yak",
+   "Bobbin",
+   "Ladle",
+   "Radish"
+  ]
+ },
+ {
+  "id": "2027-01-14",
+  "targetWord": "PATIENT",
+  "synonyms": [
+   "Tolerant",
+   "Calm",
+   "Enduring",
+   "Forbearing",
+   "Uncomplaining"
+  ],
+  "antonyms": [
+   "Impatient",
+   "Restless",
+   "Hasty",
+   "Irritable",
+   "Agitated"
+  ],
+  "contextual": [
+   "Fishing",
+   "Teacher",
+   "Waiting",
+   "Line",
+   "Gardener"
+  ],
+  "chaos": [
+   "Funnel",
+   "Gourd",
+   "Seesaw",
+   "Quiche",
+   "Pelican"
+  ]
+ },
+ {
+  "id": "2027-01-15",
+  "targetWord": "PURE",
+  "synonyms": [
+   "Clean",
+   "Clear",
+   "Unmixed",
+   "Untainted",
+   "Spotless"
+  ],
+  "antonyms": [
+   "Impure",
+   "Tainted",
+   "Contaminated",
+   "Polluted",
+   "Dirty"
+  ],
+  "contextual": [
+   "Water",
+   "Gold",
+   "Snow",
+   "Crystal",
+   "Spring"
+  ],
+  "chaos": [
+   "Poncho",
+   "Raisin",
+   "Thumbtack",
+   "Marmalade",
+   "Rhino"
+  ]
+ },
+ {
+  "id": "2027-01-16",
+  "targetWord": "RELIABLE",
+  "synonyms": [
+   "Dependable",
+   "Trustworthy",
+   "Steady",
+   "Consistent",
+   "Faithful"
+  ],
+  "antonyms": [
+   "Unreliable",
+   "Erratic",
+   "Flaky",
+   "Undependable",
+   "Fickle"
+  ],
+  "contextual": [
+   "Watch",
+   "Friend",
+   "Engine",
+   "Compass",
+   "Alarm"
+  ],
+  "chaos": [
+   "Toboggan",
+   "Donkey",
+   "Periscope",
+   "Sitar",
+   "Doughnut"
+  ]
+ },
+ {
+  "id": "2027-01-17",
+  "targetWord": "RIGID",
+  "synonyms": [
+   "Stiff",
+   "Inflexible",
+   "Firm",
+   "Unbending",
+   "Hard"
+  ],
+  "antonyms": [
+   "Flexible",
+   "Bendy",
+   "Pliable",
+   "Supple",
+   "Elastic"
+  ],
+  "contextual": [
+   "Rules",
+   "Steel",
+   "Board",
+   "Schedule",
+   "Posture"
+  ],
+  "chaos": [
+   "Beanie",
+   "Moose",
+   "Pincushion",
+   "Stork",
+   "Asparagus"
+  ]
+ },
+ {
+  "id": "2027-01-18",
+  "targetWord": "SAFE",
+  "synonyms": [
+   "Secure",
+   "Protected",
+   "Sheltered",
+   "Guarded",
+   "Unharmed"
+  ],
+  "antonyms": [
+   "Dangerous",
+   "Risky",
+   "Unsafe",
+   "Hazardous",
+   "Perilous"
+  ],
+  "contextual": [
+   "Vault",
+   "Seatbelt",
+   "Helmet",
+   "Harbor",
+   "Lock"
+  ],
+  "chaos": [
+   "Iguana",
+   "Shrimp",
+   "Apron",
+   "Escalator",
+   "Trellis"
+  ]
+ },
+ {
+  "id": "2027-01-19",
+  "targetWord": "SHARP",
+  "synonyms": [
+   "Keen",
+   "Pointed",
+   "Jagged",
+   "Honed",
+   "Cutting"
+  ],
+  "antonyms": [
+   "Blunt",
+   "Dull",
+   "Rounded",
+   "Smooth",
+   "Unsharpened"
+  ],
+  "contextual": [
+   "Knife",
+   "Needle",
+   "Thorn",
+   "Razor",
+   "Pencil"
+  ],
+  "chaos": [
+   "Falafel",
+   "Macaw",
+   "Ferret",
+   "Cashew",
+   "Turbine"
+  ]
+ },
+ {
+  "id": "2027-01-20",
+  "targetWord": "SHY",
+  "synonyms": [
+   "Bashful",
+   "Timid",
+   "Reserved",
+   "Sheepish",
+   "Reticent"
+  ],
+  "antonyms": [
+   "Outgoing",
+   "Bold",
+   "Confident",
+   "Sociable",
+   "Brash"
+  ],
+  "contextual": [
+   "Blush",
+   "Party",
+   "Introvert",
+   "Mouse",
+   "Corner"
+  ],
+  "chaos": [
+   "Basil",
+   "Spool",
+   "Gooseberry",
+   "Wallpaper",
+   "Woodpecker"
+  ]
+ },
+ {
+  "id": "2027-01-21",
+  "targetWord": "SIMPLE",
+  "synonyms": [
+   "Easy",
+   "Basic",
+   "Plain",
+   "Uncomplicated",
+   "Effortless"
+  ],
+  "antonyms": [
+   "Complex",
+   "Complicated",
+   "Intricate",
+   "Elaborate",
+   "Difficult"
+  ],
+  "contextual": [
+   "Recipe",
+   "Instructions",
+   "Puzzle",
+   "Design",
+   "Tool"
+  ],
+  "chaos": [
+   "Kettle",
+   "Pajamas",
+   "Moped",
+   "Narwhal",
+   "Anklet"
+  ]
+ },
+ {
+  "id": "2027-01-22",
+  "targetWord": "SOLID",
+  "synonyms": [
+   "Firm",
+   "Hard",
+   "Sturdy",
+   "Dense",
+   "Compact"
+  ],
+  "antonyms": [
+   "Liquid",
+   "Hollow",
+   "Flimsy",
+   "Soft",
+   "Fluid"
+  ],
+  "contextual": [
+   "Rock",
+   "Ice",
+   "Brick",
+   "Foundation",
+   "Metal"
+  ],
+  "chaos": [
+   "Antelope",
+   "Whisk",
+   "Bowtie",
+   "Hippo",
+   "Rutabaga"
+  ]
+ },
+ {
+  "id": "2027-01-23",
+  "targetWord": "SPICY",
+  "synonyms": [
+   "Hot",
+   "Fiery",
+   "Peppery",
+   "Zesty",
+   "Piquant"
+  ],
+  "antonyms": [
+   "Mild",
+   "Bland",
+   "Plain",
+   "Gentle",
+   "Mellow"
+  ],
+  "contextual": [
+   "Chili",
+   "Salsa",
+   "Curry",
+   "Jalapeno",
+   "Tacos"
+  ],
+  "chaos": [
+   "Kilt",
+   "Unicycle",
+   "Wrench",
+   "Lobster",
+   "Camel"
+  ]
+ },
+ {
+  "id": "2027-01-24",
+  "targetWord": "STEEP",
+  "synonyms": [
+   "Sheer",
+   "Precipitous",
+   "Abrupt",
+   "Vertical",
+   "Sharp"
+  ],
+  "antonyms": [
+   "Gentle",
+   "Gradual",
+   "Flat",
+   "Level",
+   "Easy"
+  ],
+  "contextual": [
+   "Hill",
+   "Cliff",
+   "Staircase",
+   "Mountain",
+   "Ramp"
+  ],
+  "chaos": [
+   "Clogs",
+   "Lentil",
+   "Squash",
+   "Octopus",
+   "Thermostat"
+  ]
+ },
+ {
+  "id": "2027-01-25",
+  "targetWord": "SWEET",
+  "synonyms": [
+   "Sugary",
+   "Sweetened",
+   "Syrupy",
+   "Honeyed",
+   "Candied"
+  ],
+  "antonyms": [
+   "Sour",
+   "Bitter",
+   "Tart",
+   "Salty",
+   "Savory"
+  ],
+  "contextual": [
+   "Candy",
+   "Dessert",
+   "Honey",
+   "Cake",
+   "Lollipop"
+  ],
+  "chaos": [
+   "Pulley",
+   "Ukulele",
+   "Mongoose",
+   "Rake",
+   "Wombat"
+  ]
+ },
+ {
+  "id": "2027-01-26",
+  "targetWord": "TERRIBLE",
+  "synonyms": [
+   "Awful",
+   "Dreadful",
+   "Horrible",
+   "Atrocious",
+   "Appalling"
+  ],
+  "antonyms": [
+   "Wonderful",
+   "Excellent",
+   "Great",
+   "Superb",
+   "Fantastic"
+  ],
+  "contextual": [
+   "Storm",
+   "Accident",
+   "Movie",
+   "Weather",
+   "News"
+  ],
+  "chaos": [
+   "Sieve",
+   "Gerbil",
+   "Capybara",
+   "Pecan",
+   "Pomegranate"
+  ]
+ },
+ {
+  "id": "2027-01-27",
+  "targetWord": "THICK",
+  "synonyms": [
+   "Dense",
+   "Heavy",
+   "Bulky",
+   "Chunky",
+   "Wide"
+  ],
+  "antonyms": [
+   "Thin",
+   "Slim",
+   "Fine",
+   "Slender",
+   "Sheer"
+  ],
+  "contextual": [
+   "Fog",
+   "Soup",
+   "Book",
+   "Rope",
+   "Blanket"
+  ],
+  "chaos": [
+   "Ottoman",
+   "Hacksaw",
+   "Cello",
+   "Grasshopper",
+   "Banjo"
+  ]
+ },
+ {
+  "id": "2027-01-28",
+  "targetWord": "TOUGH",
+  "synonyms": [
+   "Hardy",
+   "Rugged",
+   "Durable",
+   "Resilient",
+   "Sturdy"
+  ],
+  "antonyms": [
+   "Weak",
+   "Fragile",
+   "Delicate",
+   "Soft",
+   "Frail"
+  ],
+  "contextual": [
+   "Leather",
+   "Boots",
+   "Wrestler",
+   "Steak",
+   "Marine"
+  ],
+  "chaos": [
+   "Kazoo",
+   "Armadillo",
+   "Cabbage",
+   "Tugboat",
+   "Zucchini"
+  ]
+ },
+ {
+  "id": "2027-01-29",
+  "targetWord": "URGENT",
+  "synonyms": [
+   "Pressing",
+   "Critical",
+   "Immediate",
+   "Crucial",
+   "Dire"
+  ],
+  "antonyms": [
+   "Unimportant",
+   "Trivial",
+   "Minor",
+   "Optional",
+   "Routine"
+  ],
+  "contextual": [
+   "Ambulance",
+   "Deadline",
+   "Alarm",
+   "Siren",
+   "Message"
+  ],
+  "chaos": [
+   "Pliers",
+   "Toad",
+   "Brownie",
+   "Abacus",
+   "Fiddle"
+  ]
+ },
+ {
+  "id": "2027-01-30",
+  "targetWord": "VALUABLE",
+  "synonyms": [
+   "Precious",
+   "Priceless",
+   "Costly",
+   "Treasured",
+   "Expensive"
+  ],
+  "antonyms": [
+   "Worthless",
+   "Cheap",
+   "Useless",
+   "Paltry",
+   "Trivial"
+  ],
+  "contextual": [
+   "Gold",
+   "Jewel",
+   "Antique",
+   "Vault",
+   "Treasure"
+  ],
+  "chaos": [
+   "Peanut",
+   "Bongo",
+   "Tweezers",
+   "Tuba",
+   "Teapot"
+  ]
+ },
+ {
+  "id": "2027-01-31",
+  "targetWord": "WARM",
+  "synonyms": [
+   "Toasty",
+   "Cozy",
+   "Mild",
+   "Heated",
+   "Balmy"
+  ],
+  "antonyms": [
+   "Cold",
+   "Chilly",
+   "Cool",
+   "Icy",
+   "Frosty"
+  ],
+  "contextual": [
+   "Blanket",
+   "Fireplace",
+   "Cocoa",
+   "Sunshine",
+   "Hug"
+  ],
+  "chaos": [
+   "Pinwheel",
+   "Stethoscope",
+   "Monocle",
+   "Piccolo",
+   "Gherkin"
+  ]
+ },
+ {
+  "id": "2027-02-01",
+  "targetWord": "WICKED",
+  "synonyms": [
+   "Evil",
+   "Sinful",
+   "Villainous",
+   "Malicious",
+   "Vile"
+  ],
+  "antonyms": [
+   "Good",
+   "Virtuous",
+   "Righteous",
+   "Noble",
+   "Moral"
+  ],
+  "contextual": [
+   "Witch",
+   "Villain",
+   "Spell",
+   "Stepmother",
+   "Plot"
+  ],
+  "chaos": [
+   "Windmill",
+   "Gong",
+   "Trout",
+   "Mailbox",
+   "Emu"
+  ]
+ },
+ {
+  "id": "2027-02-02",
+  "targetWord": "WILD",
+  "synonyms": [
+   "Untamed",
+   "Feral",
+   "Savage",
+   "Unruly",
+   "Rowdy"
+  ],
+  "antonyms": [
+   "Tame",
+   "Domesticated",
+   "Docile",
+   "Calm",
+   "Gentle"
+  ],
+  "contextual": [
+   "Jungle",
+   "Safari",
+   "Stallion",
+   "Party",
+   "Frontier"
+  ],
+  "chaos": [
+   "Canoe",
+   "Toucan",
+   "Hopscotch",
+   "Casserole",
+   "Galoshes"
+  ]
+ },
+ {
+  "id": "2027-02-03",
+  "targetWord": "YOUNG",
+  "synonyms": [
+   "Youthful",
+   "Juvenile",
+   "Junior",
+   "Immature",
+   "Adolescent"
+  ],
+  "antonyms": [
+   "Old",
+   "Elderly",
+   "Aged",
+   "Mature",
+   "Senior"
+  ],
+  "contextual": [
+   "Child",
+   "Puppy",
+   "Student",
+   "Spring",
+   "Cub"
+  ],
+  "chaos": [
+   "Teaspoon",
+   "Notepad",
+   "Tambourine",
+   "Parsnip",
+   "Cinnamon"
+  ]
+ },
+ {
+  "id": "2027-02-04",
+  "targetWord": "ABANDON",
+  "synonyms": [
+   "Desert",
+   "Forsake",
+   "Leave",
+   "Ditch",
+   "Strand"
+  ],
+  "antonyms": [
+   "Keep",
+   "Retain",
+   "Maintain",
+   "Claim",
+   "Embrace"
+  ],
+  "contextual": [
+   "Ship",
+   "Island",
+   "Car",
+   "House",
+   "Orphan"
+  ],
+  "chaos": [
+   "Dustpan",
+   "Chimney",
+   "Maraca",
+   "Newt",
+   "Raccoon"
+  ]
+ },
+ {
+  "id": "2027-02-05",
+  "targetWord": "ACCEPT",
+  "synonyms": [
+   "Receive",
+   "Take",
+   "Embrace",
+   "Welcome",
+   "Admit"
+  ],
+  "antonyms": [
+   "Reject",
+   "Refuse",
+   "Decline",
+   "Deny",
+   "Dismiss"
+  ],
+  "contextual": [
+   "Invitation",
+   "Offer",
+   "Gift",
+   "Award",
+   "Apology"
+  ],
+  "chaos": [
+   "Trowel",
+   "Caboose",
+   "Pigeon",
+   "Oregano",
+   "Manatee"
+  ]
+ },
+ {
+  "id": "2027-02-06",
+  "targetWord": "ADMIRE",
+  "synonyms": [
+   "Respect",
+   "Esteem",
+   "Revere",
+   "Appreciate",
+   "Idolize"
+  ],
+  "antonyms": [
+   "Despise",
+   "Scorn",
+   "Loathe",
+   "Disdain",
+   "Detest"
+  ],
+  "contextual": [
+   "Hero",
+   "Painting",
+   "Fan",
+   "Statue",
+   "Mentor"
+  ],
+  "chaos": [
+   "Jigsaw",
+   "Battery",
+   "Granola",
+   "Walrus",
+   "Hamster"
+  ]
+ },
+ {
+  "id": "2027-02-07",
+  "targetWord": "ARRIVE",
+  "synonyms": [
+   "Come",
+   "Reach",
+   "Land",
+   "Appear",
+   "Enter"
+  ],
+  "antonyms": [
+   "Depart",
+   "Leave",
+   "Exit",
+   "Go",
+   "Vanish"
+  ],
+  "contextual": [
+   "Airport",
+   "Train",
+   "Guest",
+   "Station",
+   "Package"
+  ],
+  "chaos": [
+   "Walnut",
+   "Cymbal",
+   "Hubcap",
+   "Kaleidoscope",
+   "Haddock"
+  ]
+ },
+ {
+  "id": "2027-02-08",
+  "targetWord": "ATTACK",
+  "synonyms": [
+   "Assault",
+   "Strike",
+   "Raid",
+   "Charge",
+   "Ambush"
+  ],
+  "antonyms": [
+   "Defend",
+   "Protect",
+   "Guard",
+   "Shield",
+   "Retreat"
+  ],
+  "contextual": [
+   "Army",
+   "Castle",
+   "Shark",
+   "Battle",
+   "Fortress"
+  ],
+  "chaos": [
+   "Nutmeg",
+   "Platypus",
+   "Stencil",
+   "Faucet",
+   "Cucumber"
+  ]
+ },
+ {
+  "id": "2027-02-09",
+  "targetWord": "CELEBRATE",
+  "synonyms": [
+   "Rejoice",
+   "Commemorate",
+   "Honor",
+   "Party",
+   "Toast"
+  ],
+  "antonyms": [
+   "Mourn",
+   "Grieve",
+   "Lament",
+   "Ignore",
+   "Neglect"
+  ],
+  "contextual": [
+   "Wedding",
+   "Birthday",
+   "Fireworks",
+   "Champagne",
+   "Parade"
+  ],
+  "chaos": [
+   "Saucer",
+   "Puffin",
+   "Rickshaw",
+   "Dulcimer",
+   "Pumpkin"
+  ]
+ },
+ {
+  "id": "2027-02-10",
+  "targetWord": "CHASE",
+  "synonyms": [
+   "Pursue",
+   "Follow",
+   "Hunt",
+   "Track",
+   "Trail"
+  ],
+  "antonyms": [
+   "Flee",
+   "Escape",
+   "Evade",
+   "Avoid",
+   "Retreat"
+  ],
+  "contextual": [
+   "Police",
+   "Cat",
+   "Dog",
+   "Butterfly",
+   "Thief"
+  ],
+  "chaos": [
+   "Tangerine",
+   "Hedgehog",
+   "Halibut",
+   "Ketchup",
+   "Jukebox"
+  ]
+ },
+ {
+  "id": "2027-02-11",
+  "targetWord": "CONCEAL",
+  "synonyms": [
+   "Hide",
+   "Cover",
+   "Mask",
+   "Disguise",
+   "Veil"
+  ],
+  "antonyms": [
+   "Reveal",
+   "Expose",
+   "Show",
+   "Display",
+   "Uncover"
+  ],
+  "contextual": [
+   "Secret",
+   "Costume",
+   "Treasure",
+   "Spy",
+   "Camouflage"
+  ],
+  "chaos": [
+   "Omelet",
+   "Parsley",
+   "Keychain",
+   "Overalls",
+   "Anteater"
+  ]
+ },
+ {
+  "id": "2027-02-12",
+  "targetWord": "DEFEND",
+  "synonyms": [
+   "Protect",
+   "Guard",
+   "Shield",
+   "Safeguard",
+   "Shelter"
+  ],
+  "antonyms": [
+   "Attack",
+   "Assault",
+   "Abandon",
+   "Expose",
+   "Surrender"
+  ],
+  "contextual": [
+   "Castle",
+   "Goalie",
+   "Lawyer",
+   "Fortress",
+   "Knight"
+  ],
+  "chaos": [
+   "Lasagna",
+   "Cricket",
+   "Kebab",
+   "Koala",
+   "Bagpipe"
+  ]
+ },
+ {
+  "id": "2027-02-13",
+  "targetWord": "DELAY",
+  "synonyms": [
+   "Postpone",
+   "Stall",
+   "Defer",
+   "Hold",
+   "Hinder"
+  ],
+  "antonyms": [
+   "Hurry",
+   "Rush",
+   "Hasten",
+   "Expedite",
+   "Speed"
+  ],
+  "contextual": [
+   "Flight",
+   "Traffic",
+   "Train",
+   "Weather",
+   "Deadline"
+  ],
+  "chaos": [
+   "Apricot",
+   "Sundial",
+   "Rhubarb",
+   "Gecko",
+   "Llama"
+  ]
+ },
+ {
+  "id": "2027-02-14",
+  "targetWord": "DISCOVER",
+  "synonyms": [
+   "Find",
+   "Uncover",
+   "Unearth",
+   "Detect",
+   "Spot"
+  ],
+  "antonyms": [
+   "Lose",
+   "Miss",
+   "Overlook",
+   "Hide",
+   "Conceal"
+  ],
+  "contextual": [
+   "Explorer",
+   "Treasure",
+   "Scientist",
+   "Island",
+   "Fossil"
+  ],
+  "chaos": [
+   "Fedora",
+   "Drawer",
+   "Bison",
+   "Pudding",
+   "Almond"
+  ]
+ },
+ {
+  "id": "2027-02-15",
+  "targetWord": "GATHER",
+  "synonyms": [
+   "Collect",
+   "Assemble",
+   "Accumulate",
+   "Amass",
+   "Harvest"
+  ],
+  "antonyms": [
+   "Scatter",
+   "Disperse",
+   "Spread",
+   "Distribute",
+   "Separate"
+  ],
+  "contextual": [
+   "Firewood",
+   "Crowd",
+   "Berries",
+   "Family",
+   "Evidence"
+  ],
+  "chaos": [
+   "Thimble",
+   "Spatula",
+   "Sherbet",
+   "Bagel",
+   "Chipmunk"
+  ]
+ },
+ {
+  "id": "2027-02-16",
+  "targetWord": "HELP",
+  "synonyms": [
+   "Assist",
+   "Aid",
+   "Support",
+   "Serve",
+   "Back"
+  ],
+  "antonyms": [
+   "Hinder",
+   "Obstruct",
+   "Impede",
+   "Hamper",
+   "Block"
+  ],
+  "contextual": [
+   "Volunteer",
+   "Nurse",
+   "Lifeguard",
+   "Homework",
+   "Charity"
+  ],
+  "chaos": [
+   "Beret",
+   "Beetle",
+   "Magnet",
+   "Lemur",
+   "Papaya"
+  ]
+ },
+ {
+  "id": "2027-02-17",
+  "targetWord": "IGNORE",
+  "synonyms": [
+   "Disregard",
+   "Overlook",
+   "Neglect",
+   "Dismiss",
+   "Snub"
+  ],
+  "antonyms": [
+   "Notice",
+   "Heed",
+   "Acknowledge",
+   "Observe",
+   "Attend"
+  ],
+  "contextual": [
+   "Message",
+   "Warning",
+   "Phone",
+   "Doorbell",
+   "Advice"
+  ],
+  "chaos": [
+   "Pickle",
+   "Flamingo",
+   "Dinghy",
+   "Tapir",
+   "Ravioli"
+  ]
+ },
+ {
+  "id": "2027-02-18",
+  "targetWord": "IMPROVE",
+  "synonyms": [
+   "Enhance",
+   "Better",
+   "Upgrade",
+   "Refine",
+   "Boost"
+  ],
+  "antonyms": [
+   "Worsen",
+   "Weaken",
+   "Damage",
+   "Impair",
+   "Degrade"
+  ],
+  "contextual": [
+   "Practice",
+   "Training",
+   "Recipe",
+   "Grades",
+   "Software"
+  ],
+  "chaos": [
+   "Waffle",
+   "Mandolin",
+   "Bonnet",
+   "Aardvark",
+   "Globe"
+  ]
+ },
+ {
+  "id": "2027-02-19",
+  "targetWord": "PRAISE",
+  "synonyms": [
+   "Applaud",
+   "Commend",
+   "Compliment",
+   "Laud",
+   "Acclaim"
+  ],
+  "antonyms": [
+   "Criticize",
+   "Condemn",
+   "Insult",
+   "Scold",
+   "Blame"
+  ],
+  "contextual": [
+   "Teacher",
+   "Coach",
+   "Speech",
+   "Review",
+   "Trophy"
+  ],
+  "chaos": [
+   "Meerkat",
+   "Croissant",
+   "Gondola",
+   "Tricycle",
+   "Dumpling"
+  ]
+ },
+ {
+  "id": "2027-02-20",
+  "targetWord": "REPAIR",
+  "synonyms": [
+   "Fix",
+   "Mend",
+   "Restore",
+   "Patch",
+   "Renovate"
+  ],
+  "antonyms": [
+   "Break",
+   "Damage",
+   "Destroy",
+   "Wreck",
+   "Smash"
+  ],
+  "contextual": [
+   "Mechanic",
+   "Garage",
+   "Toolbox",
+   "Plumber",
+   "Workshop"
+  ],
+  "chaos": [
+   "Zeppelin",
+   "Ladybug",
+   "Bassoon",
+   "Cufflink",
+   "Antenna"
+  ]
+ },
+ {
+  "id": "2027-02-21",
+  "targetWord": "SHOUT",
+  "synonyms": [
+   "Yell",
+   "Scream",
+   "Holler",
+   "Bellow",
+   "Cry"
+  ],
+  "antonyms": [
+   "Whisper",
+   "Murmur",
+   "Mumble",
+   "Mutter",
+   "Hush"
+  ],
+  "contextual": [
+   "Stadium",
+   "Argument",
+   "Coach",
+   "Concert",
+   "Megaphone"
+  ],
+  "chaos": [
+   "Paprika",
+   "Squid",
+   "Muffin",
+   "Lantern",
+   "Bucket"
+  ]
+ },
+ {
+  "id": "2027-02-22",
+  "targetWord": "SUCCEED",
+  "synonyms": [
+   "Triumph",
+   "Prosper",
+   "Thrive",
+   "Achieve",
+   "Win"
+  ],
+  "antonyms": [
+   "Fail",
+   "Lose",
+   "Flop",
+   "Falter",
+   "Collapse"
+  ],
+  "contextual": [
+   "Exam",
+   "Business",
+   "Career",
+   "Mission",
+   "Goal"
+  ],
+  "chaos": [
+   "Salmon",
+   "Mop",
+   "Zipper",
+   "Salamander",
+   "Headband"
+  ]
+ },
+ {
+  "id": "2027-02-23",
+  "targetWord": "TRUST",
+  "synonyms": [
+   "Believe",
+   "Rely",
+   "Depend",
+   "Confide",
+   "Credit"
+  ],
+  "antonyms": [
+   "Doubt",
+   "Distrust",
+   "Suspect",
+   "Question",
+   "Mistrust"
+  ],
+  "contextual": [
+   "Friend",
+   "Promise",
+   "Bank",
+   "Secret",
+   "Partner"
+  ],
+  "chaos": [
+   "Fig",
+   "Parakeet",
+   "Fountain",
+   "Hinge",
+   "Kiwi"
+  ]
+ },
+ {
+  "id": "2027-02-24",
+  "targetWord": "VANISH",
+  "synonyms": [
+   "Disappear",
+   "Fade",
+   "Evaporate",
+   "Dissolve",
+   "Dwindle"
+  ],
+  "antonyms": [
+   "Appear",
+   "Emerge",
+   "Materialize",
+   "Arrive",
+   "Surface"
+  ],
+  "contextual": [
+   "Magician",
+   "Ghost",
+   "Fog",
+   "Smoke",
+   "Trick"
+  ],
+  "chaos": [
+   "Sardine",
+   "Avocado",
+   "Kayak",
+   "Hose",
+   "Hazelnut"
+  ]
+ },
+ {
+  "id": "2027-02-25",
+  "targetWord": "WANDER",
+  "synonyms": [
+   "Roam",
+   "Stroll",
+   "Drift",
+   "Ramble",
+   "Meander"
+  ],
+  "antonyms": [
+   "Stay",
+   "Settle",
+   "Remain",
+   "Halt",
+   "Rest"
+  ],
+  "contextual": [
+   "Forest",
+   "Traveler",
+   "Nomad",
+   "Mind",
+   "Path"
+  ],
+  "chaos": [
+   "Pistachio",
+   "Scooter",
+   "Caterpillar",
+   "Sombrero",
+   "Metronome"
+  ]
+ },
+ {
+  "id": "2027-02-26",
+  "targetWord": "HARMONY",
+  "synonyms": [
+   "Accord",
+   "Unity",
+   "Agreement",
+   "Peace",
+   "Concord"
+  ],
+  "antonyms": [
+   "Discord",
+   "Conflict",
+   "Strife",
+   "Friction",
+   "Disagreement"
+  ],
+  "contextual": [
+   "Choir",
+   "Orchestra",
+   "Melody",
+   "Family",
+   "Chord"
+  ],
+  "chaos": [
+   "Buckle",
+   "Coconut",
+   "Bugle",
+   "Popcorn",
+   "Seagull"
+  ]
+ },
+ {
+  "id": "2027-02-27",
+  "targetWord": "HOPE",
+  "synonyms": [
+   "Optimism",
+   "Faith",
+   "Expectation",
+   "Aspiration",
+   "Wish"
+  ],
+  "antonyms": [
+   "Despair",
+   "Hopelessness",
+   "Pessimism",
+   "Doubt",
+   "Gloom"
+  ],
+  "contextual": [
+   "Dream",
+   "Rainbow",
+   "Candle",
+   "Prayer",
+   "Future"
+  ],
+  "chaos": [
+   "Zebra",
+   "Ladle",
+   "Bobbin",
+   "Radish",
+   "Yak"
+  ]
+ },
+ {
+  "id": "2027-02-28",
+  "targetWord": "PEACE",
+  "synonyms": [
+   "Tranquility",
+   "Calm",
+   "Serenity",
+   "Stillness",
+   "Truce"
+  ],
+  "antonyms": [
+   "War",
+   "Conflict",
+   "Chaos",
+   "Turmoil",
+   "Violence"
+  ],
+  "contextual": [
+   "Dove",
+   "Treaty",
+   "Garden",
+   "Meditation",
+   "Flag"
+  ],
+  "chaos": [
+   "Pelican",
+   "Quiche",
+   "Gourd",
+   "Seesaw",
+   "Funnel"
+  ]
+ },
+ {
+  "id": "2027-03-01",
+  "targetWord": "TALENT",
+  "synonyms": [
+   "Gift",
+   "Flair",
+   "Knack",
+   "Aptitude",
+   "Skill"
+  ],
+  "antonyms": [
+   "Inability",
+   "Incompetence",
+   "Ineptitude",
+   "Weakness",
+   "Clumsiness"
+  ],
+  "contextual": [
+   "Audition",
+   "Musician",
+   "Painter",
+   "Prodigy",
+   "Show"
+  ],
+  "chaos": [
+   "Rhino",
+   "Marmalade",
+   "Raisin",
+   "Stapler",
+   "Trombone"
+  ]
+ },
+ {
+  "id": "2027-03-02",
+  "targetWord": "ABSURD",
+  "synonyms": [
+   "Ridiculous",
+   "Ludicrous",
+   "Preposterous",
+   "Silly",
+   "Nonsensical"
+  ],
+  "antonyms": [
+   "Sensible",
+   "Logical",
+   "Reasonable",
+   "Rational",
+   "Sound"
+  ],
+  "contextual": [
+   "Clown",
+   "Joke",
+   "Cartoon",
+   "Rumor",
+   "Comedy"
+  ],
+  "chaos": [
+   "Donkey",
+   "Toboggan",
+   "Periscope",
+   "Sitar",
+   "Saffron"
+  ]
+ },
+ {
+  "id": "2027-03-03",
+  "targetWord": "ACTIVE",
+  "synonyms": [
+   "Energetic",
+   "Lively",
+   "Busy",
+   "Dynamic",
+   "Vigorous"
+  ],
+  "antonyms": [
+   "Inactive",
+   "Idle",
+   "Lazy",
+   "Sedentary",
+   "Dormant"
+  ],
+  "contextual": [
+   "Gym",
+   "Athlete",
+   "Volcano",
+   "Toddler",
+   "Sport"
+  ],
+  "chaos": [
+   "Beanie",
+   "Asparagus",
+   "Moose",
+   "Pincushion",
+   "Stork"
+  ]
+ },
+ {
+  "id": "2027-03-04",
+  "targetWord": "AGILE",
+  "synonyms": [
+   "Nimble",
+   "Spry",
+   "Lithe",
+   "Limber",
+   "Acrobatic"
+  ],
+  "antonyms": [
+   "Clumsy",
+   "Stiff",
+   "Awkward",
+   "Lumbering",
+   "Ungainly"
+  ],
+  "contextual": [
+   "Gymnast",
+   "Monkey",
+   "Cat",
+   "Dancer",
+   "Ninja"
+  ],
+  "chaos": [
+   "Apron",
+   "Trellis",
+   "Shrimp",
+   "Escalator",
+   "Iguana"
+  ]
+ },
+ {
+  "id": "2027-03-05",
+  "targetWord": "ALERT",
+  "synonyms": [
+   "Attentive",
+   "Watchful",
+   "Vigilant",
+   "Observant",
+   "Awake"
+  ],
+  "antonyms": [
+   "Drowsy",
+   "Sleepy",
+   "Inattentive",
+   "Distracted",
+   "Oblivious"
+  ],
+  "contextual": [
+   "Guard",
+   "Lifeguard",
+   "Owl",
+   "Radar",
+   "Sentry"
+  ],
+  "chaos": [
+   "Ferret",
+   "Macaw",
+   "Cashew",
+   "Burrito",
+   "Turbine"
+  ]
+ },
+ {
+  "id": "2027-03-06",
+  "targetWord": "AMUSING",
+  "synonyms": [
+   "Funny",
+   "Entertaining",
+   "Comical",
+   "Witty",
+   "Humorous"
+  ],
+  "antonyms": [
+   "Boring",
+   "Dull",
+   "Tedious",
+   "Serious",
+   "Dreary"
+  ],
+  "contextual": [
+   "Comedian",
+   "Joke",
+   "Cartoon",
+   "Puppet",
+   "Sitcom"
+  ],
+  "chaos": [
+   "Gooseberry",
+   "Spool",
+   "Wallpaper",
+   "Basil",
+   "Woodpecker"
+  ]
+ },
+ {
+  "id": "2027-03-07",
+  "targetWord": "BITTER",
+  "synonyms": [
+   "Acrid",
+   "Harsh",
+   "Sharp",
+   "Tart",
+   "Pungent"
+  ],
+  "antonyms": [
+   "Sweet",
+   "Sugary",
+   "Mild",
+   "Mellow",
+   "Pleasant"
+  ],
+  "contextual": [
+   "Coffee",
+   "Lemon",
+   "Medicine",
+   "Rivalry",
+   "Chocolate"
+  ],
+  "chaos": [
+   "Pajamas",
+   "Kettle",
+   "Anklet",
+   "Narwhal",
+   "Moped"
+  ]
+ },
+ {
+  "id": "2027-03-08",
+  "targetWord": "BLAND",
+  "synonyms": [
+   "Tasteless",
+   "Flavorless",
+   "Insipid",
+   "Plain",
+   "Mild"
+  ],
+  "antonyms": [
+   "Spicy",
+   "Tasty",
+   "Flavorful",
+   "Zesty",
+   "Savory"
+  ],
+  "contextual": [
+   "Porridge",
+   "Rice",
+   "Hospital",
+   "Tofu",
+   "Cracker"
+  ],
+  "chaos": [
+   "Antelope",
+   "Whisk",
+   "Bowtie",
+   "Forklift",
+   "Tadpole"
+  ]
+ },
+ {
+  "id": "2027-03-09",
+  "targetWord": "BORING",
+  "synonyms": [
+   "Dull",
+   "Tedious",
+   "Monotonous",
+   "Dreary",
+   "Uninteresting"
+  ],
+  "antonyms": [
+   "Exciting",
+   "Thrilling",
+   "Interesting",
+   "Fascinating",
+   "Gripping"
+  ],
+  "contextual": [
+   "Lecture",
+   "Paperwork",
+   "Meeting",
+   "Waiting",
+   "Lesson"
+  ],
+  "chaos": [
+   "Lobster",
+   "Rutabaga",
+   "Camel",
+   "Wrench",
+   "Kilt"
+  ]
+ },
+ {
+  "id": "2027-03-10",
+  "targetWord": "BRISK",
+  "synonyms": [
+   "Quick",
+   "Lively",
+   "Snappy",
+   "Spry",
+   "Vigorous"
+  ],
+  "antonyms": [
+   "Slow",
+   "Sluggish",
+   "Leisurely",
+   "Lazy",
+   "Languid"
+  ],
+  "contextual": [
+   "Walk",
+   "Breeze",
+   "Morning",
+   "Business",
+   "Autumn"
+  ],
+  "chaos": [
+   "Octopus",
+   "Squash",
+   "Unicycle",
+   "Lentil",
+   "Thermostat"
+  ]
+ },
+ {
+  "id": "2027-03-11",
+  "targetWord": "BUSY",
+  "synonyms": [
+   "Occupied",
+   "Engaged",
+   "Hectic",
+   "Swamped",
+   "Active"
+  ],
+  "antonyms": [
+   "Idle",
+   "Free",
+   "Unoccupied",
+   "Inactive",
+   "Leisurely"
+  ],
+  "contextual": [
+   "Office",
+   "Airport",
+   "Bee",
+   "Street",
+   "Market"
+  ],
+  "chaos": [
+   "Mongoose",
+   "Ukulele",
+   "Rake",
+   "Pulley",
+   "Wombat"
+  ]
+ },
+ {
+  "id": "2027-03-12",
+  "targetWord": "CAPABLE",
+  "synonyms": [
+   "Competent",
+   "Able",
+   "Skilled",
+   "Proficient",
+   "Qualified"
+  ],
+  "antonyms": [
+   "Incompetent",
+   "Inept",
+   "Unable",
+   "Unqualified",
+   "Unfit"
+  ],
+  "contextual": [
+   "Pilot",
+   "Surgeon",
+   "Engineer",
+   "Leader",
+   "Manager"
+  ],
+  "chaos": [
+   "Pecan",
+   "Capybara",
+   "Pomegranate",
+   "Gerbil",
+   "Sieve"
+  ]
+ },
+ {
+  "id": "2027-03-13",
+  "targetWord": "CONFUSED",
+  "synonyms": [
+   "Puzzled",
+   "Bewildered",
+   "Baffled",
+   "Perplexed",
+   "Muddled"
+  ],
+  "antonyms": [
+   "Certain",
+   "Clear",
+   "Sure",
+   "Enlightened",
+   "Informed"
+  ],
+  "contextual": [
+   "Maze",
+   "Riddle",
+   "Map",
+   "Lecture",
+   "Instructions"
+  ],
+  "chaos": [
+   "Cello",
+   "Banjo",
+   "Grasshopper",
+   "Hacksaw",
+   "Ottoman"
+  ]
+ },
+ {
+  "id": "2027-03-14",
+  "targetWord": "COZY",
+  "synonyms": [
+   "Snug",
+   "Comfy",
+   "Warm",
+   "Homey",
+   "Comfortable"
+  ],
+  "antonyms": [
+   "Cold",
+   "Bleak",
+   "Uncomfortable",
+   "Drafty",
+   "Stark"
+  ],
+  "contextual": [
+   "Blanket",
+   "Fireplace",
+   "Cabin",
+   "Sweater",
+   "Cocoa"
+  ],
+  "chaos": [
+   "Cabbage",
+   "Zucchini",
+   "Kazoo",
+   "Tugboat",
+   "Armadillo"
+  ]
+ },
+ {
+  "id": "2027-03-15",
+  "targetWord": "CRISP",
+  "synonyms": [
+   "Crunchy",
+   "Brittle",
+   "Crackly",
+   "Firm",
+   "Fresh"
+  ],
+  "antonyms": [
+   "Soggy",
+   "Limp",
+   "Soft",
+   "Stale",
+   "Mushy"
+  ],
+  "contextual": [
+   "Apple",
+   "Lettuce",
+   "Toast",
+   "Chips",
+   "Autumn"
+  ],
+  "chaos": [
+   "Toad",
+   "Pliers",
+   "Fiddle",
+   "Abacus",
+   "Oboe"
+  ]
+ },
+ {
+  "id": "2027-03-16",
+  "targetWord": "CROWDED",
+  "synonyms": [
+   "Packed",
+   "Jammed",
+   "Teeming",
+   "Thronged",
+   "Congested"
+  ],
+  "antonyms": [
+   "Empty",
+   "Deserted",
+   "Vacant",
+   "Sparse",
+   "Desolate"
+  ],
+  "contextual": [
+   "Subway",
+   "Concert",
+   "Stadium",
+   "Mall",
+   "Beach"
+  ],
+  "chaos": [
+   "Tuba",
+   "Brownie",
+   "Peanut",
+   "Tweezers",
+   "Bongo"
+  ]
+ },
+ {
+  "id": "2027-03-17",
+  "targetWord": "CRUCIAL",
+  "synonyms": [
+   "Vital",
+   "Essential",
+   "Critical",
+   "Key",
+   "Pivotal"
+  ],
+  "antonyms": [
+   "Trivial",
+   "Minor",
+   "Unimportant",
+   "Insignificant",
+   "Negligible"
+  ],
+  "contextual": [
+   "Deadline",
+   "Evidence",
+   "Decision",
+   "Moment",
+   "Ingredient"
+  ],
+  "chaos": [
+   "Gherkin",
+   "Pinwheel",
+   "Stethoscope",
+   "Piccolo",
+   "Biscuit"
+  ]
+ },
+ {
+  "id": "2027-03-18",
+  "targetWord": "DAINTY",
+  "synonyms": [
+   "Delicate",
+   "Fine",
+   "Elegant",
+   "Graceful",
+   "Petite"
+  ],
+  "antonyms": [
+   "Clumsy",
+   "Coarse",
+   "Bulky",
+   "Heavy",
+   "Crude"
+  ],
+  "contextual": [
+   "Teacup",
+   "Lace",
+   "Ballerina",
+   "Flower",
+   "Doily"
+  ],
+  "chaos": [
+   "Windmill",
+   "Mailbox",
+   "Trout",
+   "Gong",
+   "Emu"
+  ]
+ },
+ {
+  "id": "2027-03-19",
+  "targetWord": "DEEP",
+  "synonyms": [
+   "Profound",
+   "Bottomless",
+   "Abyssal",
+   "Cavernous",
+   "Unfathomable"
+  ],
+  "antonyms": [
+   "Shallow",
+   "Superficial",
+   "Surface",
+   "Flat",
+   "Trivial"
+  ],
+  "contextual": [
+   "Ocean",
+   "Well",
+   "Cave",
+   "Thought",
+   "Canyon"
+  ],
+  "chaos": [
+   "Galoshes",
+   "Canoe",
+   "Hopscotch",
+   "Casserole",
+   "Toucan"
+  ]
+ },
+ {
+  "id": "2027-03-20",
+  "targetWord": "DURABLE",
+  "synonyms": [
+   "Lasting",
+   "Sturdy",
+   "Tough",
+   "Robust",
+   "Hardwearing"
+  ],
+  "antonyms": [
+   "Fragile",
+   "Flimsy",
+   "Delicate",
+   "Brittle",
+   "Breakable"
+  ],
+  "contextual": [
+   "Boots",
+   "Backpack",
+   "Denim",
+   "Luggage",
+   "Truck"
+  ],
+  "chaos": [
+   "Teaspoon",
+   "Tambourine",
+   "Cinnamon",
+   "Parsnip",
+   "Notepad"
+  ]
+ },
+ {
+  "id": "2027-03-21",
+  "targetWord": "ECCENTRIC",
+  "synonyms": [
+   "Quirky",
+   "Odd",
+   "Peculiar",
+   "Unconventional",
+   "Offbeat"
+  ],
+  "antonyms": [
+   "Conventional",
+   "Normal",
+   "Ordinary",
+   "Typical",
+   "Conformist"
+  ],
+  "contextual": [
+   "Inventor",
+   "Artist",
+   "Professor",
+   "Aunt",
+   "Hat"
+  ],
+  "chaos": [
+   "Maraca",
+   "Dustpan",
+   "Raccoon",
+   "Chimney",
+   "Falafel"
+  ]
+ },
+ {
+  "id": "2027-03-22",
+  "targetWord": "ENERGETIC",
+  "synonyms": [
+   "Lively",
+   "Vigorous",
+   "Dynamic",
+   "Spirited",
+   "Peppy"
+  ],
+  "antonyms": [
+   "Lethargic",
+   "Sluggish",
+   "Tired",
+   "Listless",
+   "Weary"
+  ],
+  "contextual": [
+   "Puppy",
+   "Athlete",
+   "Toddler",
+   "Cheerleader",
+   "Dance"
+  ],
+  "chaos": [
+   "Caboose",
+   "Trowel",
+   "Oregano",
+   "Pigeon",
+   "Monocle"
+  ]
+ },
+ {
+  "id": "2027-03-23",
+  "targetWord": "FAINT",
+  "synonyms": [
+   "Dim",
+   "Weak",
+   "Faded",
+   "Pale",
+   "Muted"
+  ],
+  "antonyms": [
+   "Strong",
+   "Clear",
+   "Loud",
+   "Bold",
+   "Vivid"
+  ],
+  "contextual": [
+   "Whisper",
+   "Light",
+   "Star",
+   "Echo",
+   "Scent"
+  ],
+  "chaos": [
+   "Jigsaw",
+   "Teapot",
+   "Possum",
+   "Newt",
+   "Pretzel"
+  ]
+ },
+ {
+  "id": "2027-03-24",
+  "targetWord": "FANCY",
+  "synonyms": [
+   "Elaborate",
+   "Ornate",
+   "Luxurious",
+   "Lavish",
+   "Posh"
+  ],
+  "antonyms": [
+   "Plain",
+   "Simple",
+   "Basic",
+   "Modest",
+   "Ordinary"
+  ],
+  "contextual": [
+   "Restaurant",
+   "Ball",
+   "Dress",
+   "Hotel",
+   "Chandelier"
+  ],
+  "chaos": [
+   "Hippo",
+   "Lamppost",
+   "Satellite",
+   "Beaver",
+   "Doughnut"
+  ]
+ },
+ {
+  "id": "2027-03-25",
+  "targetWord": "FIRM",
+  "synonyms": [
+   "Steady",
+   "Solid",
+   "Stiff",
+   "Unyielding",
+   "Rigid"
+  ],
+  "antonyms": [
+   "Soft",
+   "Flabby",
+   "Loose",
+   "Limp",
+   "Yielding"
+  ],
+  "contextual": [
+   "Handshake",
+   "Mattress",
+   "Grip",
+   "Decision",
+   "Foundation"
+  ],
+  "chaos": [
+   "Barometer",
+   "Alpaca",
+   "Thumbtack",
+   "Poncho",
+   "Clogs"
+  ]
+ },
+ {
+  "id": "2027-03-26",
+  "targetWord": "FLAWLESS",
+  "synonyms": [
+   "Perfect",
+   "Faultless",
+   "Impeccable",
+   "Pristine",
+   "Spotless"
+  ],
+  "antonyms": [
+   "Flawed",
+   "Faulty",
+   "Imperfect",
+   "Defective",
+   "Damaged"
+  ],
+  "contextual": [
+   "Diamond",
+   "Performance",
+   "Skin",
+   "Record",
+   "Gem"
+  ],
+  "chaos": [
+   "Platypus",
+   "Walrus",
+   "Granola",
+   "Nutmeg",
+   "Saucer"
+  ]
+ },
+ {
+  "id": "2027-03-27",
+  "targetWord": "FOND",
+  "synonyms": [
+   "Affectionate",
+   "Loving",
+   "Devoted",
+   "Tender",
+   "Caring"
+  ],
+  "antonyms": [
+   "Indifferent",
+   "Cold",
+   "Distant",
+   "Uncaring",
+   "Aloof"
+  ],
+  "contextual": [
+   "Memory",
+   "Grandparent",
+   "Pet",
+   "Farewell",
+   "Friend"
+  ],
+  "chaos": [
+   "Walnut",
+   "Faucet",
+   "Pumpkin",
+   "Cymbal",
+   "Hubcap"
+  ]
+ },
+ {
+  "id": "2027-03-28",
+  "targetWord": "FORMAL",
+  "synonyms": [
+   "Official",
+   "Ceremonial",
+   "Proper",
+   "Stately",
+   "Conventional"
+  ],
+  "antonyms": [
+   "Casual",
+   "Informal",
+   "Relaxed",
+   "Easygoing",
+   "Offhand"
+  ],
+  "contextual": [
+   "Tuxedo",
+   "Gala",
+   "Wedding",
+   "Invitation",
+   "Ceremony"
+  ],
+  "chaos": [
+   "Keychain",
+   "Overalls",
+   "Tangerine",
+   "Parsley",
+   "Manatee"
+  ]
+ },
+ {
+  "id": "2027-03-29",
+  "targetWord": "FRANTIC",
+  "synonyms": [
+   "Frenzied",
+   "Hectic",
+   "Panicked",
+   "Wild",
+   "Frenetic"
+  ],
+  "antonyms": [
+   "Calm",
+   "Composed",
+   "Relaxed",
+   "Collected",
+   "Tranquil"
+  ],
+  "contextual": [
+   "Deadline",
+   "Rush",
+   "Alarm",
+   "Search",
+   "Shopping"
+  ],
+  "chaos": [
+   "Lasagna",
+   "Cricket",
+   "Battery",
+   "Jukebox",
+   "Bagpipe"
+  ]
+ },
+ {
+  "id": "2027-03-30",
+  "targetWord": "FRUGAL",
+  "synonyms": [
+   "Thrifty",
+   "Economical",
+   "Sparing",
+   "Careful",
+   "Prudent"
+  ],
+  "antonyms": [
+   "Wasteful",
+   "Extravagant",
+   "Lavish",
+   "Prodigal",
+   "Profligate"
+  ],
+  "contextual": [
+   "Coupon",
+   "Budget",
+   "Savings",
+   "Leftovers",
+   "Bargain"
+  ],
+  "chaos": [
+   "Sundial",
+   "Gecko",
+   "Llama",
+   "Ketchup",
+   "Stencil"
+  ]
+ },
+ {
+  "id": "2027-03-31",
+  "targetWord": "GENUINE",
+  "synonyms": [
+   "Authentic",
+   "Real",
+   "Original",
+   "Legitimate",
+   "True"
+  ],
+  "antonyms": [
+   "Fake",
+   "Counterfeit",
+   "Phony",
+   "Bogus",
+   "Fraudulent"
+  ],
+  "contextual": [
+   "Leather",
+   "Diamond",
+   "Signature",
+   "Smile",
+   "Antique"
+  ],
+  "chaos": [
+   "Drawer",
+   "Almond",
+   "Bison",
+   "Fedora",
+   "Anteater"
+  ]
+ },
+ {
+  "id": "2027-04-01",
+  "targetWord": "GIDDY",
+  "synonyms": [
+   "Dizzy",
+   "Lightheaded",
+   "Elated",
+   "Euphoric",
+   "Excited"
+  ],
+  "antonyms": [
+   "Calm",
+   "Sober",
+   "Steady",
+   "Composed",
+   "Subdued"
+  ],
+  "contextual": [
+   "Carousel",
+   "Crush",
+   "Rollercoaster",
+   "Champagne",
+   "Spin"
+  ],
+  "chaos": [
+   "Thimble",
+   "Bagel",
+   "Hamster",
+   "Haddock",
+   "Sherbet"
+  ]
+ },
+ {
+  "id": "2027-04-02",
+  "targetWord": "GRAND",
+  "synonyms": [
+   "Magnificent",
+   "Majestic",
+   "Splendid",
+   "Impressive",
+   "Stately"
+  ],
+  "antonyms": [
+   "Humble",
+   "Modest",
+   "Small",
+   "Plain",
+   "Ordinary"
+  ],
+  "contextual": [
+   "Palace",
+   "Piano",
+   "Canyon",
+   "Ballroom",
+   "Entrance"
+  ],
+  "chaos": [
+   "Magnet",
+   "Papaya",
+   "Lemur",
+   "Beret",
+   "Beetle"
+  ]
+ },
+ {
+  "id": "2027-04-03",
+  "targetWord": "GREEDY",
+  "synonyms": [
+   "Grasping",
+   "Avaricious",
+   "Selfish",
+   "Covetous",
+   "Insatiable"
+  ],
+  "antonyms": [
+   "Generous",
+   "Charitable",
+   "Giving",
+   "Unselfish",
+   "Content"
+  ],
+  "contextual": [
+   "Dragon",
+   "Pirate",
+   "Hoard",
+   "Gold",
+   "Buffet"
+  ],
+  "chaos": [
+   "Tapir",
+   "Dinghy",
+   "Pickle",
+   "Ravioli",
+   "Flamingo"
+  ]
+ },
+ {
+  "id": "2027-04-04",
+  "targetWord": "GRUMPY",
+  "synonyms": [
+   "Grouchy",
+   "Cranky",
+   "Irritable",
+   "Crabby",
+   "Surly"
+  ],
+  "antonyms": [
+   "Cheerful",
+   "Jolly",
+   "Pleasant",
+   "Sunny",
+   "Genial"
+  ],
+  "contextual": [
+   "Morning",
+   "Monday",
+   "Neighbor",
+   "Troll",
+   "Cat"
+  ],
+  "chaos": [
+   "Waffle",
+   "Globe",
+   "Aardvark",
+   "Bonnet",
+   "Mandolin"
+  ]
+ },
+ {
+  "id": "2027-04-05",
+  "targetWord": "GUILTY",
+  "synonyms": [
+   "Culpable",
+   "Responsible",
+   "Blameworthy",
+   "Liable",
+   "Accountable"
+  ],
+  "antonyms": [
+   "Innocent",
+   "Blameless",
+   "Guiltless",
+   "Faultless",
+   "Clear"
+  ],
+  "contextual": [
+   "Verdict",
+   "Jury",
+   "Courtroom",
+   "Confession",
+   "Suspect"
+  ],
+  "chaos": [
+   "Gondola",
+   "Croissant",
+   "Dumpling",
+   "Tricycle",
+   "Chipmunk"
+  ]
+ },
+ {
+  "id": "2027-04-06",
+  "targetWord": "HARMLESS",
+  "synonyms": [
+   "Safe",
+   "Innocuous",
+   "Benign",
+   "Gentle",
+   "Inoffensive"
+  ],
+  "antonyms": [
+   "Dangerous",
+   "Harmful",
+   "Toxic",
+   "Deadly",
+   "Lethal"
+  ],
+  "contextual": [
+   "Puppy",
+   "Bunny",
+   "Prank",
+   "Joke",
+   "Spider"
+  ],
+  "chaos": [
+   "Cufflink",
+   "Bassoon",
+   "Ladybug",
+   "Antenna",
+   "Rickshaw"
+  ]
+ },
+ {
+  "id": "2027-04-07",
+  "targetWord": "HEALTHY",
+  "synonyms": [
+   "Fit",
+   "Well",
+   "Sound",
+   "Robust",
+   "Hale"
+  ],
+  "antonyms": [
+   "Sick",
+   "Ill",
+   "Unwell",
+   "Ailing",
+   "Frail"
+  ],
+  "contextual": [
+   "Salad",
+   "Exercise",
+   "Vitamin",
+   "Doctor",
+   "Jogging"
+  ],
+  "chaos": [
+   "Bucket",
+   "Muffin",
+   "Squid",
+   "Paprika",
+   "Lantern"
+  ]
+ },
+ {
+  "id": "2027-04-08",
+  "targetWord": "HEAVY",
+  "synonyms": [
+   "Weighty",
+   "Hefty",
+   "Massive",
+   "Bulky",
+   "Burdensome"
+  ],
+  "antonyms": [
+   "Light",
+   "Weightless",
+   "Feathery",
+   "Airy",
+   "Slight"
+  ],
+  "contextual": [
+   "Anvil",
+   "Elephant",
+   "Backpack",
+   "Boulder",
+   "Suitcase"
+  ],
+  "chaos": [
+   "Salamander",
+   "Headband",
+   "Zipper",
+   "Mop",
+   "Salmon"
+  ]
+ },
+ {
+  "id": "2027-04-09",
+  "targetWord": "HUNGRY",
+  "synonyms": [
+   "Starving",
+   "Famished",
+   "Ravenous",
+   "Peckish",
+   "Voracious"
+  ],
+  "antonyms": [
+   "Full",
+   "Satisfied",
+   "Stuffed",
+   "Sated",
+   "Content"
+  ],
+  "contextual": [
+   "Lunch",
+   "Stomach",
+   "Feast",
+   "Snack",
+   "Bear"
+  ],
+  "chaos": [
+   "Parakeet",
+   "Hinge",
+   "Spatula",
+   "Halibut",
+   "Dulcimer"
+  ]
+ },
+ {
+  "id": "2027-04-10",
+  "targetWord": "INTENSE",
+  "synonyms": [
+   "Extreme",
+   "Fierce",
+   "Severe",
+   "Powerful",
+   "Acute"
+  ],
+  "antonyms": [
+   "Mild",
+   "Gentle",
+   "Weak",
+   "Moderate",
+   "Faint"
+  ],
+  "contextual": [
+   "Workout",
+   "Heat",
+   "Storm",
+   "Stare",
+   "Battle"
+  ],
+  "chaos": [
+   "Hose",
+   "Kiwi",
+   "Avocado",
+   "Kayak",
+   "Meerkat"
+  ]
+ },
+ {
+  "id": "2027-04-11",
+  "targetWord": "JEALOUS",
+  "synonyms": [
+   "Envious",
+   "Covetous",
+   "Resentful",
+   "Possessive",
+   "Begrudging"
+  ],
+  "antonyms": [
+   "Content",
+   "Trusting",
+   "Secure",
+   "Generous",
+   "Satisfied"
+  ],
+  "contextual": [
+   "Sibling",
+   "Rival",
+   "Neighbor",
+   "Boyfriend",
+   "Trophy"
+  ],
+  "chaos": [
+   "Pistachio",
+   "Sombrero",
+   "Hazelnut",
+   "Metronome",
+   "Caterpillar"
+  ]
+ },
+ {
+  "id": "2027-04-12",
+  "targetWord": "LIVELY",
+  "synonyms": [
+   "Animated",
+   "Spirited",
+   "Vibrant",
+   "Bubbly",
+   "Perky"
+  ],
+  "antonyms": [
+   "Dull",
+   "Lifeless",
+   "Listless",
+   "Lethargic",
+   "Sluggish"
+  ],
+  "contextual": [
+   "Party",
+   "Debate",
+   "Music",
+   "Market",
+   "Puppy"
+  ],
+  "chaos": [
+   "Buckle",
+   "Bugle",
+   "Coconut",
+   "Popcorn",
+   "Seagull"
+  ]
+ },
+ {
+  "id": "2027-04-13",
+  "targetWord": "LONELY",
+  "synonyms": [
+   "Alone",
+   "Isolated",
+   "Solitary",
+   "Lonesome",
+   "Forlorn"
+  ],
+  "antonyms": [
+   "Accompanied",
+   "Popular",
+   "Sociable",
+   "Befriended",
+   "Together"
+  ],
+  "contextual": [
+   "Lighthouse",
+   "Island",
+   "Hermit",
+   "Wolf",
+   "Moon"
+  ],
+  "chaos": [
+   "Ladle",
+   "Zebra",
+   "Yak",
+   "Fig",
+   "Apricot"
+  ]
+ },
+ {
+  "id": "2027-04-14",
+  "targetWord": "LOOSE",
+  "synonyms": [
+   "Slack",
+   "Baggy",
+   "Free",
+   "Unfastened",
+   "Wobbly"
+  ],
+  "antonyms": [
+   "Tight",
+   "Fastened",
+   "Secure",
+   "Taut",
+   "Snug"
+  ],
+  "contextual": [
+   "Tooth",
+   "Shoelace",
+   "Screw",
+   "Sweater",
+   "Jeans"
+  ],
+  "chaos": [
+   "Funnel",
+   "Pelican",
+   "Gourd",
+   "Quiche",
+   "Seesaw"
+  ]
+ },
+ {
+  "id": "2027-04-15",
+  "targetWord": "MELLOW",
+  "synonyms": [
+   "Relaxed",
+   "Smooth",
+   "Soft",
+   "Gentle",
+   "Easygoing"
+  ],
+  "antonyms": [
+   "Harsh",
+   "Tense",
+   "Edgy",
+   "Shrill",
+   "Brash"
+  ],
+  "contextual": [
+   "Jazz",
+   "Wine",
+   "Sunset",
+   "Guitar",
+   "Evening"
+  ],
+  "chaos": [
+   "Trombone",
+   "Stapler",
+   "Rhino",
+   "Bobbin",
+   "Sardine"
+  ]
+ },
+ {
+  "id": "2027-04-16",
+  "targetWord": "MISERABLE",
+  "synonyms": [
+   "Wretched",
+   "Unhappy",
+   "Dejected",
+   "Despondent",
+   "Woeful"
+  ],
+  "antonyms": [
+   "Happy",
+   "Joyful",
+   "Cheerful",
+   "Elated",
+   "Content"
+  ],
+  "contextual": [
+   "Rain",
+   "Flu",
+   "Breakup",
+   "Monday",
+   "Puddle"
+  ],
+  "chaos": [
+   "Saffron",
+   "Marmalade",
+   "Periscope",
+   "Sitar",
+   "Toboggan"
+  ]
+ },
+ {
+  "id": "2027-04-17",
+  "targetWord": "NASTY",
+  "synonyms": [
+   "Vile",
+   "Horrid",
+   "Foul",
+   "Mean",
+   "Spiteful"
+  ],
+  "antonyms": [
+   "Nice",
+   "Pleasant",
+   "Kind",
+   "Lovely",
+   "Sweet"
+  ],
+  "contextual": [
+   "Cold",
+   "Bruise",
+   "Weather",
+   "Rumor",
+   "Smell"
+  ],
+  "chaos": [
+   "Beanie",
+   "Moose",
+   "Stork",
+   "Cucumber",
+   "Omelet"
+  ]
+ },
+ {
+  "id": "2027-04-18",
+  "targetWord": "NAIVE",
+  "synonyms": [
+   "Gullible",
+   "Innocent",
+   "Credulous",
+   "Trusting",
+   "Green"
+  ],
+  "antonyms": [
+   "Cynical",
+   "Worldly",
+   "Savvy",
+   "Shrewd",
+   "Skeptical"
+  ],
+  "contextual": [
+   "Tourist",
+   "Rookie",
+   "Child",
+   "Freshman",
+   "Scam"
+  ],
+  "chaos": [
+   "Escalator",
+   "Shrimp",
+   "Apron",
+   "Trellis",
+   "Donkey"
+  ]
+ },
+ {
+  "id": "2027-04-19",
+  "targetWord": "NOBLE",
+  "synonyms": [
+   "Honorable",
+   "Virtuous",
+   "Dignified",
+   "Gallant",
+   "Principled"
+  ],
+  "antonyms": [
+   "Ignoble",
+   "Dishonorable",
+   "Base",
+   "Mean",
+   "Lowly"
+  ],
+  "contextual": [
+   "Knight",
+   "King",
+   "Castle",
+   "Crest",
+   "Cause"
+  ],
+  "chaos": [
+   "Ferret",
+   "Burrito",
+   "Macaw",
+   "Turbine",
+   "Cashew"
+  ]
+ },
+ {
+  "id": "2027-04-20",
+  "targetWord": "NUMEROUS",
+  "synonyms": [
+   "Many",
+   "Countless",
+   "Myriad",
+   "Multiple",
+   "Plentiful"
+  ],
+  "antonyms": [
+   "Few",
+   "Scarce",
+   "Rare",
+   "Limited",
+   "Sparse"
+  ],
+  "contextual": [
+   "Stars",
+   "Ants",
+   "Raindrops",
+   "Crowd",
+   "Sand"
+  ],
+  "chaos": [
+   "Spool",
+   "Basil",
+   "Wallpaper",
+   "Woodpecker",
+   "Gooseberry"
+  ]
+ },
+ {
+  "id": "2027-04-21",
+  "targetWord": "OBEDIENT",
+  "synonyms": [
+   "Compliant",
+   "Dutiful",
+   "Docile",
+   "Submissive",
+   "Disciplined"
+  ],
+  "antonyms": [
+   "Disobedient",
+   "Defiant",
+   "Rebellious",
+   "Unruly",
+   "Naughty"
+  ],
+  "contextual": [
+   "Dog",
+   "Soldier",
+   "Student",
+   "Servant",
+   "Trainer"
+  ],
+  "chaos": [
+   "Anklet",
+   "Kettle",
+   "Pajamas",
+   "Moped",
+   "Asparagus"
+  ]
+ },
+ {
+  "id": "2027-04-22",
+  "targetWord": "PALE",
+  "synonyms": [
+   "Pallid",
+   "Pasty",
+   "Ashen",
+   "Wan",
+   "Colorless"
+  ],
+  "antonyms": [
+   "Rosy",
+   "Ruddy",
+   "Flushed",
+   "Tanned",
+   "Bronzed"
+  ],
+  "contextual": [
+   "Ghost",
+   "Moon",
+   "Vampire",
+   "Snow",
+   "Patient"
+  ],
+  "chaos": [
+   "Antelope",
+   "Forklift",
+   "Bowtie",
+   "Whisk",
+   "Tadpole"
+  ]
+ },
+ {
+  "id": "2027-04-23",
+  "targetWord": "PLEASANT",
+  "synonyms": [
+   "Agreeable",
+   "Delightful",
+   "Enjoyable",
+   "Pleasing",
+   "Nice"
+  ],
+  "antonyms": [
+   "Unpleasant",
+   "Disagreeable",
+   "Nasty",
+   "Awful",
+   "Horrid"
+  ],
+  "contextual": [
+   "Stroll",
+   "Weather",
+   "Picnic",
+   "Conversation",
+   "Breeze"
+  ],
+  "chaos": [
+   "Kilt",
+   "Camel",
+   "Lobster",
+   "Wrench",
+   "Pincushion"
+  ]
+ },
+ {
+  "id": "2027-04-24",
+  "targetWord": "POPULAR",
+  "synonyms": [
+   "Beloved",
+   "Favorite",
+   "Admired",
+   "Liked",
+   "Trendy"
+  ],
+  "antonyms": [
+   "Unpopular",
+   "Disliked",
+   "Shunned",
+   "Unknown",
+   "Ignored"
+  ],
+  "contextual": [
+   "Celebrity",
+   "Song",
+   "Trend",
+   "Restaurant",
+   "Influencer"
+  ],
+  "chaos": [
+   "Lentil",
+   "Thermostat",
+   "Octopus",
+   "Iguana",
+   "Pudding"
+  ]
+ },
+ {
+  "id": "2027-04-25",
+  "targetWord": "PRIVATE",
+  "synonyms": [
+   "Personal",
+   "Confidential",
+   "Secret",
+   "Intimate",
+   "Exclusive"
+  ],
+  "antonyms": [
+   "Public",
+   "Open",
+   "Shared",
+   "Communal",
+   "Common"
+  ],
+  "contextual": [
+   "Diary",
+   "Password",
+   "Office",
+   "Beach",
+   "Jet"
+  ],
+  "chaos": [
+   "Rake",
+   "Mongoose",
+   "Ukulele",
+   "Wombat",
+   "Pulley"
+  ]
+ },
+ {
+  "id": "2027-04-26",
+  "targetWord": "PROMPT",
+  "synonyms": [
+   "Punctual",
+   "Timely",
+   "Quick",
+   "Immediate",
+   "Speedy"
+  ],
+  "antonyms": [
+   "Late",
+   "Tardy",
+   "Delayed",
+   "Slow",
+   "Overdue"
+  ],
+  "contextual": [
+   "Reply",
+   "Payment",
+   "Service",
+   "Arrival",
+   "Train"
+  ],
+  "chaos": [
+   "Gerbil",
+   "Capybara",
+   "Pomegranate",
+   "Sieve",
+   "Pecan"
+  ]
+ },
+ {
+  "id": "2027-04-27",
+  "targetWord": "RADIANT",
+  "synonyms": [
+   "Glowing",
+   "Beaming",
+   "Luminous",
+   "Brilliant",
+   "Dazzling"
+  ],
+  "antonyms": [
+   "Dim",
+   "Dull",
+   "Dark",
+   "Gloomy",
+   "Lackluster"
+  ],
+  "contextual": [
+   "Bride",
+   "Sun",
+   "Smile",
+   "Halo",
+   "Candle"
+  ],
+  "chaos": [
+   "Hacksaw",
+   "Banjo",
+   "Cello",
+   "Grasshopper",
+   "Ottoman"
+  ]
+ },
+ {
+  "id": "2027-04-28",
+  "targetWord": "RESTLESS",
+  "synonyms": [
+   "Fidgety",
+   "Agitated",
+   "Jittery",
+   "Uneasy",
+   "Edgy"
+  ],
+  "antonyms": [
+   "Calm",
+   "Relaxed",
+   "Settled",
+   "Peaceful",
+   "Still"
+  ],
+  "contextual": [
+   "Insomnia",
+   "Toddler",
+   "Crowd",
+   "Sea",
+   "Night"
+  ],
+  "chaos": [
+   "Armadillo",
+   "Zucchini",
+   "Cabbage",
+   "Tugboat",
+   "Kazoo"
+  ]
+ },
+ {
+  "id": "2027-04-29",
+  "targetWord": "REMOTE",
+  "synonyms": [
+   "Distant",
+   "Isolated",
+   "Secluded",
+   "Faraway",
+   "Outlying"
+  ],
+  "antonyms": [
+   "Near",
+   "Close",
+   "Nearby",
+   "Central",
+   "Accessible"
+  ],
+  "contextual": [
+   "Island",
+   "Village",
+   "Mountain",
+   "Cabin",
+   "Outpost"
+  ],
+  "chaos": [
+   "Pliers",
+   "Fiddle",
+   "Toad",
+   "Abacus",
+   "Raisin"
+  ]
+ },
+ {
+  "id": "2027-04-30",
+  "targetWord": "ROWDY",
+  "synonyms": [
+   "Unruly",
+   "Boisterous",
+   "Raucous",
+   "Disorderly",
+   "Noisy"
+  ],
+  "antonyms": [
+   "Quiet",
+   "Orderly",
+   "Calm",
+   "Peaceful",
+   "Subdued"
+  ],
+  "contextual": [
+   "Fans",
+   "Bar",
+   "Party",
+   "Classroom",
+   "Mob"
+  ],
+  "chaos": [
+   "Peanut",
+   "Tuba",
+   "Brownie",
+   "Tweezers",
+   "Bongo"
+  ]
+ },
+ {
+  "id": "2027-05-01",
+  "targetWord": "RUSTIC",
+  "synonyms": [
+   "Rural",
+   "Pastoral",
+   "Country",
+   "Rugged",
+   "Homespun"
+  ],
+  "antonyms": [
+   "Urban",
+   "Sophisticated",
+   "Modern",
+   "Polished",
+   "Refined"
+  ],
+  "contextual": [
+   "Barn",
+   "Cabin",
+   "Farmhouse",
+   "Village",
+   "Haystack"
+  ],
+  "chaos": [
+   "Stethoscope",
+   "Biscuit",
+   "Piccolo",
+   "Gherkin",
+   "Pinwheel"
+  ]
+ },
+ {
+  "id": "2027-05-02",
+  "targetWord": "SACRED",
+  "synonyms": [
+   "Holy",
+   "Divine",
+   "Hallowed",
+   "Blessed",
+   "Revered"
+  ],
+  "antonyms": [
+   "Profane",
+   "Unholy",
+   "Secular",
+   "Sacrilegious",
+   "Ungodly"
+  ],
+  "contextual": [
+   "Temple",
+   "Altar",
+   "Relic",
+   "Shrine",
+   "Ritual"
+  ],
+  "chaos": [
+   "Mailbox",
+   "Trout",
+   "Emu",
+   "Gong",
+   "Windmill"
+  ]
+ },
+ {
+  "id": "2027-05-03",
+  "targetWord": "SCARY",
+  "synonyms": [
+   "Frightening",
+   "Terrifying",
+   "Creepy",
+   "Spooky",
+   "Chilling"
+  ],
+  "antonyms": [
+   "Comforting",
+   "Reassuring",
+   "Soothing",
+   "Harmless",
+   "Calming"
+  ],
+  "contextual": [
+   "Haunted",
+   "Ghost",
+   "Monster",
+   "Spider",
+   "Halloween"
+  ],
+  "chaos": [
+   "Canoe",
+   "Toucan",
+   "Galoshes",
+   "Casserole",
+   "Hopscotch"
+  ]
+ },
+ {
+  "id": "2027-05-04",
+  "targetWord": "SEVERE",
+  "synonyms": [
+   "Harsh",
+   "Extreme",
+   "Intense",
+   "Serious",
+   "Acute"
+  ],
+  "antonyms": [
+   "Mild",
+   "Gentle",
+   "Light",
+   "Minor",
+   "Lenient"
+  ],
+  "contextual": [
+   "Drought",
+   "Weather",
+   "Injury",
+   "Warning",
+   "Penalty"
+  ],
+  "chaos": [
+   "Cinnamon",
+   "Tambourine",
+   "Parsnip",
+   "Notepad",
+   "Scooter"
+  ]
+ },
+ {
+  "id": "2027-05-05",
+  "targetWord": "SHABBY",
+  "synonyms": [
+   "Worn",
+   "Tattered",
+   "Ragged",
+   "Threadbare",
+   "Scruffy"
+  ],
+  "antonyms": [
+   "Smart",
+   "Neat",
+   "Pristine",
+   "New",
+   "Elegant"
+  ],
+  "contextual": [
+   "Coat",
+   "Sofa",
+   "Motel",
+   "Shoes",
+   "Hut"
+  ],
+  "chaos": [
+   "Raccoon",
+   "Dustpan",
+   "Maraca",
+   "Falafel",
+   "Radish"
+  ]
+ },
+ {
+  "id": "2027-05-06",
+  "targetWord": "SILLY",
+  "synonyms": [
+   "Foolish",
+   "Goofy",
+   "Ridiculous",
+   "Daft",
+   "Childish"
+  ],
+  "antonyms": [
+   "Serious",
+   "Sensible",
+   "Mature",
+   "Wise",
+   "Sober"
+  ],
+  "contextual": [
+   "Clown",
+   "Joke",
+   "Hat",
+   "Dance",
+   "Costume"
+  ],
+  "chaos": [
+   "Trowel",
+   "Monocle",
+   "Pigeon",
+   "Oregano",
+   "Caboose"
+  ]
+ },
+ {
+  "id": "2027-05-07",
+  "targetWord": "SKILLED",
+  "synonyms": [
+   "Expert",
+   "Adept",
+   "Accomplished",
+   "Proficient",
+   "Masterful"
+  ],
+  "antonyms": [
+   "Unskilled",
+   "Amateur",
+   "Clumsy",
+   "Inexperienced",
+   "Inept"
+  ],
+  "contextual": [
+   "Carpenter",
+   "Surgeon",
+   "Pilot",
+   "Chef",
+   "Craftsman"
+  ],
+  "chaos": [
+   "Pretzel",
+   "Jigsaw",
+   "Teapot",
+   "Possum",
+   "Squash"
+  ]
+ },
+ {
+  "id": "2027-05-08",
+  "targetWord": "SLENDER",
+  "synonyms": [
+   "Slim",
+   "Thin",
+   "Lean",
+   "Svelte",
+   "Willowy"
+  ],
+  "antonyms": [
+   "Stout",
+   "Chubby",
+   "Plump",
+   "Thick",
+   "Broad"
+  ],
+  "contextual": [
+   "Reed",
+   "Model",
+   "Stem",
+   "Candle",
+   "Giraffe"
+  ],
+  "chaos": [
+   "Lamppost",
+   "Hippo",
+   "Beaver",
+   "Satellite",
+   "Doughnut"
+  ]
+ },
+ {
+  "id": "2027-05-09",
+  "targetWord": "SLIPPERY",
+  "synonyms": [
+   "Slick",
+   "Slimy",
+   "Greasy",
+   "Icy",
+   "Glassy"
+  ],
+  "antonyms": [
+   "Grippy",
+   "Dry",
+   "Rough",
+   "Sticky",
+   "Coarse"
+  ],
+  "contextual": [
+   "Eel",
+   "Ice",
+   "Soap",
+   "Banana",
+   "Floor"
+  ],
+  "chaos": [
+   "Clogs",
+   "Barometer",
+   "Poncho",
+   "Thumbtack",
+   "Alpaca"
+  ]
+ },
+ {
+  "id": "2027-05-10",
+  "targetWord": "SNEAKY",
+  "synonyms": [
+   "Sly",
+   "Crafty",
+   "Cunning",
+   "Devious",
+   "Furtive"
+  ],
+  "antonyms": [
+   "Honest",
+   "Open",
+   "Direct",
+   "Upfront",
+   "Straightforward"
+  ],
+  "contextual": [
+   "Fox",
+   "Thief",
+   "Ninja",
+   "Spy",
+   "Shortcut"
+  ],
+  "chaos": [
+   "Chimney",
+   "Teaspoon",
+   "Rutabaga",
+   "Rhubarb",
+   "Oboe"
+  ]
+ },
+ {
+  "id": "2027-05-11",
+  "targetWord": "SOLEMN",
+  "synonyms": [
+   "Grave",
+   "Serious",
+   "Somber",
+   "Earnest",
+   "Dignified"
+  ],
+  "antonyms": [
+   "Cheerful",
+   "Lighthearted",
+   "Frivolous",
+   "Jolly",
+   "Playful"
+  ],
+  "contextual": [
+   "Funeral",
+   "Oath",
+   "Ceremony",
+   "Vow",
+   "Memorial"
+  ],
+  "chaos": [
+   "Kaleidoscope",
+   "Zeppelin",
+   "Hedgehog",
+   "Kebab",
+   "Narwhal"
+  ]
+ },
+ {
+  "id": "2027-05-12",
+  "targetWord": "SPACIOUS",
+  "synonyms": [
+   "Roomy",
+   "Vast",
+   "Expansive",
+   "Ample",
+   "Capacious"
+  ],
+  "antonyms": [
+   "Cramped",
+   "Tight",
+   "Narrow",
+   "Confined",
+   "Poky"
+  ],
+  "contextual": [
+   "Loft",
+   "Mansion",
+   "Garage",
+   "Trunk",
+   "Ballroom"
+  ],
+  "chaos": [
+   "Puffin",
+   "Unicycle",
+   "Koala",
+   "Fountain",
+   "Tangerine"
+  ]
+ },
+ {
+  "id": "2027-05-13",
+  "targetWord": "SPLENDID",
+  "synonyms": [
+   "Magnificent",
+   "Superb",
+   "Excellent",
+   "Glorious",
+   "Marvelous"
+  ],
+  "antonyms": [
+   "Dreadful",
+   "Awful",
+   "Terrible",
+   "Poor",
+   "Shabby"
+  ],
+  "contextual": [
+   "Palace",
+   "Banquet",
+   "Sunset",
+   "Performance",
+   "Feast"
+  ],
+  "chaos": [
+   "Newt",
+   "Platypus",
+   "Jukebox",
+   "Hubcap",
+   "Bagpipe"
+  ]
+ },
+ {
+  "id": "2027-05-14",
+  "targetWord": "STABLE",
+  "synonyms": [
+   "Steady",
+   "Secure",
+   "Solid",
+   "Balanced",
+   "Firm"
+  ],
+  "antonyms": [
+   "Unstable",
+   "Shaky",
+   "Wobbly",
+   "Unsteady",
+   "Precarious"
+  ],
+  "contextual": [
+   "Table",
+   "Ladder",
+   "Foundation",
+   "Economy",
+   "Bridge"
+  ],
+  "chaos": [
+   "Manatee",
+   "Parsley",
+   "Llama",
+   "Cymbal",
+   "Ketchup"
+  ]
+ },
+ {
+  "id": "2027-05-15",
+  "targetWord": "STEADY",
+  "synonyms": [
+   "Constant",
+   "Even",
+   "Regular",
+   "Unwavering",
+   "Consistent"
+  ],
+  "antonyms": [
+   "Erratic",
+   "Shaky",
+   "Irregular",
+   "Fluctuating",
+   "Unsteady"
+  ],
+  "contextual": [
+   "Heartbeat",
+   "Hand",
+   "Rhythm",
+   "Pace",
+   "Drumbeat"
+  ],
+  "chaos": [
+   "Bison",
+   "Gecko",
+   "Sundial",
+   "Nutmeg",
+   "Keychain"
+  ]
+ },
+ {
+  "id": "2027-05-16",
+  "targetWord": "STERN",
+  "synonyms": [
+   "Strict",
+   "Severe",
+   "Austere",
+   "Grim",
+   "Rigid"
+  ],
+  "antonyms": [
+   "Lenient",
+   "Gentle",
+   "Soft",
+   "Indulgent",
+   "Easygoing"
+  ],
+  "contextual": [
+   "Teacher",
+   "Principal",
+   "Judge",
+   "Sergeant",
+   "Frown"
+  ],
+  "chaos": [
+   "Anteater",
+   "Almond",
+   "Faucet",
+   "Pumpkin",
+   "Thimble"
+  ]
+ },
+ {
+  "id": "2027-05-17",
+  "targetWord": "STORMY",
+  "synonyms": [
+   "Turbulent",
+   "Tempestuous",
+   "Rough",
+   "Wild",
+   "Blustery"
+  ],
+  "antonyms": [
+   "Calm",
+   "Clear",
+   "Fair",
+   "Sunny",
+   "Tranquil"
+  ],
+  "contextual": [
+   "Ocean",
+   "Sky",
+   "Thunder",
+   "Lightning",
+   "Night"
+  ],
+  "chaos": [
+   "Lemur",
+   "Beret",
+   "Papaya",
+   "Magnet",
+   "Beetle"
+  ]
+ },
+ {
+  "id": "2027-05-18",
+  "targetWord": "SUBTLE",
+  "synonyms": [
+   "Faint",
+   "Delicate",
+   "Understated",
+   "Slight",
+   "Nuanced"
+  ],
+  "antonyms": [
+   "Obvious",
+   "Blatant",
+   "Glaring",
+   "Overt",
+   "Crude"
+  ],
+  "contextual": [
+   "Hint",
+   "Flavor",
+   "Scent",
+   "Joke",
+   "Shade"
+  ],
+  "chaos": [
+   "Dinghy",
+   "Pickle",
+   "Tapir",
+   "Ravioli",
+   "Saucer"
+  ]
+ },
+ {
+  "id": "2027-05-19",
+  "targetWord": "SUDDEN",
+  "synonyms": [
+   "Abrupt",
+   "Unexpected",
+   "Swift",
+   "Instant",
+   "Rapid"
+  ],
+  "antonyms": [
+   "Gradual",
+   "Slow",
+   "Expected",
+   "Steady",
+   "Predictable"
+  ],
+  "contextual": [
+   "Storm",
+   "Sneeze",
+   "Change",
+   "Ambush",
+   "Silence"
+  ],
+  "chaos": [
+   "Mandolin",
+   "Globe",
+   "Drawer",
+   "Fedora",
+   "Haddock"
+  ]
+ },
+ {
+  "id": "2027-05-20",
+  "targetWord": "SUPREME",
+  "synonyms": [
+   "Ultimate",
+   "Highest",
+   "Paramount",
+   "Utmost",
+   "Foremost"
+  ],
+  "antonyms": [
+   "Lowest",
+   "Least",
+   "Minor",
+   "Inferior",
+   "Subordinate"
+  ],
+  "contextual": [
+   "Court",
+   "Leader",
+   "Commander",
+   "Pizza",
+   "Champion"
+  ],
+  "chaos": [
+   "Tricycle",
+   "Dumpling",
+   "Croissant",
+   "Stencil",
+   "Aardvark"
+  ]
+ },
+ {
+  "id": "2027-05-21",
+  "targetWord": "TENSE",
+  "synonyms": [
+   "Strained",
+   "Taut",
+   "Stressed",
+   "Uptight",
+   "Nervous"
+  ],
+  "antonyms": [
+   "Relaxed",
+   "Calm",
+   "Loose",
+   "Easygoing",
+   "Mellow"
+  ],
+  "contextual": [
+   "Exam",
+   "Muscle",
+   "Moment",
+   "Standoff",
+   "Rope"
+  ],
+  "chaos": [
+   "Rickshaw",
+   "Antenna",
+   "Ladybug",
+   "Bassoon",
+   "Bagel"
+  ]
+ },
+ {
+  "id": "2027-05-22",
+  "targetWord": "THRILLING",
+  "synonyms": [
+   "Exciting",
+   "Electrifying",
+   "Exhilarating",
+   "Gripping",
+   "Stirring"
+  ],
+  "antonyms": [
+   "Boring",
+   "Dull",
+   "Tedious",
+   "Monotonous",
+   "Bland"
+  ],
+  "contextual": [
+   "Rollercoaster",
+   "Skydiving",
+   "Race",
+   "Movie",
+   "Finale"
+  ],
+  "chaos": [
+   "Paprika",
+   "Bucket",
+   "Lantern",
+   "Muffin",
+   "Chipmunk"
+  ]
+ },
+ {
+  "id": "2027-05-23",
+  "targetWord": "TRIVIAL",
+  "synonyms": [
+   "Minor",
+   "Petty",
+   "Unimportant",
+   "Insignificant",
+   "Trifling"
+  ],
+  "antonyms": [
+   "Crucial",
+   "Important",
+   "Vital",
+   "Significant",
+   "Major"
+  ],
+  "contextual": [
+   "Quiz",
+   "Detail",
+   "Chore",
+   "Gossip",
+   "Footnote"
+  ],
+  "chaos": [
+   "Headband",
+   "Salmon",
+   "Salamander",
+   "Zipper",
+   "Battery"
+  ]
+ },
+ {
+  "id": "2027-05-24",
+  "targetWord": "UNIQUE",
+  "synonyms": [
+   "Distinctive",
+   "Singular",
+   "Rare",
+   "Exceptional",
+   "Original"
+  ],
+  "antonyms": [
+   "Common",
+   "Ordinary",
+   "Typical",
+   "Standard",
+   "Generic"
+  ],
+  "contextual": [
+   "Snowflake",
+   "Fingerprint",
+   "Masterpiece",
+   "Gem",
+   "Signature"
+  ],
+  "chaos": [
+   "Parakeet",
+   "Dulcimer",
+   "Spatula",
+   "Waffle",
+   "Squid"
+  ]
+ },
+ {
+  "id": "2027-05-25",
+  "targetWord": "UPSET",
+  "synonyms": [
+   "Distressed",
+   "Troubled",
+   "Disturbed",
+   "Hurt",
+   "Saddened"
+  ],
+  "antonyms": [
+   "Pleased",
+   "Calm",
+   "Content",
+   "Happy",
+   "Relaxed"
+  ],
+  "contextual": [
+   "Stomach",
+   "Argument",
+   "Tears",
+   "Breakup",
+   "Loss"
+  ],
+  "chaos": [
+   "Hose",
+   "Meerkat",
+   "Kiwi",
+   "Avocado",
+   "Cufflink"
+  ]
+ },
+ {
+  "id": "2027-05-26",
+  "targetWord": "USEFUL",
+  "synonyms": [
+   "Handy",
+   "Helpful",
+   "Practical",
+   "Valuable",
+   "Beneficial"
+  ],
+  "antonyms": [
+   "Useless",
+   "Worthless",
+   "Pointless",
+   "Futile",
+   "Unhelpful"
+  ],
+  "contextual": [
+   "Tool",
+   "Map",
+   "Advice",
+   "Pocketknife",
+   "Flashlight"
+  ],
+  "chaos": [
+   "Sombrero",
+   "Pistachio",
+   "Metronome",
+   "Caterpillar",
+   "Sherbet"
+  ]
+ },
+ {
+  "id": "2027-05-27",
+  "targetWord": "VAIN",
+  "synonyms": [
+   "Conceited",
+   "Narcissistic",
+   "Arrogant",
+   "Proud",
+   "Egotistical"
+  ],
+  "antonyms": [
+   "Modest",
+   "Humble",
+   "Selfless",
+   "Unassuming",
+   "Shy"
+  ],
+  "contextual": [
+   "Mirror",
+   "Peacock",
+   "Selfie",
+   "Model",
+   "Makeup"
+  ],
+  "chaos": [
+   "Coconut",
+   "Buckle",
+   "Seagull",
+   "Bugle",
+   "Hinge"
+  ]
+ },
+ {
+  "id": "2027-05-28",
+  "targetWord": "VIGOROUS",
+  "synonyms": [
+   "Energetic",
+   "Robust",
+   "Strenuous",
+   "Forceful",
+   "Dynamic"
+  ],
+  "antonyms": [
+   "Feeble",
+   "Weak",
+   "Lethargic",
+   "Sluggish",
+   "Gentle"
+  ],
+  "contextual": [
+   "Workout",
+   "Debate",
+   "Scrubbing",
+   "Exercise",
+   "Campaign"
+  ],
+  "chaos": [
+   "Ladle",
+   "Fig",
+   "Zebra",
+   "Apricot",
+   "Walrus"
+  ]
+ },
+ {
+  "id": "2027-05-29",
+  "targetWord": "VOCAL",
+  "synonyms": [
+   "Outspoken",
+   "Vociferous",
+   "Expressive",
+   "Articulate",
+   "Forthright"
+  ],
+  "antonyms": [
+   "Quiet",
+   "Silent",
+   "Reticent",
+   "Mute",
+   "Reserved"
+  ],
+  "contextual": [
+   "Singer",
+   "Choir",
+   "Critic",
+   "Protester",
+   "Microphone"
+  ],
+  "chaos": [
+   "Gourd",
+   "Funnel",
+   "Seesaw",
+   "Cricket",
+   "Hamster"
+  ]
+ },
+ {
+  "id": "2027-05-30",
+  "targetWord": "WARY",
+  "synonyms": [
+   "Cautious",
+   "Careful",
+   "Suspicious",
+   "Watchful",
+   "Leery"
+  ],
+  "antonyms": [
+   "Trusting",
+   "Careless",
+   "Reckless",
+   "Unwary",
+   "Gullible"
+  ],
+  "contextual": [
+   "Deer",
+   "Stranger",
+   "Scam",
+   "Alley",
+   "Guard"
+  ],
+  "chaos": [
+   "Rhino",
+   "Stapler",
+   "Trombone",
+   "Sardine",
+   "Bobbin"
+  ]
+ },
+ {
+  "id": "2027-05-31",
+  "targetWord": "WHOLE",
+  "synonyms": [
+   "Entire",
+   "Complete",
+   "Full",
+   "Intact",
+   "Total"
+  ],
+  "antonyms": [
+   "Partial",
+   "Broken",
+   "Incomplete",
+   "Fragmented",
+   "Divided"
+  ],
+  "contextual": [
+   "Pizza",
+   "Family",
+   "Cake",
+   "Day",
+   "Orchestra"
+  ],
+  "chaos": [
+   "Periscope",
+   "Sitar",
+   "Saffron",
+   "Toboggan",
+   "Marmalade"
+  ]
+ },
+ {
+  "id": "2027-06-01",
+  "targetWord": "WITTY",
+  "synonyms": [
+   "Clever",
+   "Humorous",
+   "Funny",
+   "Quick",
+   "Droll"
+  ],
+  "antonyms": [
+   "Dull",
+   "Humorless",
+   "Boring",
+   "Slow",
+   "Stodgy"
+  ],
+  "contextual": [
+   "Comedian",
+   "Banter",
+   "Pun",
+   "Joke",
+   "Writer"
+  ],
+  "chaos": [
+   "Beanie",
+   "Moose",
+   "Omelet",
+   "Cucumber",
+   "Stork"
+  ]
+ },
+ {
+  "id": "2027-06-02",
+  "targetWord": "WORTHY",
+  "synonyms": [
+   "Deserving",
+   "Admirable",
+   "Commendable",
+   "Honorable",
+   "Meritorious"
+  ],
+  "antonyms": [
+   "Unworthy",
+   "Undeserving",
+   "Ignoble",
+   "Contemptible",
+   "Worthless"
+  ],
+  "contextual": [
+   "Champion",
+   "Cause",
+   "Opponent",
+   "Heir",
+   "Knight"
+  ],
+  "chaos": [
+   "Escalator",
+   "Donkey",
+   "Trellis",
+   "Shrimp",
+   "Apron"
+  ]
+ },
+ {
+  "id": "2027-06-03",
+  "targetWord": "ZESTY",
+  "synonyms": [
+   "Tangy",
+   "Piquant",
+   "Spicy",
+   "Lively",
+   "Zingy"
+  ],
+  "antonyms": [
+   "Bland",
+   "Mild",
+   "Flat",
+   "Dull",
+   "Insipid"
+  ],
+  "contextual": [
+   "Lemon",
+   "Lime",
+   "Salsa",
+   "Marinade",
+   "Citrus"
+  ],
+  "chaos": [
+   "Turbine",
+   "Macaw",
+   "Yak",
+   "Kayak",
+   "Bonnet"
+  ]
+ },
+ {
+  "id": "2027-06-04",
+  "targetWord": "DISASTER",
+  "synonyms": [
+   "Catastrophe",
+   "Calamity",
+   "Tragedy",
+   "Debacle",
+   "Fiasco"
+  ],
+  "antonyms": [
+   "Success",
+   "Triumph",
+   "Blessing",
+   "Victory",
+   "Godsend"
+  ],
+  "contextual": [
+   "Earthquake",
+   "Flood",
+   "Hurricane",
+   "Wreck",
+   "Rescue"
+  ],
+  "chaos": [
+   "Basil",
+   "Woodpecker",
+   "Gooseberry",
+   "Wallpaper",
+   "Spool"
+  ]
+ },
+ {
+  "id": "2027-06-05",
+  "targetWord": "COMFORT",
+  "synonyms": [
+   "Ease",
+   "Solace",
+   "Relief",
+   "Coziness",
+   "Consolation"
+  ],
+  "antonyms": [
+   "Discomfort",
+   "Pain",
+   "Distress",
+   "Misery",
+   "Hardship"
+  ],
+  "contextual": [
+   "Pillow",
+   "Blanket",
+   "Hug",
+   "Soup",
+   "Armchair"
+  ],
+  "chaos": [
+   "Pajamas",
+   "Cashew",
+   "Asparagus",
+   "Moped",
+   "Kettle"
+  ]
+ },
+ {
+  "id": "2027-06-06",
+  "targetWord": "DOUBT",
+  "synonyms": [
+   "Uncertainty",
+   "Skepticism",
+   "Suspicion",
+   "Hesitation",
+   "Disbelief"
+  ],
+  "antonyms": [
+   "Certainty",
+   "Belief",
+   "Confidence",
+   "Faith",
+   "Conviction"
+  ],
+  "contextual": [
+   "Question",
+   "Rumor",
+   "Jury",
+   "Decision",
+   "Proof"
+  ],
+  "chaos": [
+   "Tadpole",
+   "Forklift",
+   "Bowtie",
+   "Antelope",
+   "Walnut"
+  ]
+ },
+ {
+  "id": "2027-06-07",
+  "targetWord": "HONOR",
+  "synonyms": [
+   "Integrity",
+   "Dignity",
+   "Respect",
+   "Esteem",
+   "Prestige"
+  ],
+  "antonyms": [
+   "Disgrace",
+   "Shame",
+   "Dishonor",
+   "Humiliation",
+   "Scandal"
+  ],
+  "contextual": [
+   "Medal",
+   "Knight",
+   "Oath",
+   "Ceremony",
+   "Badge"
+  ],
+  "chaos": [
+   "Pincushion",
+   "Wrench",
+   "Camel",
+   "Lobster",
+   "Kilt"
+  ]
+ },
+ {
+  "id": "2027-06-08",
+  "targetWord": "JOY",
+  "synonyms": [
+   "Delight",
+   "Happiness",
+   "Bliss",
+   "Glee",
+   "Elation"
+  ],
+  "antonyms": [
+   "Sorrow",
+   "Misery",
+   "Grief",
+   "Despair",
+   "Sadness"
+  ],
+  "contextual": [
+   "Wedding",
+   "Laughter",
+   "Baby",
+   "Holiday",
+   "Celebration"
+  ],
+  "chaos": [
+   "Octopus",
+   "Iguana",
+   "Thermostat",
+   "Lentil",
+   "Pudding"
+  ]
+ },
+ {
+  "id": "2027-06-09",
+  "targetWord": "KNOWLEDGE",
+  "synonyms": [
+   "Wisdom",
+   "Learning",
+   "Expertise",
+   "Understanding",
+   "Information"
+  ],
+  "antonyms": [
+   "Ignorance",
+   "Unawareness",
+   "Inexperience",
+   "Illiteracy",
+   "Naivety"
+  ],
+  "contextual": [
+   "Library",
+   "Encyclopedia",
+   "School",
+   "Scholar",
+   "Book"
+  ],
+  "chaos": [
+   "Mongoose",
+   "Rake",
+   "Hazelnut",
+   "Pelican",
+   "Gondola"
+  ]
+ },
+ {
+  "id": "2027-06-10",
+  "targetWord": "LUXURY",
+  "synonyms": [
+   "Opulence",
+   "Splendor",
+   "Extravagance",
+   "Indulgence",
+   "Lavishness"
+  ],
+  "antonyms": [
+   "Poverty",
+   "Hardship",
+   "Austerity",
+   "Simplicity",
+   "Necessity"
+  ],
+  "contextual": [
+   "Yacht",
+   "Spa",
+   "Mansion",
+   "Caviar",
+   "Penthouse"
+  ],
+  "chaos": [
+   "Pomegranate",
+   "Gerbil",
+   "Sieve",
+   "Pecan",
+   "Capybara"
+  ]
+ },
+ {
+  "id": "2027-06-11",
+  "targetWord": "MERCY",
+  "synonyms": [
+   "Compassion",
+   "Leniency",
+   "Pity",
+   "Clemency",
+   "Forgiveness"
+  ],
+  "antonyms": [
+   "Cruelty",
+   "Harshness",
+   "Brutality",
+   "Vengeance",
+   "Severity"
+  ],
+  "contextual": [
+   "Judge",
+   "Pardon",
+   "Prisoner",
+   "King",
+   "Plea"
+  ],
+  "chaos": [
+   "Banjo",
+   "Cello",
+   "Grasshopper",
+   "Ottoman",
+   "Hacksaw"
+  ]
+ },
+ {
+  "id": "2027-06-12",
+  "targetWord": "MYSTERY",
+  "synonyms": [
+   "Enigma",
+   "Puzzle",
+   "Riddle",
+   "Secret",
+   "Conundrum"
+  ],
+  "antonyms": [
+   "Answer",
+   "Solution",
+   "Explanation",
+   "Clarity",
+   "Fact"
+  ],
+  "contextual": [
+   "Detective",
+   "Clue",
+   "Novel",
+   "Case",
+   "Fingerprint"
+  ],
+  "chaos": [
+   "Cabbage",
+   "Zucchini",
+   "Armadillo",
+   "Kazoo",
+   "Tugboat"
+  ]
+ },
+ {
+  "id": "2027-06-13",
+  "targetWord": "STRENGTH",
+  "synonyms": [
+   "Power",
+   "Might",
+   "Force",
+   "Muscle",
+   "Vigor"
+  ],
+  "antonyms": [
+   "Weakness",
+   "Frailty",
+   "Feebleness",
+   "Fragility",
+   "Delicacy"
+  ],
+  "contextual": [
+   "Gym",
+   "Lion",
+   "Bodybuilder",
+   "Steel",
+   "Bull"
+  ],
+  "chaos": [
+   "Toad",
+   "Fiddle",
+   "Abacus",
+   "Pliers",
+   "Raisin"
+  ]
+ },
+ {
+  "id": "2027-06-14",
+  "targetWord": "COMBINE",
+  "synonyms": [
+   "Merge",
+   "Unite",
+   "Blend",
+   "Join",
+   "Mix"
+  ],
+  "antonyms": [
+   "Separate",
+   "Divide",
+   "Split",
+   "Detach",
+   "Isolate"
+  ],
+  "contextual": [
+   "Recipe",
+   "Team",
+   "Puzzle",
+   "Ingredients",
+   "Alloy"
+  ],
+  "chaos": [
+   "Peanut",
+   "Tuba",
+   "Tweezers",
+   "Bongo",
+   "Brownie"
+  ]
+ },
+ {
+  "id": "2027-06-15",
+  "targetWord": "GRAB",
+  "synonyms": [
+   "Seize",
+   "Snatch",
+   "Grasp",
+   "Clutch",
+   "Grip"
+  ],
+  "antonyms": [
+   "Release",
+   "Drop",
+   "Free",
+   "Loosen",
+   "Relinquish"
+  ],
+  "contextual": [
+   "Handle",
+   "Ball",
+   "Rope",
+   "Railing",
+   "Purse"
+  ],
+  "chaos": [
+   "Pinwheel",
+   "Gherkin",
+   "Piccolo",
+   "Stethoscope",
+   "Biscuit"
+  ]
+ },
+ {
+  "id": "2027-06-16",
+  "targetWord": "HATE",
+  "synonyms": [
+   "Loathe",
+   "Despise",
+   "Detest",
+   "Abhor",
+   "Dislike"
+  ],
+  "antonyms": [
+   "Love",
+   "Adore",
+   "Cherish",
+   "Like",
+   "Treasure"
+  ],
+  "contextual": [
+   "Villain",
+   "Enemy",
+   "Mondays",
+   "Rival",
+   "Broccoli"
+  ],
+  "chaos": [
+   "Trout",
+   "Emu",
+   "Windmill",
+   "Gong",
+   "Mop"
+  ]
+ },
+ {
+  "id": "2027-06-17",
+  "targetWord": "INVITE",
+  "synonyms": [
+   "Ask",
+   "Summon",
+   "Welcome",
+   "Request",
+   "Call"
+  ],
+  "antonyms": [
+   "Exclude",
+   "Ban",
+   "Bar",
+   "Reject",
+   "Snub"
+  ],
+  "contextual": [
+   "Party",
+   "Wedding",
+   "Guest",
+   "Envelope",
+   "Dinner"
+  ],
+  "chaos": [
+   "Casserole",
+   "Hopscotch",
+   "Galoshes",
+   "Canoe",
+   "Toucan"
+  ]
+ },
+ {
+  "id": "2027-06-18",
+  "targetWord": "PUNISH",
+  "synonyms": [
+   "Penalize",
+   "Discipline",
+   "Sentence",
+   "Chastise",
+   "Reprimand"
+  ],
+  "antonyms": [
+   "Reward",
+   "Pardon",
+   "Forgive",
+   "Excuse",
+   "Praise"
+  ],
+  "contextual": [
+   "Detention",
+   "Judge",
+   "Fine",
+   "Prison",
+   "Timeout"
+  ],
+  "chaos": [
+   "Tambourine",
+   "Parsnip",
+   "Cinnamon",
+   "Notepad",
+   "Scooter"
+  ]
+ },
+ {
+  "id": "2027-06-19",
+  "targetWord": "WORRY",
+  "synonyms": [
+   "Fret",
+   "Stress",
+   "Agonize",
+   "Brood",
+   "Panic"
+  ],
+  "antonyms": [
+   "Relax",
+   "Unwind",
+   "Calm",
+   "Rest",
+   "Settle"
+  ],
+  "contextual": [
+   "Exam",
+   "Bills",
+   "Deadline",
+   "Storm",
+   "Doctor"
+  ],
+  "chaos": [
+   "Radish",
+   "Raccoon",
+   "Dustpan",
+   "Maraca",
+   "Falafel"
+  ]
+ },
+ {
+  "id": "2027-06-20",
+  "targetWord": "CLIMB",
+  "synonyms": [
+   "Ascend",
+   "Scale",
+   "Mount",
+   "Rise",
+   "Clamber"
+  ],
+  "antonyms": [
+   "Descend",
+   "Drop",
+   "Fall",
+   "Sink",
+   "Plunge"
+  ],
+  "contextual": [
+   "Mountain",
+   "Ladder",
+   "Tree",
+   "Rope",
+   "Rock"
+  ],
+  "chaos": [
+   "Monocle",
+   "Pigeon",
+   "Trowel",
+   "Caboose",
+   "Flamingo"
+  ]
+ },
+ {
+  "id": "2027-06-21",
+  "targetWord": "COMPLAIN",
+  "synonyms": [
+   "Grumble",
+   "Whine",
+   "Gripe",
+   "Moan",
+   "Protest"
+  ],
+  "antonyms": [
+   "Praise",
+   "Approve",
+   "Compliment",
+   "Applaud",
+   "Accept"
+  ],
+  "contextual": [
+   "Customer",
+   "Manager",
+   "Weather",
+   "Neighbor",
+   "Refund"
+  ],
+  "chaos": [
+   "Pretzel",
+   "Teapot",
+   "Possum",
+   "Jigsaw",
+   "Squash"
+  ]
+ },
+ {
+  "id": "2027-06-22",
+  "targetWord": "EXPLAIN",
+  "synonyms": [
+   "Clarify",
+   "Describe",
+   "Illustrate",
+   "Interpret",
+   "Define"
+  ],
+  "antonyms": [
+   "Confuse",
+   "Obscure",
+   "Muddle",
+   "Complicate",
+   "Mystify"
+  ],
+  "contextual": [
+   "Teacher",
+   "Diagram",
+   "Lesson",
+   "Manual",
+   "Tutorial"
+  ],
+  "chaos": [
+   "Hippo",
+   "Lamppost",
+   "Satellite",
+   "Beaver",
+   "Doughnut"
+  ]
+ },
+ {
+  "id": "2027-06-23",
+  "targetWord": "HURRY",
+  "synonyms": [
+   "Rush",
+   "Hasten",
+   "Dash",
+   "Race",
+   "Scurry"
+  ],
+  "antonyms": [
+   "Dawdle",
+   "Linger",
+   "Delay",
+   "Loiter",
+   "Stroll"
+  ],
+  "contextual": [
+   "Train",
+   "Deadline",
+   "Commute",
+   "Rain",
+   "Bus"
+  ],
+  "chaos": [
+   "Clogs",
+   "Barometer",
+   "Thumbtack",
+   "Poncho",
+   "Alpaca"
+  ]
+ },
+ {
+  "id": "2027-06-24",
+  "targetWord": "LAUGH",
+  "synonyms": [
+   "Giggle",
+   "Chuckle",
+   "Chortle",
+   "Cackle",
+   "Snicker"
+  ],
+  "antonyms": [
+   "Cry",
+   "Weep",
+   "Sob",
+   "Frown",
+   "Scowl"
+  ],
+  "contextual": [
+   "Joke",
+   "Comedian",
+   "Tickle",
+   "Sitcom",
+   "Clown"
+  ],
+  "chaos": [
+   "Chimney",
+   "Teaspoon",
+   "Rutabaga",
+   "Oboe",
+   "Rhubarb"
+  ]
+ },
+ {
+  "id": "2027-06-25",
+  "targetWord": "PANIC",
+  "synonyms": [
+   "Fear",
+   "Alarm",
+   "Dread",
+   "Hysteria",
+   "Terror"
+  ],
+  "antonyms": [
+   "Calm",
+   "Composure",
+   "Serenity",
+   "Ease",
+   "Peace"
+  ],
+  "contextual": [
+   "Fire",
+   "Exam",
+   "Stampede",
+   "Emergency",
+   "Spider"
+  ],
+  "chaos": [
+   "Kaleidoscope",
+   "Narwhal",
+   "Zeppelin",
+   "Kebab",
+   "Hedgehog"
+  ]
+ },
+ {
+  "id": "2027-06-26",
+  "targetWord": "PERSUADE",
+  "synonyms": [
+   "Convince",
+   "Coax",
+   "Sway",
+   "Urge",
+   "Influence"
+  ],
+  "antonyms": [
+   "Dissuade",
+   "Discourage",
+   "Deter",
+   "Prevent",
+   "Restrain"
+  ],
+  "contextual": [
+   "Lawyer",
+   "Advertisement",
+   "Debate",
+   "Speech",
+   "Jury"
+  ],
+  "chaos": [
+   "Unicycle",
+   "Koala",
+   "Ferret",
+   "Whisk",
+   "Granola"
+  ]
+ },
+ {
+  "id": "2027-06-27",
+  "targetWord": "QUIT",
+  "synonyms": [
+   "Resign",
+   "Leave",
+   "Abandon",
+   "Cease",
+   "Stop"
+  ],
+  "antonyms": [
+   "Continue",
+   "Persist",
+   "Remain",
+   "Start",
+   "Stay"
+  ],
+  "contextual": [
+   "Job",
+   "Habit",
+   "Game",
+   "Team",
+   "Gym"
+  ],
+  "chaos": [
+   "Newt",
+   "Wombat",
+   "Fountain",
+   "Anklet",
+   "Quiche"
+  ]
+ },
+ {
+  "id": "2027-06-28",
+  "targetWord": "RELAX",
+  "synonyms": [
+   "Unwind",
+   "Rest",
+   "Calm",
+   "Loosen",
+   "Chill"
+  ],
+  "antonyms": [
+   "Tense",
+   "Stress",
+   "Worry",
+   "Tighten",
+   "Fret"
+  ],
+  "contextual": [
+   "Spa",
+   "Beach",
+   "Hammock",
+   "Vacation",
+   "Bath"
+  ],
+  "chaos": [
+   "Halibut",
+   "Puffin",
+   "Burrito",
+   "Mailbox",
+   "Pulley"
+  ]
+ },
+ {
+  "id": "2027-06-29",
+  "targetWord": "REMEMBER",
+  "synonyms": [
+   "Recall",
+   "Recollect",
+   "Recognize",
+   "Reminisce",
+   "Retain"
+  ],
+  "antonyms": [
+   "Forget",
+   "Overlook",
+   "Neglect",
+   "Ignore",
+   "Omit"
+  ],
+  "contextual": [
+   "Birthday",
+   "Name",
+   "Password",
+   "Memory",
+   "Anniversary"
+  ],
+  "chaos": [
+   "Oregano",
+   "Popcorn",
+   "Ukulele",
+   "Overalls",
+   "Jukebox"
+  ]
+ },
+ {
+  "id": "2027-06-30",
+  "targetWord": "ADORABLE",
+  "synonyms": [
+   "Cute",
+   "Lovable",
+   "Charming",
+   "Sweet",
+   "Darling"
+  ],
+  "antonyms": [
+   "Hideous",
+   "Repulsive",
+   "Ugly",
+   "Unlovable",
+   "Grotesque"
+  ],
+  "contextual": [
+   "Puppy",
+   "Baby",
+   "Kitten",
+   "Panda",
+   "Bunny"
+  ],
+  "chaos": [
+   "Lasagna",
+   "Cymbal",
+   "Platypus",
+   "Manatee",
+   "Faucet"
+  ]
+ },
+ {
+  "id": "2027-07-01",
+  "targetWord": "ARTIFICIAL",
+  "synonyms": [
+   "Synthetic",
+   "Fake",
+   "Manmade",
+   "Imitation",
+   "Simulated"
+  ],
+  "antonyms": [
+   "Natural",
+   "Real",
+   "Genuine",
+   "Organic",
+   "Authentic"
+  ],
+  "contextual": [
+   "Plastic",
+   "Flower",
+   "Sweetener",
+   "Turf",
+   "Robot"
+  ],
+  "chaos": [
+   "Anteater",
+   "Llama",
+   "Magnet",
+   "Beret",
+   "Keychain"
+  ]
+ },
+ {
+  "id": "2027-07-02",
+  "targetWord": "BARREN",
+  "synonyms": [
+   "Desolate",
+   "Arid",
+   "Bleak",
+   "Lifeless",
+   "Infertile"
+  ],
+  "antonyms": [
+   "Fertile",
+   "Lush",
+   "Fruitful",
+   "Verdant",
+   "Productive"
+  ],
+  "contextual": [
+   "Desert",
+   "Wasteland",
+   "Field",
+   "Moon",
+   "Tundra"
+  ],
+  "chaos": [
+   "Saucer",
+   "Tapir",
+   "Bison",
+   "Pickle",
+   "Dinghy"
+  ]
+ },
+ {
+  "id": "2027-07-03",
+  "targetWord": "CHARMING",
+  "synonyms": [
+   "Delightful",
+   "Enchanting",
+   "Captivating",
+   "Lovely",
+   "Appealing"
+  ],
+  "antonyms": [
+   "Repulsive",
+   "Unpleasant",
+   "Disagreeable",
+   "Boorish",
+   "Obnoxious"
+  ],
+  "contextual": [
+   "Prince",
+   "Cottage",
+   "Village",
+   "Smile",
+   "Host"
+  ],
+  "chaos": [
+   "Haddock",
+   "Globe",
+   "Mandolin",
+   "Drawer",
+   "Lemur"
+  ]
+ },
+ {
+  "id": "2027-07-04",
+  "targetWord": "CONSTANT",
+  "synonyms": [
+   "Continuous",
+   "Steady",
+   "Unchanging",
+   "Perpetual",
+   "Persistent"
+  ],
+  "antonyms": [
+   "Variable",
+   "Changing",
+   "Fickle",
+   "Sporadic",
+   "Intermittent"
+  ],
+  "contextual": [
+   "Noise",
+   "Rain",
+   "Ticking",
+   "Speed",
+   "Companion"
+  ],
+  "chaos": [
+   "Aardvark",
+   "Dumpling",
+   "Tricycle",
+   "Stencil",
+   "Pumpkin"
+  ]
+ },
+ {
+  "id": "2027-07-05",
+  "targetWord": "CREATIVE",
+  "synonyms": [
+   "Inventive",
+   "Imaginative",
+   "Original",
+   "Artistic",
+   "Innovative"
+  ],
+  "antonyms": [
+   "Unimaginative",
+   "Uninspired",
+   "Dull",
+   "Derivative",
+   "Unoriginal"
+  ],
+  "contextual": [
+   "Artist",
+   "Studio",
+   "Crayon",
+   "Inventor",
+   "Novelist"
+  ],
+  "chaos": [
+   "Rickshaw",
+   "Ladybug",
+   "Bassoon",
+   "Ketchup",
+   "Croissant"
+  ]
+ },
+ {
+  "id": "2027-07-06",
+  "targetWord": "DAMP",
+  "synonyms": [
+   "Moist",
+   "Wet",
+   "Clammy",
+   "Humid",
+   "Soggy"
+  ],
+  "antonyms": [
+   "Dry",
+   "Arid",
+   "Parched",
+   "Dehydrated",
+   "Desiccated"
+  ],
+  "contextual": [
+   "Basement",
+   "Towel",
+   "Moss",
+   "Fog",
+   "Sponge"
+  ],
+  "chaos": [
+   "Muffin",
+   "Chipmunk",
+   "Lantern",
+   "Paprika",
+   "Sundial"
+  ]
+ },
+ {
+  "id": "2027-07-07",
+  "targetWord": "DARK",
+  "synonyms": [
+   "Dim",
+   "Shadowy",
+   "Murky",
+   "Gloomy",
+   "Black"
+  ],
+  "antonyms": [
+   "Bright",
+   "Light",
+   "Sunny",
+   "Illuminated",
+   "Brilliant"
+  ],
+  "contextual": [
+   "Night",
+   "Cave",
+   "Shadow",
+   "Basement",
+   "Eclipse"
+  ],
+  "chaos": [
+   "Zipper",
+   "Headband",
+   "Salamander",
+   "Salmon",
+   "Bagpipe"
+  ]
+ },
+ {
+  "id": "2027-07-08",
+  "targetWord": "DECENT",
+  "synonyms": [
+   "Respectable",
+   "Proper",
+   "Honorable",
+   "Reasonable",
+   "Fair"
+  ],
+  "antonyms": [
+   "Indecent",
+   "Improper",
+   "Shameful",
+   "Vulgar",
+   "Disreputable"
+  ],
+  "contextual": [
+   "Wage",
+   "Neighbor",
+   "Meal",
+   "Effort",
+   "Manners"
+  ],
+  "chaos": [
+   "Waffle",
+   "Squid",
+   "Spatula",
+   "Dulcimer",
+   "Antenna"
+  ]
+ },
+ {
+  "id": "2027-07-09",
+  "targetWord": "DESPERATE",
+  "synonyms": [
+   "Frantic",
+   "Urgent",
+   "Despairing",
+   "Hopeless",
+   "Reckless"
+  ],
+  "antonyms": [
+   "Hopeful",
+   "Calm",
+   "Composed",
+   "Secure",
+   "Content"
+  ],
+  "contextual": [
+   "Rescue",
+   "Plea",
+   "Hunger",
+   "Gamble",
+   "Search"
+  ],
+  "chaos": [
+   "Meerkat",
+   "Kiwi",
+   "Hose",
+   "Cufflink",
+   "Battery"
+  ]
+ },
+ {
+  "id": "2027-07-10",
+  "targetWord": "EARLY",
+  "synonyms": [
+   "Premature",
+   "Initial",
+   "Prior",
+   "Prompt",
+   "Advance"
+  ],
+  "antonyms": [
+   "Late",
+   "Delayed",
+   "Tardy",
+   "Overdue",
+   "Belated"
+  ],
+  "contextual": [
+   "Morning",
+   "Sunrise",
+   "Bird",
+   "Alarm",
+   "Rooster"
+  ],
+  "chaos": [
+   "Pistachio",
+   "Caterpillar",
+   "Metronome",
+   "Sherbet",
+   "Sombrero"
+  ]
+ },
+ {
+  "id": "2027-07-11",
+  "targetWord": "EXCELLENT",
+  "synonyms": [
+   "Superb",
+   "Outstanding",
+   "Exceptional",
+   "Marvelous",
+   "Terrific"
+  ],
+  "antonyms": [
+   "Poor",
+   "Awful",
+   "Inferior",
+   "Mediocre",
+   "Terrible"
+  ],
+  "contextual": [
+   "Grade",
+   "Review",
+   "Performance",
+   "Chef",
+   "Wine"
+  ],
+  "chaos": [
+   "Bugle",
+   "Buckle",
+   "Hinge",
+   "Seagull",
+   "Almond"
+  ]
+ },
+ {
+  "id": "2027-07-12",
+  "targetWord": "EXOTIC",
+  "synonyms": [
+   "Foreign",
+   "Unusual",
+   "Tropical",
+   "Rare",
+   "Striking"
+  ],
+  "antonyms": [
+   "Native",
+   "Local",
+   "Ordinary",
+   "Familiar",
+   "Common"
+  ],
+  "contextual": [
+   "Fruit",
+   "Parrot",
+   "Island",
+   "Spice",
+   "Orchid"
+  ],
+  "chaos": [
+   "Ladle",
+   "Walrus",
+   "Apricot",
+   "Fig",
+   "Bucket"
+  ]
+ },
+ {
+  "id": "2027-07-13",
+  "targetWord": "FAIR",
+  "synonyms": [
+   "Just",
+   "Equitable",
+   "Impartial",
+   "Unbiased",
+   "Even"
+  ],
+  "antonyms": [
+   "Unfair",
+   "Biased",
+   "Unjust",
+   "Partial",
+   "Prejudiced"
+  ],
+  "contextual": [
+   "Referee",
+   "Judge",
+   "Trade",
+   "Trial",
+   "Game"
+  ],
+  "chaos": [
+   "Seesaw",
+   "Cricket",
+   "Gourd",
+   "Hamster",
+   "Funnel"
+  ]
+ },
+ {
+  "id": "2027-07-14",
+  "targetWord": "FAMILIAR",
+  "synonyms": [
+   "Known",
+   "Recognizable",
+   "Common",
+   "Customary",
+   "Accustomed"
+  ],
+  "antonyms": [
+   "Strange",
+   "Unknown",
+   "Foreign",
+   "Unfamiliar",
+   "Alien"
+  ],
+  "contextual": [
+   "Face",
+   "Voice",
+   "Song",
+   "Street",
+   "Smell"
+  ],
+  "chaos": [
+   "Rhino",
+   "Stapler",
+   "Sardine",
+   "Bobbin",
+   "Tangerine"
+  ]
+ },
+ {
+  "id": "2027-07-15",
+  "targetWord": "FINAL",
+  "synonyms": [
+   "Last",
+   "Ultimate",
+   "Concluding",
+   "Closing",
+   "Terminal"
+  ],
+  "antonyms": [
+   "First",
+   "Initial",
+   "Opening",
+   "Preliminary",
+   "Introductory"
+  ],
+  "contextual": [
+   "Exam",
+   "Round",
+   "Chapter",
+   "Whistle",
+   "Curtain"
+  ],
+  "chaos": [
+   "Toboggan",
+   "Marmalade",
+   "Saffron",
+   "Sitar",
+   "Periscope"
+  ]
+ },
+ {
+  "id": "2027-07-16",
+  "targetWord": "FLAT",
+  "synonyms": [
+   "Level",
+   "Even",
+   "Smooth",
+   "Horizontal",
+   "Unbroken"
+  ],
+  "antonyms": [
+   "Bumpy",
+   "Hilly",
+   "Uneven",
+   "Rugged",
+   "Curved"
+  ],
+  "contextual": [
+   "Prairie",
+   "Tire",
+   "Pancake",
+   "Table",
+   "Road"
+  ],
+  "chaos": [
+   "Moose",
+   "Beanie",
+   "Omelet",
+   "Stork",
+   "Fedora"
+  ]
+ },
+ {
+  "id": "2027-07-17",
+  "targetWord": "FLUFFY",
+  "synonyms": [
+   "Fuzzy",
+   "Downy",
+   "Feathery",
+   "Soft",
+   "Fleecy"
+  ],
+  "antonyms": [
+   "Coarse",
+   "Rough",
+   "Bristly",
+   "Prickly",
+   "Hard"
+  ],
+  "contextual": [
+   "Kitten",
+   "Cloud",
+   "Pillow",
+   "Marshmallow",
+   "Sheep"
+  ],
+  "chaos": [
+   "Donkey",
+   "Apron",
+   "Escalator",
+   "Shrimp",
+   "Avocado"
+  ]
+ },
+ {
+  "id": "2027-07-18",
+  "targetWord": "FOREIGN",
+  "synonyms": [
+   "Alien",
+   "Overseas",
+   "International",
+   "External",
+   "Unfamiliar"
+  ],
+  "antonyms": [
+   "Native",
+   "Domestic",
+   "Local",
+   "Indigenous",
+   "Familiar"
+  ],
+  "contextual": [
+   "Passport",
+   "Embassy",
+   "Language",
+   "Currency",
+   "Accent"
+  ],
+  "chaos": [
+   "Kayak",
+   "Macaw",
+   "Turbine",
+   "Bonnet",
+   "Yak"
+  ]
+ },
+ {
+  "id": "2027-07-19",
+  "targetWord": "FREQUENT",
+  "synonyms": [
+   "Regular",
+   "Common",
+   "Habitual",
+   "Repeated",
+   "Recurring"
+  ],
+  "antonyms": [
+   "Rare",
+   "Occasional",
+   "Infrequent",
+   "Sporadic",
+   "Isolated"
+  ],
+  "contextual": [
+   "Flyer",
+   "Visitor",
+   "Customer",
+   "Rain",
+   "Updates"
+  ],
+  "chaos": [
+   "Woodpecker",
+   "Spool",
+   "Basil",
+   "Wallpaper",
+   "Beetle"
+  ]
+ },
+ {
+  "id": "2027-07-20",
+  "targetWord": "FRIGHTENED",
+  "synonyms": [
+   "Scared",
+   "Afraid",
+   "Terrified",
+   "Alarmed",
+   "Fearful"
+  ],
+  "antonyms": [
+   "Brave",
+   "Fearless",
+   "Calm",
+   "Unafraid",
+   "Bold"
+  ],
+  "contextual": [
+   "Ghost",
+   "Thunder",
+   "Dark",
+   "Monster",
+   "Spider"
+  ],
+  "chaos": [
+   "Cashew",
+   "Pajamas",
+   "Moped",
+   "Kettle",
+   "Asparagus"
+  ]
+ },
+ {
+  "id": "2027-07-21",
+  "targetWord": "FROZEN",
+  "synonyms": [
+   "Icy",
+   "Frosted",
+   "Solid",
+   "Chilled",
+   "Glacial"
+  ],
+  "antonyms": [
+   "Melted",
+   "Thawed",
+   "Warm",
+   "Liquid",
+   "Heated"
+  ],
+  "contextual": [
+   "Lake",
+   "Pond",
+   "Peas",
+   "Tundra",
+   "Popsicle"
+  ],
+  "chaos": [
+   "Walnut",
+   "Antelope",
+   "Tadpole",
+   "Forklift",
+   "Bowtie"
+  ]
+ },
+ {
+  "id": "2027-07-22",
+  "targetWord": "FUTILE",
+  "synonyms": [
+   "Useless",
+   "Pointless",
+   "Vain",
+   "Fruitless",
+   "Hopeless"
+  ],
+  "antonyms": [
+   "Useful",
+   "Fruitful",
+   "Effective",
+   "Productive",
+   "Worthwhile"
+  ],
+  "contextual": [
+   "Struggle",
+   "Attempt",
+   "Search",
+   "Protest",
+   "Effort"
+  ],
+  "chaos": [
+   "Camel",
+   "Kilt",
+   "Pincushion",
+   "Wrench",
+   "Lobster"
+  ]
+ },
+ {
+  "id": "2027-07-23",
+  "targetWord": "GALLANT",
+  "synonyms": [
+   "Chivalrous",
+   "Courtly",
+   "Noble",
+   "Valiant",
+   "Heroic"
+  ],
+  "antonyms": [
+   "Cowardly",
+   "Rude",
+   "Ungallant",
+   "Discourteous",
+   "Boorish"
+  ],
+  "contextual": [
+   "Knight",
+   "Gentleman",
+   "Rescue",
+   "Bow",
+   "Horse"
+  ],
+  "chaos": [
+   "Octopus",
+   "Lentil",
+   "Pudding",
+   "Thermostat",
+   "Iguana"
+  ]
+ },
+ {
+  "id": "2027-07-24",
+  "targetWord": "GLAMOROUS",
+  "synonyms": [
+   "Dazzling",
+   "Elegant",
+   "Chic",
+   "Stylish",
+   "Alluring"
+  ],
+  "antonyms": [
+   "Dowdy",
+   "Drab",
+   "Frumpy",
+   "Plain",
+   "Unfashionable"
+  ],
+  "contextual": [
+   "Hollywood",
+   "Gown",
+   "Model",
+   "Gala",
+   "Fashion"
+  ],
+  "chaos": [
+   "Pelican",
+   "Hazelnut",
+   "Gondola",
+   "Mongoose",
+   "Rake"
+  ]
+ },
+ {
+  "id": "2027-07-25",
+  "targetWord": "GROTESQUE",
+  "synonyms": [
+   "Hideous",
+   "Monstrous",
+   "Deformed",
+   "Gruesome",
+   "Freakish"
+  ],
+  "antonyms": [
+   "Beautiful",
+   "Lovely",
+   "Graceful",
+   "Attractive",
+   "Charming"
+  ],
+  "contextual": [
+   "Gargoyle",
+   "Mask",
+   "Monster",
+   "Statue",
+   "Carnival"
+  ],
+  "chaos": [
+   "Sieve",
+   "Gerbil",
+   "Pecan",
+   "Zebra",
+   "Hubcap"
+  ]
+ },
+ {
+  "id": "2027-07-26",
+  "targetWord": "HASTY",
+  "synonyms": [
+   "Rushed",
+   "Hurried",
+   "Quick",
+   "Rash",
+   "Abrupt"
+  ],
+  "antonyms": [
+   "Careful",
+   "Deliberate",
+   "Slow",
+   "Leisurely",
+   "Measured"
+  ],
+  "contextual": [
+   "Decision",
+   "Exit",
+   "Retreat",
+   "Sketch",
+   "Lunch"
+  ],
+  "chaos": [
+   "Banjo",
+   "Trellis",
+   "Parsley",
+   "Gecko",
+   "Nutmeg"
+  ]
+ },
+ {
+  "id": "2027-07-27",
+  "targetWord": "HEARTY",
+  "synonyms": [
+   "Robust",
+   "Substantial",
+   "Hefty",
+   "Wholesome",
+   "Filling"
+  ],
+  "antonyms": [
+   "Light",
+   "Meager",
+   "Paltry",
+   "Slight",
+   "Insubstantial"
+  ],
+  "contextual": [
+   "Stew",
+   "Breakfast",
+   "Laugh",
+   "Welcome",
+   "Meal"
+  ],
+  "chaos": [
+   "Armadillo",
+   "Grasshopper",
+   "Tugboat",
+   "Hacksaw",
+   "Cello"
+  ]
+ },
+ {
+  "id": "2027-07-28",
+  "targetWord": "HELPLESS",
+  "synonyms": [
+   "Powerless",
+   "Defenseless",
+   "Vulnerable",
+   "Weak",
+   "Dependent"
+  ],
+  "antonyms": [
+   "Capable",
+   "Independent",
+   "Strong",
+   "Powerful",
+   "Competent"
+  ],
+  "contextual": [
+   "Baby",
+   "Kitten",
+   "Victim",
+   "Patient",
+   "Hatchling"
+  ],
+  "chaos": [
+   "Pliers",
+   "Fiddle",
+   "Toad",
+   "Zucchini",
+   "Abacus"
+  ]
+ },
+ {
+  "id": "2027-07-29",
+  "targetWord": "HIGH",
+  "synonyms": [
+   "Tall",
+   "Lofty",
+   "Elevated",
+   "Towering",
+   "Soaring"
+  ],
+  "antonyms": [
+   "Low",
+   "Short",
+   "Squat",
+   "Shallow",
+   "Sunken"
+  ],
+  "contextual": [
+   "Mountain",
+   "Tower",
+   "Kite",
+   "Balcony",
+   "Cloud"
+  ],
+  "chaos": [
+   "Tweezers",
+   "Bongo",
+   "Peanut",
+   "Tuba",
+   "Cabbage"
+  ]
+ },
+ {
+  "id": "2027-07-30",
+  "targetWord": "HOPELESS",
+  "synonyms": [
+   "Desperate",
+   "Despairing",
+   "Futile",
+   "Bleak",
+   "Dire"
+  ],
+  "antonyms": [
+   "Hopeful",
+   "Optimistic",
+   "Promising",
+   "Encouraging",
+   "Upbeat"
+  ],
+  "contextual": [
+   "Situation",
+   "Case",
+   "Romantic",
+   "Cause",
+   "Struggle"
+  ],
+  "chaos": [
+   "Gherkin",
+   "Pinwheel",
+   "Piccolo",
+   "Stethoscope",
+   "Brownie"
+  ]
+ },
+ {
+  "id": "2027-07-31",
+  "targetWord": "HOSPITABLE",
+  "synonyms": [
+   "Welcoming",
+   "Friendly",
+   "Gracious",
+   "Generous",
+   "Cordial"
+  ],
+  "antonyms": [
+   "Unwelcoming",
+   "Hostile",
+   "Unfriendly",
+   "Inhospitable",
+   "Cold"
+  ],
+  "contextual": [
+   "Host",
+   "Inn",
+   "Guest",
+   "Feast",
+   "Doorstep"
+  ],
+  "chaos": [
+   "Emu",
+   "Trout",
+   "Windmill",
+   "Mop",
+   "Raisin"
+  ]
+ },
+ {
+  "id": "2027-08-01",
+  "targetWord": "HOT",
+  "synonyms": [
+   "Scorching",
+   "Boiling",
+   "Sweltering",
+   "Blazing",
+   "Fiery"
+  ],
+  "antonyms": [
+   "Cold",
+   "Freezing",
+   "Icy",
+   "Chilly",
+   "Cool"
+  ],
+  "contextual": [
+   "Summer",
+   "Oven",
+   "Desert",
+   "Coffee",
+   "Fire"
+  ],
+  "chaos": [
+   "Galoshes",
+   "Toucan",
+   "Casserole",
+   "Canoe",
+   "Hopscotch"
+  ]
+ },
+ {
+  "id": "2027-08-02",
+  "targetWord": "IDEAL",
+  "synonyms": [
+   "Perfect",
+   "Optimal",
+   "Model",
+   "Flawless",
+   "Exemplary"
+  ],
+  "antonyms": [
+   "Flawed",
+   "Imperfect",
+   "Faulty",
+   "Poor",
+   "Unsuitable"
+  ],
+  "contextual": [
+   "Partner",
+   "Weather",
+   "Home",
+   "Job",
+   "Candidate"
+  ],
+  "chaos": [
+   "Parsnip",
+   "Cinnamon",
+   "Scooter",
+   "Notepad",
+   "Gong"
+  ]
+ },
+ {
+  "id": "2027-08-03",
+  "targetWord": "ILLEGAL",
+  "synonyms": [
+   "Unlawful",
+   "Illicit",
+   "Criminal",
+   "Forbidden",
+   "Banned"
+  ],
+  "antonyms": [
+   "Legal",
+   "Lawful",
+   "Permitted",
+   "Legitimate",
+   "Licensed"
+  ],
+  "contextual": [
+   "Smuggler",
+   "Police",
+   "Parking",
+   "Contraband",
+   "Fine"
+  ],
+  "chaos": [
+   "Maraca",
+   "Dustpan",
+   "Falafel",
+   "Radish",
+   "Trombone"
+  ]
+ },
+ {
+  "id": "2027-08-04",
+  "targetWord": "INCREDIBLE",
+  "synonyms": [
+   "Amazing",
+   "Astonishing",
+   "Unbelievable",
+   "Extraordinary",
+   "Astounding"
+  ],
+  "antonyms": [
+   "Ordinary",
+   "Mundane",
+   "Believable",
+   "Unremarkable",
+   "Dull"
+  ],
+  "contextual": [
+   "Magic",
+   "Stunt",
+   "Discovery",
+   "Story",
+   "Feat"
+  ],
+  "chaos": [
+   "Monocle",
+   "Trowel",
+   "Flamingo",
+   "Caboose",
+   "Pigeon"
+  ]
+ },
+ {
+  "id": "2027-08-05",
+  "targetWord": "JUICY",
+  "synonyms": [
+   "Succulent",
+   "Moist",
+   "Luscious",
+   "Ripe",
+   "Tender"
+  ],
+  "antonyms": [
+   "Dry",
+   "Withered",
+   "Shriveled",
+   "Parched",
+   "Dehydrated"
+  ],
+  "contextual": [
+   "Peach",
+   "Steak",
+   "Orange",
+   "Gossip",
+   "Watermelon"
+  ],
+  "chaos": [
+   "Teapot",
+   "Possum",
+   "Jigsaw",
+   "Tambourine",
+   "Capybara"
+  ]
+ },
+ {
+  "id": "2027-08-06",
+  "targetWord": "LAVISH",
+  "synonyms": [
+   "Extravagant",
+   "Opulent",
+   "Luxurious",
+   "Sumptuous",
+   "Grand"
+  ],
+  "antonyms": [
+   "Meager",
+   "Frugal",
+   "Modest",
+   "Sparse",
+   "Austere"
+  ],
+  "contextual": [
+   "Banquet",
+   "Wedding",
+   "Palace",
+   "Gift",
+   "Party"
+  ],
+  "chaos": [
+   "Lamppost",
+   "Pretzel",
+   "Satellite",
+   "Beaver",
+   "Squash"
+  ]
+ },
+ {
+  "id": "2027-08-07",
+  "targetWord": "LIMP",
+  "synonyms": [
+   "Floppy",
+   "Droopy",
+   "Slack",
+   "Wilted",
+   "Flaccid"
+  ],
+  "antonyms": [
+   "Stiff",
+   "Firm",
+   "Rigid",
+   "Taut",
+   "Crisp"
+  ],
+  "contextual": [
+   "Lettuce",
+   "Noodle",
+   "Handshake",
+   "Flower",
+   "Rag"
+  ],
+  "chaos": [
+   "Thumbtack",
+   "Clogs",
+   "Poncho",
+   "Doughnut",
+   "Hippo"
+  ]
+ },
+ {
+  "id": "2027-08-08",
+  "targetWord": "LOGICAL",
+  "synonyms": [
+   "Rational",
+   "Reasonable",
+   "Sensible",
+   "Coherent",
+   "Sound"
+  ],
+  "antonyms": [
+   "Illogical",
+   "Irrational",
+   "Absurd",
+   "Unreasonable",
+   "Senseless"
+  ],
+  "contextual": [
+   "Scientist",
+   "Proof",
+   "Puzzle",
+   "Argument",
+   "Detective"
+  ],
+  "chaos": [
+   "Chimney",
+   "Oboe",
+   "Teaspoon",
+   "Alpaca",
+   "Rutabaga"
+  ]
+ },
+ {
+  "id": "2027-08-09",
+  "targetWord": "MAGICAL",
+  "synonyms": [
+   "Enchanting",
+   "Mystical",
+   "Spellbinding",
+   "Wondrous",
+   "Supernatural"
+  ],
+  "antonyms": [
+   "Ordinary",
+   "Mundane",
+   "Boring",
+   "Plain",
+   "Normal"
+  ],
+  "contextual": [
+   "Wizard",
+   "Wand",
+   "Unicorn",
+   "Fairy",
+   "Potion"
+  ],
+  "chaos": [
+   "Narwhal",
+   "Barometer",
+   "Hedgehog",
+   "Rhubarb",
+   "Ravioli"
+  ]
+ },
+ {
+  "id": "2027-08-10",
+  "targetWord": "MATURE",
+  "synonyms": [
+   "Adult",
+   "Grown",
+   "Developed",
+   "Ripe",
+   "Seasoned"
+  ],
+  "antonyms": [
+   "Immature",
+   "Childish",
+   "Juvenile",
+   "Young",
+   "Green"
+  ],
+  "contextual": [
+   "Wine",
+   "Cheese",
+   "Tree",
+   "Oak",
+   "Elder"
+  ],
+  "chaos": [
+   "Ferret",
+   "Koala",
+   "Unicycle",
+   "Whisk",
+   "Granola"
+  ]
+ },
+ {
+  "id": "2027-08-11",
+  "targetWord": "MILD",
+  "synonyms": [
+   "Gentle",
+   "Moderate",
+   "Soft",
+   "Light",
+   "Temperate"
+  ],
+  "antonyms": [
+   "Severe",
+   "Harsh",
+   "Intense",
+   "Strong",
+   "Extreme"
+  ],
+  "contextual": [
+   "Salsa",
+   "Weather",
+   "Cheese",
+   "Winter",
+   "Cold"
+  ],
+  "chaos": [
+   "Fountain",
+   "Anklet",
+   "Wombat",
+   "Ottoman",
+   "Parakeet"
+  ]
+ },
+ {
+  "id": "2027-08-12",
+  "targetWord": "MUNDANE",
+  "synonyms": [
+   "Ordinary",
+   "Dull",
+   "Routine",
+   "Everyday",
+   "Humdrum"
+  ],
+  "antonyms": [
+   "Extraordinary",
+   "Exciting",
+   "Remarkable",
+   "Exotic",
+   "Unusual"
+  ],
+  "contextual": [
+   "Chores",
+   "Laundry",
+   "Commute",
+   "Errand",
+   "Paperwork"
+  ],
+  "chaos": [
+   "Pulley",
+   "Puffin",
+   "Burrito",
+   "Halibut",
+   "Mailbox"
+  ]
+ },
+ {
+  "id": "2027-08-13",
+  "targetWord": "MUTE",
+  "synonyms": [
+   "Silent",
+   "Speechless",
+   "Quiet",
+   "Wordless",
+   "Voiceless"
+  ],
+  "antonyms": [
+   "Loud",
+   "Vocal",
+   "Talkative",
+   "Noisy",
+   "Chatty"
+  ],
+  "contextual": [
+   "Button",
+   "Remote",
+   "Mime",
+   "Television",
+   "Swan"
+  ],
+  "chaos": [
+   "Popcorn",
+   "Oregano",
+   "Ukulele",
+   "Overalls",
+   "Kaleidoscope"
+  ]
+ },
+ {
+  "id": "2027-08-14",
+  "targetWord": "NECESSARY",
+  "synonyms": [
+   "Essential",
+   "Required",
+   "Needed",
+   "Vital",
+   "Mandatory"
+  ],
+  "antonyms": [
+   "Unnecessary",
+   "Optional",
+   "Needless",
+   "Superfluous",
+   "Extra"
+  ],
+  "contextual": [
+   "Oxygen",
+   "Water",
+   "Passport",
+   "Ingredient",
+   "Rule"
+  ],
+  "chaos": [
+   "Quiche",
+   "Lasagna",
+   "Zeppelin",
+   "Thimble",
+   "Raccoon"
+  ]
+ },
+ {
+  "id": "2027-08-15",
+  "targetWord": "NOTORIOUS",
+  "synonyms": [
+   "Infamous",
+   "Disreputable",
+   "Scandalous",
+   "Shameful",
+   "Dishonorable"
+  ],
+  "antonyms": [
+   "Unknown",
+   "Obscure",
+   "Respected",
+   "Esteemed",
+   "Admired"
+  ],
+  "contextual": [
+   "Outlaw",
+   "Pirate",
+   "Gangster",
+   "Villain",
+   "Heist"
+  ],
+  "chaos": [
+   "Biscuit",
+   "Coconut",
+   "Kazoo",
+   "Newt",
+   "Beret"
+  ]
+ },
+ {
+  "id": "2027-08-16",
+  "targetWord": "NOVEL",
+  "synonyms": [
+   "New",
+   "Original",
+   "Fresh",
+   "Innovative",
+   "Unusual"
+  ],
+  "antonyms": [
+   "Old",
+   "Familiar",
+   "Ordinary",
+   "Traditional",
+   "Stale"
+  ],
+  "contextual": [
+   "Idea",
+   "Invention",
+   "Gadget",
+   "Approach",
+   "Concept"
+  ],
+  "chaos": [
+   "Gooseberry",
+   "Papaya",
+   "Manatee",
+   "Saucer",
+   "Platypus"
+  ]
+ },
+ {
+  "id": "2027-08-17",
+  "targetWord": "OPEN",
+  "synonyms": [
+   "Unlocked",
+   "Ajar",
+   "Accessible",
+   "Unfastened",
+   "Uncovered"
+  ],
+  "antonyms": [
+   "Closed",
+   "Shut",
+   "Locked",
+   "Sealed",
+   "Fastened"
+  ],
+  "contextual": [
+   "Door",
+   "Window",
+   "Gate",
+   "Store",
+   "Book"
+  ],
+  "chaos": [
+   "Cucumber",
+   "Bagel",
+   "Drawer",
+   "Globe",
+   "Cymbal"
+  ]
+ },
+ {
+  "id": "2027-08-18",
+  "targetWord": "ORIGINAL",
+  "synonyms": [
+   "Authentic",
+   "Innovative",
+   "Unique",
+   "Novel",
+   "Inventive"
+  ],
+  "antonyms": [
+   "Copied",
+   "Derivative",
+   "Imitation",
+   "Fake",
+   "Unoriginal"
+  ],
+  "contextual": [
+   "Painting",
+   "Recipe",
+   "Idea",
+   "Manuscript",
+   "Song"
+  ],
+  "chaos": [
+   "Pomegranate",
+   "Kebab",
+   "Stencil",
+   "Jukebox",
+   "Llama"
+  ]
+ },
+ {
+  "id": "2027-08-19",
+  "targetWord": "OUTRAGEOUS",
+  "synonyms": [
+   "Shocking",
+   "Scandalous",
+   "Preposterous",
+   "Appalling",
+   "Absurd"
+  ],
+  "antonyms": [
+   "Reasonable",
+   "Acceptable",
+   "Moderate",
+   "Sensible",
+   "Fair"
+  ],
+  "contextual": [
+   "Price",
+   "Costume",
+   "Claim",
+   "Behavior",
+   "Stunt"
+  ],
+  "chaos": [
+   "Croissant",
+   "Dumpling",
+   "Lemur",
+   "Aardvark",
+   "Mandolin"
+  ]
+ },
+ {
+  "id": "2027-08-20",
+  "targetWord": "PAINFUL",
+  "synonyms": [
+   "Sore",
+   "Agonizing",
+   "Aching",
+   "Tender",
+   "Excruciating"
+  ],
+  "antonyms": [
+   "Painless",
+   "Soothing",
+   "Comfortable",
+   "Pleasant",
+   "Easy"
+  ],
+  "contextual": [
+   "Injury",
+   "Splinter",
+   "Sunburn",
+   "Toothache",
+   "Bruise"
+  ],
+  "chaos": [
+   "Muffin",
+   "Sundial",
+   "Pumpkin",
+   "Lantern",
+   "Ladybug"
+  ]
+ },
+ {
+  "id": "2027-08-21",
+  "targetWord": "PASSIVE",
+  "synonyms": [
+   "Inactive",
+   "Submissive",
+   "Docile",
+   "Inert",
+   "Unresisting"
+  ],
+  "antonyms": [
+   "Active",
+   "Assertive",
+   "Aggressive",
+   "Dynamic",
+   "Forceful"
+  ],
+  "contextual": [
+   "Observer",
+   "Voice",
+   "Income",
+   "Viewer",
+   "Bystander"
+  ],
+  "chaos": [
+   "Salmon",
+   "Zipper",
+   "Tricycle",
+   "Anteater",
+   "Bagpipe"
+  ]
+ },
+ {
+  "id": "2027-08-22",
+  "targetWord": "PERMANENT",
+  "synonyms": [
+   "Lasting",
+   "Enduring",
+   "Everlasting",
+   "Eternal",
+   "Perpetual"
+  ],
+  "antonyms": [
+   "Temporary",
+   "Brief",
+   "Fleeting",
+   "Transient",
+   "Momentary"
+  ],
+  "contextual": [
+   "Marker",
+   "Tattoo",
+   "Address",
+   "Ink",
+   "Record"
+  ],
+  "chaos": [
+   "Dulcimer",
+   "Antenna",
+   "Squid",
+   "Keychain",
+   "Ketchup"
+  ]
+ },
+ {
+  "id": "2027-08-23",
+  "targetWord": "PLAYFUL",
+  "synonyms": [
+   "Frisky",
+   "Mischievous",
+   "Spirited",
+   "Fun",
+   "Impish"
+  ],
+  "antonyms": [
+   "Serious",
+   "Solemn",
+   "Grave",
+   "Sober",
+   "Stern"
+  ],
+  "contextual": [
+   "Puppy",
+   "Kitten",
+   "Dolphin",
+   "Toddler",
+   "Otter"
+  ],
+  "chaos": [
+   "Cufflink",
+   "Hose",
+   "Meerkat",
+   "Kiwi",
+   "Dinghy"
+  ]
+ },
+ {
+  "id": "2027-08-24",
+  "targetWord": "PRACTICAL",
+  "synonyms": [
+   "Pragmatic",
+   "Realistic",
+   "Sensible",
+   "Functional",
+   "Useful"
+  ],
+  "antonyms": [
+   "Impractical",
+   "Unrealistic",
+   "Idealistic",
+   "Theoretical",
+   "Useless"
+  ],
+  "contextual": [
+   "Shoes",
+   "Tool",
+   "Advice",
+   "Solution",
+   "Gift"
+  ],
+  "chaos": [
+   "Sherbet",
+   "Caterpillar",
+   "Pistachio",
+   "Sombrero",
+   "Metronome"
+  ]
+ },
+ {
+  "id": "2027-08-25",
+  "targetWord": "QUAINT",
+  "synonyms": [
+   "Charming",
+   "Picturesque",
+   "Cute",
+   "Antiquated",
+   "Whimsical"
+  ],
+  "antonyms": [
+   "Modern",
+   "Sleek",
+   "Ordinary",
+   "Bland",
+   "Contemporary"
+  ],
+  "contextual": [
+   "Cottage",
+   "Village",
+   "Teashop",
+   "Bookshop",
+   "Lane"
+  ],
+  "chaos": [
+   "Bugle",
+   "Buckle",
+   "Seagull",
+   "Almond",
+   "Pickle"
+  ]
+ },
+ {
+  "id": "2027-08-26",
+  "targetWord": "RANDOM",
+  "synonyms": [
+   "Arbitrary",
+   "Haphazard",
+   "Chance",
+   "Accidental",
+   "Unplanned"
+  ],
+  "antonyms": [
+   "Deliberate",
+   "Planned",
+   "Intentional",
+   "Systematic",
+   "Methodical"
+  ],
+  "contextual": [
+   "Dice",
+   "Lottery",
+   "Shuffle",
+   "Coin",
+   "Guess"
+  ],
+  "chaos": [
+   "Fig",
+   "Walrus",
+   "Apricot",
+   "Ladle",
+   "Salamander"
+  ]
+ },
+ {
+  "id": "2027-08-27",
+  "targetWord": "RECENT",
+  "synonyms": [
+   "Latest",
+   "New",
+   "Current",
+   "Fresh",
+   "Modern"
+  ],
+  "antonyms": [
+   "Old",
+   "Past",
+   "Ancient",
+   "Former",
+   "Bygone"
+  ],
+  "contextual": [
+   "News",
+   "Update",
+   "Photo",
+   "Purchase",
+   "Event"
+  ],
+  "chaos": [
+   "Gourd",
+   "Seesaw",
+   "Funnel",
+   "Bassoon",
+   "Hamster"
+  ]
+ },
+ {
+  "id": "2027-08-28",
+  "targetWord": "RELUCTANT",
+  "synonyms": [
+   "Unwilling",
+   "Hesitant",
+   "Grudging",
+   "Averse",
+   "Loath"
+  ],
+  "antonyms": [
+   "Eager",
+   "Willing",
+   "Keen",
+   "Enthusiastic",
+   "Ready"
+  ],
+  "contextual": [
+   "Volunteer",
+   "Dentist",
+   "Hero",
+   "Goodbye",
+   "Toddler"
+  ],
+  "chaos": [
+   "Bobbin",
+   "Sardine",
+   "Rhino",
+   "Stapler",
+   "Paprika"
+  ]
+ },
+ {
+  "id": "2027-08-29",
+  "targetWord": "RESILIENT",
+  "synonyms": [
+   "Tough",
+   "Hardy",
+   "Durable",
+   "Buoyant",
+   "Adaptable"
+  ],
+  "antonyms": [
+   "Fragile",
+   "Weak",
+   "Vulnerable",
+   "Brittle",
+   "Delicate"
+  ],
+  "contextual": [
+   "Survivor",
+   "Rubber",
+   "Spring",
+   "Athlete",
+   "Recovery"
+  ],
+  "chaos": [
+   "Sitar",
+   "Toboggan",
+   "Saffron",
+   "Periscope",
+   "Marmalade"
+  ]
+ },
+ {
+  "id": "2027-08-30",
+  "targetWord": "RIPE",
+  "synonyms": [
+   "Mature",
+   "Ready",
+   "Mellow",
+   "Developed",
+   "Soft"
+  ],
+  "antonyms": [
+   "Unripe",
+   "Green",
+   "Raw",
+   "Immature",
+   "Hard"
+  ],
+  "contextual": [
+   "Banana",
+   "Mango",
+   "Peach",
+   "Harvest",
+   "Orchard"
+  ],
+  "chaos": [
+   "Moose",
+   "Stork",
+   "Beanie",
+   "Hinge",
+   "Battery"
+  ]
+ },
+ {
+  "id": "2027-08-31",
+  "targetWord": "ROTTEN",
+  "synonyms": [
+   "Decayed",
+   "Spoiled",
+   "Putrid",
+   "Moldy",
+   "Rancid"
+  ],
+  "antonyms": [
+   "Fresh",
+   "Wholesome",
+   "Sound",
+   "Pure",
+   "Crisp"
+  ],
+  "contextual": [
+   "Egg",
+   "Apple",
+   "Compost",
+   "Garbage",
+   "Fridge"
+  ],
+  "chaos": [
+   "Shrimp",
+   "Apron",
+   "Escalator",
+   "Magnet",
+   "Bison"
+  ]
+ },
+ {
+  "id": "2027-09-01",
+  "targetWord": "ROYAL",
+  "synonyms": [
+   "Regal",
+   "Majestic",
+   "Kingly",
+   "Imperial",
+   "Noble"
+  ],
+  "antonyms": [
+   "Common",
+   "Lowly",
+   "Humble",
+   "Plebeian",
+   "Ordinary"
+  ],
+  "contextual": [
+   "Crown",
+   "Throne",
+   "Palace",
+   "Queen",
+   "Castle"
+  ],
+  "chaos": [
+   "Macaw",
+   "Avocado",
+   "Yak",
+   "Waffle",
+   "Turbine"
+  ]
+ },
+ {
+  "id": "2027-09-02",
+  "targetWord": "RUGGED",
+  "synonyms": [
+   "Rough",
+   "Rocky",
+   "Craggy",
+   "Jagged",
+   "Harsh"
+  ],
+  "antonyms": [
+   "Smooth",
+   "Gentle",
+   "Flat",
+   "Soft",
+   "Even"
+  ],
+  "contextual": [
+   "Mountain",
+   "Coastline",
+   "Terrain",
+   "Jeep",
+   "Boots"
+  ],
+  "chaos": [
+   "Wallpaper",
+   "Beetle",
+   "Woodpecker",
+   "Basil",
+   "Faucet"
+  ]
+ },
+ {
+  "id": "2027-09-03",
+  "targetWord": "SECRET",
+  "synonyms": [
+   "Hidden",
+   "Confidential",
+   "Covert",
+   "Clandestine",
+   "Classified"
+  ],
+  "antonyms": [
+   "Public",
+   "Open",
+   "Known",
+   "Disclosed",
+   "Revealed"
+  ],
+  "contextual": [
+   "Diary",
+   "Code",
+   "Agent",
+   "Passage",
+   "Recipe"
+  ],
+  "chaos": [
+   "Moped",
+   "Cashew",
+   "Kettle",
+   "Asparagus",
+   "Cricket"
+  ]
+ },
+ {
+  "id": "2027-09-04",
+  "targetWord": "SELFLESS",
+  "synonyms": [
+   "Unselfish",
+   "Altruistic",
+   "Generous",
+   "Giving",
+   "Noble"
+  ],
+  "antonyms": [
+   "Selfish",
+   "Greedy",
+   "Egotistical",
+   "Stingy",
+   "Vain"
+  ],
+  "contextual": [
+   "Hero",
+   "Volunteer",
+   "Mother",
+   "Firefighter",
+   "Donor"
+  ],
+  "chaos": [
+   "Walnut",
+   "Antelope",
+   "Bowtie",
+   "Forklift",
+   "Tadpole"
+  ]
+ },
+ {
+  "id": "2027-09-05",
+  "targetWord": "SENSIBLE",
+  "synonyms": [
+   "Reasonable",
+   "Practical",
+   "Rational",
+   "Wise",
+   "Prudent"
+  ],
+  "antonyms": [
+   "Foolish",
+   "Silly",
+   "Unwise",
+   "Irrational",
+   "Absurd"
+  ],
+  "contextual": [
+   "Shoes",
+   "Advice",
+   "Budget",
+   "Plan",
+   "Decision"
+  ],
+  "chaos": [
+   "Camel",
+   "Lobster",
+   "Kilt",
+   "Wrench",
+   "Pincushion"
+  ]
+ },
+ {
+  "id": "2027-09-06",
+  "targetWord": "SENSITIVE",
+  "synonyms": [
+   "Delicate",
+   "Tender",
+   "Responsive",
+   "Perceptive",
+   "Touchy"
+  ],
+  "antonyms": [
+   "Insensitive",
+   "Callous",
+   "Numb",
+   "Tough",
+   "Indifferent"
+  ],
+  "contextual": [
+   "Skin",
+   "Teeth",
+   "Topic",
+   "Microphone",
+   "Nose"
+  ],
+  "chaos": [
+   "Pudding",
+   "Thermostat",
+   "Octopus",
+   "Iguana",
+   "Spool"
+  ]
+ },
+ {
+  "id": "2027-09-07",
+  "targetWord": "SERIOUS",
+  "synonyms": [
+   "Grave",
+   "Solemn",
+   "Earnest",
+   "Sober",
+   "Stern"
+  ],
+  "antonyms": [
+   "Silly",
+   "Playful",
+   "Frivolous",
+   "Lighthearted",
+   "Flippant"
+  ],
+  "contextual": [
+   "Doctor",
+   "Judge",
+   "Injury",
+   "Business",
+   "Face"
+  ],
+  "chaos": [
+   "Gondola",
+   "Mongoose",
+   "Rake",
+   "Hazelnut",
+   "Pelican"
+  ]
+ },
+ {
+  "id": "2027-09-08",
+  "targetWord": "SINISTER",
+  "synonyms": [
+   "Menacing",
+   "Ominous",
+   "Evil",
+   "Threatening",
+   "Malevolent"
+  ],
+  "antonyms": [
+   "Harmless",
+   "Innocent",
+   "Benign",
+   "Friendly",
+   "Kindly"
+  ],
+  "contextual": [
+   "Villain",
+   "Shadow",
+   "Laugh",
+   "Plot",
+   "Alley"
+  ],
+  "chaos": [
+   "Pecan",
+   "Hubcap",
+   "Sieve",
+   "Zebra",
+   "Gerbil"
+  ]
+ },
+ {
+  "id": "2027-09-09",
+  "targetWord": "SLEEK",
+  "synonyms": [
+   "Smooth",
+   "Glossy",
+   "Streamlined",
+   "Polished",
+   "Elegant"
+  ],
+  "antonyms": [
+   "Clunky",
+   "Bulky",
+   "Rough",
+   "Shaggy",
+   "Messy"
+  ],
+  "contextual": [
+   "Sportscar",
+   "Jaguar",
+   "Yacht",
+   "Panther",
+   "Laptop"
+  ],
+  "chaos": [
+   "Gecko",
+   "Banjo",
+   "Trellis",
+   "Parsley",
+   "Tapir"
+  ]
+ },
+ {
+  "id": "2027-09-10",
+  "targetWord": "SOGGY",
+  "synonyms": [
+   "Wet",
+   "Soaked",
+   "Mushy",
+   "Sodden",
+   "Waterlogged"
+  ],
+  "antonyms": [
+   "Dry",
+   "Crisp",
+   "Crunchy",
+   "Parched",
+   "Arid"
+  ],
+  "contextual": [
+   "Cereal",
+   "Sandwich",
+   "Towel",
+   "Lawn",
+   "Fries"
+  ],
+  "chaos": [
+   "Hacksaw",
+   "Cello",
+   "Grasshopper",
+   "Armadillo",
+   "Tugboat"
+  ]
+ },
+ {
+  "id": "2027-09-11",
+  "targetWord": "STEALTHY",
+  "synonyms": [
+   "Sneaky",
+   "Furtive",
+   "Covert",
+   "Silent",
+   "Secretive"
+  ],
+  "antonyms": [
+   "Obvious",
+   "Noisy",
+   "Open",
+   "Conspicuous",
+   "Blatant"
+  ],
+  "contextual": [
+   "Ninja",
+   "Cat",
+   "Thief",
+   "Spy",
+   "Panther"
+  ],
+  "chaos": [
+   "Pliers",
+   "Toad",
+   "Abacus",
+   "Fiddle",
+   "Chipmunk"
+  ]
+ },
+ {
+  "id": "2027-09-12",
+  "targetWord": "STICKY",
+  "synonyms": [
+   "Gooey",
+   "Tacky",
+   "Gummy",
+   "Adhesive",
+   "Glutinous"
+  ],
+  "antonyms": [
+   "Smooth",
+   "Dry",
+   "Slippery",
+   "Clean",
+   "Slick"
+  ],
+  "contextual": [
+   "Honey",
+   "Glue",
+   "Tape",
+   "Syrup",
+   "Candy"
+  ],
+  "chaos": [
+   "Bongo",
+   "Tweezers",
+   "Kayak",
+   "Donkey",
+   "Pajamas"
+  ]
+ },
+ {
+  "id": "2027-09-13",
+  "targetWord": "SUPERFICIAL",
+  "synonyms": [
+   "Shallow",
+   "Surface",
+   "Cursory",
+   "Hollow",
+   "Trivial"
+  ],
+  "antonyms": [
+   "Deep",
+   "Profound",
+   "Thorough",
+   "Meaningful",
+   "Substantial"
+  ],
+  "contextual": [
+   "Scratch",
+   "Glance",
+   "Conversation",
+   "Celebrity",
+   "Gloss"
+  ],
+  "chaos": [
+   "Stethoscope",
+   "Gherkin",
+   "Brownie",
+   "Piccolo",
+   "Pinwheel"
+  ]
+ },
+ {
+  "id": "2027-09-14",
+  "targetWord": "SURPRISING",
+  "synonyms": [
+   "Unexpected",
+   "Astonishing",
+   "Startling",
+   "Amazing",
+   "Shocking"
+  ],
+  "antonyms": [
+   "Predictable",
+   "Expected",
+   "Ordinary",
+   "Usual",
+   "Foreseeable"
+  ],
+  "contextual": [
+   "Party",
+   "Twist",
+   "Gift",
+   "Ending",
+   "Result"
+  ],
+  "chaos": [
+   "Trout",
+   "Windmill",
+   "Raisin",
+   "Mop",
+   "Cabbage"
+  ]
+ },
+ {
+  "id": "2027-09-15",
+  "targetWord": "SUSPICIOUS",
+  "synonyms": [
+   "Distrustful",
+   "Wary",
+   "Skeptical",
+   "Doubtful",
+   "Leery"
+  ],
+  "antonyms": [
+   "Trusting",
+   "Credulous",
+   "Gullible",
+   "Unsuspecting",
+   "Naive"
+  ],
+  "contextual": [
+   "Detective",
+   "Package",
+   "Stranger",
+   "Noise",
+   "Alibi"
+  ],
+  "chaos": [
+   "Hopscotch",
+   "Casserole",
+   "Toucan",
+   "Galoshes",
+   "Tangerine"
+  ]
+ },
+ {
+  "id": "2027-09-16",
+  "targetWord": "SYMPATHETIC",
+  "synonyms": [
+   "Compassionate",
+   "Understanding",
+   "Caring",
+   "Kind",
+   "Supportive"
+  ],
+  "antonyms": [
+   "Unsympathetic",
+   "Callous",
+   "Heartless",
+   "Cold",
+   "Indifferent"
+  ],
+  "contextual": [
+   "Nurse",
+   "Friend",
+   "Listener",
+   "Shoulder",
+   "Card"
+  ],
+  "chaos": [
+   "Scooter",
+   "Cinnamon",
+   "Notepad",
+   "Gong",
+   "Parsnip"
+  ]
+ },
+ {
+  "id": "2027-09-17",
+  "targetWord": "TALL",
+  "synonyms": [
+   "High",
+   "Lofty",
+   "Towering",
+   "Giant",
+   "Soaring"
+  ],
+  "antonyms": [
+   "Short",
+   "Small",
+   "Tiny",
+   "Low",
+   "Squat"
+  ],
+  "contextual": [
+   "Giraffe",
+   "Skyscraper",
+   "Tree",
+   "Ladder",
+   "Basketball"
+  ],
+  "chaos": [
+   "Radish",
+   "Falafel",
+   "Maraca",
+   "Dustpan",
+   "Trombone"
+  ]
+ },
+ {
+  "id": "2027-09-18",
+  "targetWord": "TENDER",
+  "synonyms": [
+   "Gentle",
+   "Soft",
+   "Loving",
+   "Caring",
+   "Affectionate"
+  ],
+  "antonyms": [
+   "Tough",
+   "Harsh",
+   "Rough",
+   "Hard",
+   "Callous"
+  ],
+  "contextual": [
+   "Steak",
+   "Bruise",
+   "Kiss",
+   "Hug",
+   "Lullaby"
+  ],
+  "chaos": [
+   "Pigeon",
+   "Trowel",
+   "Caboose",
+   "Monocle",
+   "Flamingo"
+  ]
+ },
+ {
+  "id": "2027-09-19",
+  "targetWord": "THOROUGH",
+  "synonyms": [
+   "Meticulous",
+   "Rigorous",
+   "Complete",
+   "Comprehensive",
+   "Careful"
+  ],
+  "antonyms": [
+   "Careless",
+   "Superficial",
+   "Sloppy",
+   "Hasty",
+   "Cursory"
+  ],
+  "contextual": [
+   "Inspection",
+   "Cleaning",
+   "Search",
+   "Research",
+   "Audit"
+  ],
+  "chaos": [
+   "Possum",
+   "Jigsaw",
+   "Teapot",
+   "Tambourine",
+   "Peanut"
+  ]
+ },
+ {
+  "id": "2027-09-20",
+  "targetWord": "TIMELESS",
+  "synonyms": [
+   "Classic",
+   "Eternal",
+   "Enduring",
+   "Ageless",
+   "Perennial"
+  ],
+  "antonyms": [
+   "Dated",
+   "Fleeting",
+   "Trendy",
+   "Temporary",
+   "Faddish"
+  ],
+  "contextual": [
+   "Painting",
+   "Song",
+   "Novel",
+   "Fashion",
+   "Masterpiece"
+  ],
+  "chaos": [
+   "Squash",
+   "Beaver",
+   "Satellite",
+   "Lamppost",
+   "Pretzel"
+  ]
+ },
+ {
+  "id": "2027-09-21",
+  "targetWord": "TOXIC",
+  "synonyms": [
+   "Poisonous",
+   "Harmful",
+   "Deadly",
+   "Noxious",
+   "Lethal"
+  ],
+  "antonyms": [
+   "Harmless",
+   "Safe",
+   "Healthy",
+   "Nontoxic",
+   "Benign"
+  ],
+  "contextual": [
+   "Chemical",
+   "Snake",
+   "Mushroom",
+   "Waste",
+   "Fumes"
+  ],
+  "chaos": [
+   "Poncho",
+   "Clogs",
+   "Thumbtack",
+   "Doughnut",
+   "Hippo"
+  ]
+ },
+ {
+  "id": "2027-09-22",
+  "targetWord": "TRADITIONAL",
+  "synonyms": [
+   "Conventional",
+   "Customary",
+   "Classic",
+   "Established",
+   "Orthodox"
+  ],
+  "antonyms": [
+   "Modern",
+   "Unconventional",
+   "Innovative",
+   "Radical",
+   "Contemporary"
+  ],
+  "contextual": [
+   "Recipe",
+   "Costume",
+   "Wedding",
+   "Festival",
+   "Folklore"
+  ],
+  "chaos": [
+   "Chimney",
+   "Teaspoon",
+   "Alpaca",
+   "Oboe",
+   "Rutabaga"
+  ]
+ },
+ {
+  "id": "2027-09-23",
+  "targetWord": "TRANSPARENT",
+  "synonyms": [
+   "Clear",
+   "Sheer",
+   "Translucent",
+   "Crystalline",
+   "Glassy"
+  ],
+  "antonyms": [
+   "Opaque",
+   "Cloudy",
+   "Murky",
+   "Solid",
+   "Frosted"
+  ],
+  "contextual": [
+   "Window",
+   "Glass",
+   "Jellyfish",
+   "Water",
+   "Plastic"
+  ],
+  "chaos": [
+   "Ravioli",
+   "Rhubarb",
+   "Hedgehog",
+   "Narwhal",
+   "Barometer"
+  ]
+ },
+ {
+  "id": "2027-09-24",
+  "targetWord": "TREMENDOUS",
+  "synonyms": [
+   "Enormous",
+   "Immense",
+   "Colossal",
+   "Massive",
+   "Huge"
+  ],
+  "antonyms": [
+   "Tiny",
+   "Small",
+   "Minor",
+   "Insignificant",
+   "Slight"
+  ],
+  "contextual": [
+   "Effort",
+   "Success",
+   "Wave",
+   "Applause",
+   "Explosion"
+  ],
+  "chaos": [
+   "Koala",
+   "Ferret",
+   "Canoe",
+   "Omelet",
+   "Whisk"
+  ]
+ },
+ {
+  "id": "2027-09-25",
+  "targetWord": "VERSATILE",
+  "synonyms": [
+   "Adaptable",
+   "Flexible",
+   "Handy",
+   "Resourceful",
+   "Multifaceted"
+  ],
+  "antonyms": [
+   "Limited",
+   "Rigid",
+   "Inflexible",
+   "Specialized",
+   "Narrow"
+  ],
+  "contextual": [
+   "Tool",
+   "Actor",
+   "Athlete",
+   "Recipe",
+   "Pocketknife"
+  ],
+  "chaos": [
+   "Anklet",
+   "Parakeet",
+   "Fountain",
+   "Wombat",
+   "Ottoman"
+  ]
+ },
+ {
+  "id": "2027-09-26",
+  "targetWord": "VIOLENT",
+  "synonyms": [
+   "Brutal",
+   "Savage",
+   "Vicious",
+   "Ferocious",
+   "Aggressive"
+  ],
+  "antonyms": [
+   "Peaceful",
+   "Gentle",
+   "Calm",
+   "Nonviolent",
+   "Mild"
+  ],
+  "contextual": [
+   "Storm",
+   "Tornado",
+   "Battle",
+   "Earthquake",
+   "Explosion"
+  ],
+  "chaos": [
+   "Halibut",
+   "Puffin",
+   "Pulley",
+   "Mailbox",
+   "Burrito"
+  ]
+ },
+ {
+  "id": "2027-09-27",
+  "targetWord": "VIRTUOUS",
+  "synonyms": [
+   "Moral",
+   "Ethical",
+   "Righteous",
+   "Upright",
+   "Honorable"
+  ],
+  "antonyms": [
+   "Wicked",
+   "Sinful",
+   "Immoral",
+   "Corrupt",
+   "Evil"
+  ],
+  "contextual": [
+   "Saint",
+   "Hero",
+   "Knight",
+   "Monk",
+   "Angel"
+  ],
+  "chaos": [
+   "Ukulele",
+   "Popcorn",
+   "Kaleidoscope",
+   "Overalls",
+   "Oregano"
+  ]
+ },
+ {
+  "id": "2027-09-28",
+  "targetWord": "VULNERABLE",
+  "synonyms": [
+   "Exposed",
+   "Defenseless",
+   "Unprotected",
+   "Fragile",
+   "Susceptible"
+  ],
+  "antonyms": [
+   "Protected",
+   "Safe",
+   "Invulnerable",
+   "Guarded",
+   "Secure"
+  ],
+  "contextual": [
+   "Hatchling",
+   "Patient",
+   "Baby",
+   "Wound",
+   "Island"
+  ],
+  "chaos": [
+   "Quiche",
+   "Thimble",
+   "Raccoon",
+   "Lasagna",
+   "Zeppelin"
+  ]
+ },
+ {
+  "id": "2027-09-29",
+  "targetWord": "WRONG",
+  "synonyms": [
+   "Incorrect",
+   "Mistaken",
+   "Erroneous",
+   "False",
+   "Inaccurate"
+  ],
+  "antonyms": [
+   "Right",
+   "Correct",
+   "Accurate",
+   "True",
+   "Proper"
+  ],
+  "contextual": [
+   "Answer",
+   "Turn",
+   "Exam",
+   "Number",
+   "Direction"
+  ],
+  "chaos": [
+   "Kazoo",
+   "Coconut",
+   "Biscuit",
+   "Newt",
+   "Haddock"
+  ]
+ },
+ {
+  "id": "2027-09-30",
+  "targetWord": "SHARE",
+  "synonyms": [
+   "Divide",
+   "Split",
+   "Distribute",
+   "Allot",
+   "Give"
+  ],
+  "antonyms": [
+   "Hoard",
+   "Keep",
+   "Withhold",
+   "Hog",
+   "Monopolize"
+  ],
+  "contextual": [
+   "Pizza",
+   "Toy",
+   "Secret",
+   "Lunch",
+   "Umbrella"
+  ],
+  "chaos": [
+   "Papaya",
+   "Gooseberry",
+   "Capybara",
+   "Spatula",
+   "Rickshaw"
+  ]
+ },
+ {
+  "id": "2027-10-01",
+  "targetWord": "SMASH",
+  "synonyms": [
+   "Shatter",
+   "Crush",
+   "Break",
+   "Wreck",
+   "Demolish"
+  ],
+  "antonyms": [
+   "Mend",
+   "Fix",
+   "Repair",
+   "Restore",
+   "Rebuild"
+  ],
+  "contextual": [
+   "Window",
+   "Hammer",
+   "Plate",
+   "Record",
+   "Wave"
+  ],
+  "chaos": [
+   "Cucumber",
+   "Emu",
+   "Bonnet",
+   "Zucchini",
+   "Unicycle"
+  ]
+ },
+ {
+  "id": "2027-10-02",
+  "targetWord": "SOAR",
+  "synonyms": [
+   "Fly",
+   "Rise",
+   "Ascend",
+   "Climb",
+   "Glide"
+  ],
+  "antonyms": [
+   "Plunge",
+   "Fall",
+   "Sink",
+   "Drop",
+   "Descend"
+  ],
+  "contextual": [
+   "Eagle",
+   "Kite",
+   "Rocket",
+   "Balloon",
+   "Prices"
+  ],
+  "chaos": [
+   "Kebab",
+   "Pomegranate",
+   "Headband",
+   "Fedora",
+   "Bucket"
+  ]
+ },
+ {
+  "id": "2027-10-03",
+  "targetWord": "STEAL",
+  "synonyms": [
+   "Rob",
+   "Swipe",
+   "Pinch",
+   "Pilfer",
+   "Snatch"
+  ],
+  "antonyms": [
+   "Return",
+   "Give",
+   "Restore",
+   "Donate",
+   "Repay"
+  ],
+  "contextual": [
+   "Thief",
+   "Bank",
+   "Jewel",
+   "Heist",
+   "Burglar"
+  ],
+  "chaos": [
+   "Nutmeg",
+   "Granola",
+   "Tuba",
+   "Aardvark",
+   "Globe"
+  ]
+ },
+ {
+  "id": "2027-10-04",
+  "targetWord": "STUMBLE",
+  "synonyms": [
+   "Trip",
+   "Stagger",
+   "Lurch",
+   "Falter",
+   "Totter"
+  ],
+  "antonyms": [
+   "Stride",
+   "Glide",
+   "March",
+   "Balance",
+   "Strut"
+  ],
+  "contextual": [
+   "Curb",
+   "Stairs",
+   "Rug",
+   "Root",
+   "Toddler"
+  ],
+  "chaos": [
+   "Bagel",
+   "Lentil",
+   "Jukebox",
+   "Ladybug",
+   "Beret"
+  ]
+ },
+ {
+  "id": "2027-10-05",
+  "targetWord": "TREMBLE",
+  "synonyms": [
+   "Shake",
+   "Shiver",
+   "Quiver",
+   "Shudder",
+   "Quake"
+  ],
+  "antonyms": [
+   "Steady",
+   "Still",
+   "Calm",
+   "Settle",
+   "Rest"
+  ],
+  "contextual": [
+   "Fear",
+   "Cold",
+   "Earthquake",
+   "Leaf",
+   "Nerves"
+  ],
+  "chaos": [
+   "Salmon",
+   "Dumpling",
+   "Bagpipe",
+   "Stencil",
+   "Drawer"
+  ]
+ },
+ {
+  "id": "2027-10-06",
+  "targetWord": "YEARN",
+  "synonyms": [
+   "Long",
+   "Crave",
+   "Ache",
+   "Pine",
+   "Hanker"
+  ],
+  "antonyms": [
+   "Dislike",
+   "Reject",
+   "Spurn",
+   "Shun",
+   "Loathe"
+  ],
+  "contextual": [
+   "Home",
+   "Love",
+   "Adventure",
+   "Summer",
+   "Freedom"
+  ],
+  "chaos": [
+   "Keychain",
+   "Mandolin",
+   "Squid",
+   "Llama",
+   "Ketchup"
+  ]
+ },
+ {
+  "id": "2027-10-07",
+  "targetWord": "BOAST",
+  "synonyms": [
+   "Brag",
+   "Gloat",
+   "Swagger",
+   "Crow",
+   "Flaunt"
+  ],
+  "antonyms": [
+   "Downplay",
+   "Minimize",
+   "Belittle",
+   "Understate",
+   "Hide"
+  ],
+  "contextual": [
+   "Trophy",
+   "Medal",
+   "Victory",
+   "Salary",
+   "Fish"
+  ],
+  "chaos": [
+   "Cufflink",
+   "Kiwi",
+   "Cymbal",
+   "Manatee",
+   "Anteater"
+  ]
+ },
+ {
+  "id": "2027-10-08",
+  "targetWord": "CHERISH",
+  "synonyms": [
+   "Treasure",
+   "Adore",
+   "Prize",
+   "Value",
+   "Love"
+  ],
+  "antonyms": [
+   "Neglect",
+   "Disregard",
+   "Scorn",
+   "Abandon",
+   "Despise"
+  ],
+  "contextual": [
+   "Memory",
+   "Photo",
+   "Gift",
+   "Friendship",
+   "Heirloom"
+  ],
+  "chaos": [
+   "Pistachio",
+   "Metronome",
+   "Sherbet",
+   "Sombrero",
+   "Zipper"
+  ]
+ },
+ {
+  "id": "2027-10-09",
+  "targetWord": "CRAVE",
+  "synonyms": [
+   "Desire",
+   "Want",
+   "Hunger",
+   "Covet",
+   "Yearn"
+  ],
+  "antonyms": [
+   "Reject",
+   "Refuse",
+   "Spurn",
+   "Loathe",
+   "Detest"
+  ],
+  "contextual": [
+   "Chocolate",
+   "Pizza",
+   "Coffee",
+   "Attention",
+   "Sleep"
+  ],
+  "chaos": [
+   "Buckle",
+   "Seagull",
+   "Bugle",
+   "Antenna",
+   "Dulcimer"
+  ]
+ },
+ {
+  "id": "2027-10-10",
+  "targetWord": "DIMINISH",
+  "synonyms": [
+   "Lessen",
+   "Reduce",
+   "Decrease",
+   "Shrink",
+   "Wane"
+  ],
+  "antonyms": [
+   "Increase",
+   "Grow",
+   "Expand",
+   "Enlarge",
+   "Amplify"
+  ],
+  "contextual": [
+   "Light",
+   "Hope",
+   "Sound",
+   "Supply",
+   "Pain"
+  ],
+  "chaos": [
+   "Ladle",
+   "Pickle",
+   "Apricot",
+   "Walrus",
+   "Dinghy"
+  ]
+ },
+ {
+  "id": "2027-10-11",
+  "targetWord": "ENDURE",
+  "synonyms": [
+   "Withstand",
+   "Tolerate",
+   "Bear",
+   "Survive",
+   "Weather"
+  ],
+  "antonyms": [
+   "Succumb",
+   "Yield",
+   "Surrender",
+   "Collapse",
+   "Quit"
+  ],
+  "contextual": [
+   "Winter",
+   "Hardship",
+   "Storm",
+   "Marathon",
+   "Pain"
+  ],
+  "chaos": [
+   "Gourd",
+   "Seesaw",
+   "Hamster",
+   "Almond",
+   "Bassoon"
+  ]
+ },
+ {
+  "id": "2027-10-12",
+  "targetWord": "ESCAPE",
+  "synonyms": [
+   "Flee",
+   "Bolt",
+   "Evade",
+   "Abscond",
+   "Elude"
+  ],
+  "antonyms": [
+   "Capture",
+   "Remain",
+   "Stay",
+   "Surrender",
+   "Submit"
+  ],
+  "contextual": [
+   "Prison",
+   "Maze",
+   "Room",
+   "Zoo",
+   "Island"
+  ],
+  "chaos": [
+   "Rhino",
+   "Paprika",
+   "Fig",
+   "Sardine",
+   "Funnel"
+  ]
+ },
+ {
+  "id": "2027-10-13",
+  "targetWord": "FLOURISH",
+  "synonyms": [
+   "Thrive",
+   "Bloom",
+   "Prosper",
+   "Blossom",
+   "Boom"
+  ],
+  "antonyms": [
+   "Wither",
+   "Decline",
+   "Fade",
+   "Wilt",
+   "Languish"
+  ],
+  "contextual": [
+   "Garden",
+   "Business",
+   "Rainforest",
+   "City",
+   "Career"
+  ],
+  "chaos": [
+   "Marmalade",
+   "Saffron",
+   "Sitar",
+   "Periscope",
+   "Toboggan"
+  ]
+ },
+ {
+  "id": "2027-10-14",
+  "targetWord": "FORGIVE",
+  "synonyms": [
+   "Pardon",
+   "Excuse",
+   "Absolve",
+   "Overlook",
+   "Acquit"
+  ],
+  "antonyms": [
+   "Blame",
+   "Condemn",
+   "Resent",
+   "Punish",
+   "Accuse"
+  ],
+  "contextual": [
+   "Apology",
+   "Mistake",
+   "Friend",
+   "Debt",
+   "Sin"
+  ],
+  "chaos": [
+   "Moose",
+   "Beanie",
+   "Stork",
+   "Hinge",
+   "Battery"
+  ]
+ },
+ {
+  "id": "2027-10-15",
+  "targetWord": "HESITATE",
+  "synonyms": [
+   "Pause",
+   "Waver",
+   "Falter",
+   "Dither",
+   "Delay"
+  ],
+  "antonyms": [
+   "Proceed",
+   "Rush",
+   "Charge",
+   "Decide",
+   "Act"
+  ],
+  "contextual": [
+   "Doorstep",
+   "Crossroads",
+   "Decision",
+   "Answer",
+   "Jump"
+  ],
+  "chaos": [
+   "Escalator",
+   "Muffin",
+   "Bison",
+   "Shrimp",
+   "Apron"
+  ]
+ },
+ {
+  "id": "2027-10-16",
+  "targetWord": "INSPIRE",
+  "synonyms": [
+   "Motivate",
+   "Encourage",
+   "Stimulate",
+   "Uplift",
+   "Galvanize"
+  ],
+  "antonyms": [
+   "Discourage",
+   "Deter",
+   "Dishearten",
+   "Demotivate",
+   "Depress"
+  ],
+  "contextual": [
+   "Teacher",
+   "Speech",
+   "Hero",
+   "Coach",
+   "Muse"
+  ],
+  "chaos": [
+   "Macaw",
+   "Avocado",
+   "Turbine",
+   "Waffle",
+   "Saucer"
+  ]
+ },
+ {
+  "id": "2027-10-17",
+  "targetWord": "MOCK",
+  "synonyms": [
+   "Ridicule",
+   "Taunt",
+   "Tease",
+   "Jeer",
+   "Deride"
+  ],
+  "antonyms": [
+   "Praise",
+   "Respect",
+   "Admire",
+   "Honor",
+   "Compliment"
+  ],
+  "contextual": [
+   "Bully",
+   "Joke",
+   "Comedian",
+   "Impression",
+   "Sarcasm"
+  ],
+  "chaos": [
+   "Woodpecker",
+   "Basil",
+   "Wallpaper",
+   "Faucet",
+   "Beetle"
+  ]
+ },
+ {
+  "id": "2027-10-18",
+  "targetWord": "NOURISH",
+  "synonyms": [
+   "Feed",
+   "Nurture",
+   "Sustain",
+   "Fuel",
+   "Strengthen"
+  ],
+  "antonyms": [
+   "Starve",
+   "Deprive",
+   "Neglect",
+   "Weaken",
+   "Deplete"
+  ],
+  "contextual": [
+   "Soil",
+   "Plant",
+   "Meal",
+   "Baby",
+   "Vitamin"
+  ],
+  "chaos": [
+   "Moped",
+   "Cricket",
+   "Kettle",
+   "Platypus",
+   "Alpaca"
+  ]
+ },
+ {
+  "id": "2027-10-19",
+  "targetWord": "OBSERVE",
+  "synonyms": [
+   "Watch",
+   "Notice",
+   "Monitor",
+   "Witness",
+   "Survey"
+  ],
+  "antonyms": [
+   "Ignore",
+   "Overlook",
+   "Miss",
+   "Disregard",
+   "Neglect"
+  ],
+  "contextual": [
+   "Telescope",
+   "Scientist",
+   "Birdwatcher",
+   "Microscope",
+   "Detective"
+  ],
+  "chaos": [
+   "Forklift",
+   "Bowtie",
+   "Walnut",
+   "Asparagus",
+   "Tadpole"
+  ]
+ },
+ {
+  "id": "2027-10-20",
+  "targetWord": "PONDER",
+  "synonyms": [
+   "Consider",
+   "Contemplate",
+   "Reflect",
+   "Mull",
+   "Muse"
+  ],
+  "antonyms": [
+   "Ignore",
+   "Disregard",
+   "Dismiss",
+   "Overlook",
+   "Neglect"
+  ],
+  "contextual": [
+   "Philosopher",
+   "Question",
+   "Riddle",
+   "Choice",
+   "Thinker"
+  ],
+  "chaos": [
+   "Lobster",
+   "Pincushion",
+   "Kilt",
+   "Camel",
+   "Cashew"
+  ]
+ },
+ {
+  "id": "2027-10-21",
+  "targetWord": "RESCUE",
+  "synonyms": [
+   "Save",
+   "Free",
+   "Liberate",
+   "Deliver",
+   "Recover"
+  ],
+  "antonyms": [
+   "Abandon",
+   "Endanger",
+   "Imperil",
+   "Desert",
+   "Forsake"
+  ],
+  "contextual": [
+   "Lifeguard",
+   "Firefighter",
+   "Helicopter",
+   "Puppy",
+   "Hostage"
+  ],
+  "chaos": [
+   "Iguana",
+   "Octopus",
+   "Thermostat",
+   "Spool",
+   "Pudding"
+  ]
+ },
+ {
+  "id": "2027-10-22",
+  "targetWord": "MIMIC",
+  "synonyms": [
+   "Imitate",
+   "Copy",
+   "Ape",
+   "Mirror",
+   "Echo"
+  ],
+  "antonyms": [
+   "Originate",
+   "Invent",
+   "Create",
+   "Pioneer",
+   "Innovate"
+  ],
+  "contextual": [
+   "Parrot",
+   "Impression",
+   "Comedian",
+   "Mockingbird",
+   "Actor"
+  ],
+  "chaos": [
+   "Pelican",
+   "Gondola",
+   "Mongoose",
+   "Hazelnut",
+   "Rake"
+  ]
+ },
+ {
+  "id": "2027-10-23",
+  "targetWord": "GLANCE",
+  "synonyms": [
+   "Peek",
+   "Glimpse",
+   "Peep",
+   "Skim",
+   "Scan"
+  ],
+  "antonyms": [
+   "Stare",
+   "Gaze",
+   "Study",
+   "Examine",
+   "Scrutinize"
+  ],
+  "contextual": [
+   "Mirror",
+   "Clock",
+   "Watch",
+   "Menu",
+   "Headline"
+  ],
+  "chaos": [
+   "Zebra",
+   "Gerbil",
+   "Hubcap",
+   "Sieve",
+   "Pecan"
+  ]
+ },
+ {
+  "id": "2027-10-24",
+  "targetWord": "DOMINATE",
+  "synonyms": [
+   "Control",
+   "Rule",
+   "Command",
+   "Govern",
+   "Overpower"
+  ],
+  "antonyms": [
+   "Submit",
+   "Obey",
+   "Yield",
+   "Follow",
+   "Surrender"
+  ],
+  "contextual": [
+   "Champion",
+   "Empire",
+   "Tyrant",
+   "Game",
+   "Market"
+  ],
+  "chaos": [
+   "Parsley",
+   "Banjo",
+   "Trellis",
+   "Gecko",
+   "Tapir"
+  ]
+ },
+ {
+  "id": "2027-10-25",
+  "targetWord": "DECIDE",
+  "synonyms": [
+   "Choose",
+   "Determine",
+   "Resolve",
+   "Settle",
+   "Elect"
+  ],
+  "antonyms": [
+   "Waver",
+   "Dither",
+   "Vacillate",
+   "Postpone",
+   "Doubt"
+  ],
+  "contextual": [
+   "Menu",
+   "Vote",
+   "Jury",
+   "Coin",
+   "Crossroads"
+  ],
+  "chaos": [
+   "Armadillo",
+   "Cello",
+   "Grasshopper",
+   "Hacksaw",
+   "Wrench"
+  ]
+ },
+ {
+  "id": "2027-10-26",
+  "targetWord": "FATIGUE",
+  "synonyms": [
+   "Exhaustion",
+   "Weariness",
+   "Tiredness",
+   "Lethargy",
+   "Lassitude"
+  ],
+  "antonyms": [
+   "Energy",
+   "Vigor",
+   "Vitality",
+   "Liveliness",
+   "Freshness"
+  ],
+  "contextual": [
+   "Marathon",
+   "Shift",
+   "Insomnia",
+   "Nap",
+   "Muscle"
+  ],
+  "chaos": [
+   "Fiddle",
+   "Toad",
+   "Pliers",
+   "Abacus",
+   "Chipmunk"
+  ]
+ },
+ {
+  "id": "2027-10-27",
+  "targetWord": "CLARITY",
+  "synonyms": [
+   "Clearness",
+   "Lucidity",
+   "Precision",
+   "Transparency",
+   "Simplicity"
+  ],
+  "antonyms": [
+   "Confusion",
+   "Vagueness",
+   "Obscurity",
+   "Ambiguity",
+   "Murkiness"
+  ],
+  "contextual": [
+   "Lens",
+   "Water",
+   "Instructions",
+   "Explanation",
+   "Glasses"
+  ],
+  "chaos": [
+   "Bongo",
+   "Kayak",
+   "Pajamas",
+   "Tweezers",
+   "Donkey"
+  ]
+ }
+]

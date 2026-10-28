@@ -14,12 +14,18 @@ npm run preview    # serve the built app
 ## Project map
 
 ```
+content/
+├── batch1-6.txt           # The handpicked year of puzzles (edit these)
+├── bombs.txt              # Pool of unrelated bomb words
+└── build-curated.mjs      # Checks puzzles, assigns bombs, writes src/data/curated.json
 src/
 ├── App.tsx                  # Clock sync, day rollover, which screen to show
 ├── main.tsx                 # React entry
 ├── index.css                # Tailwind v4 + fonts + theme tokens
 ├── types.ts                 # Puzzle, BoardWord, GameState, PlayerStats
-├── data/puzzleBank.ts       # The puzzles + getPuzzleForDate()
+├── data/
+│   ├── puzzleBank.ts        # One-off puzzles + getPuzzleForDate() (yearly loop)
+│   └── curated.json         # Generated from content/ — don't edit by hand
 ├── hooks/
 │   ├── useDailyGame.ts      # The game engine: clicks, timer, persistence, stats
 │   └── useServerNow.ts      # Ticking "now" using the synced clock offset
@@ -47,4 +53,16 @@ src/
 
 **Clock cheating.** On start the app sends a free `HEAD` request to its own host and reads the `Date` response header. That gives a server time the player can't change. If that fails, a "highest date ever seen" clamp stops players from rewinding the clock to replay. Clearing localStorage still resets everything; true enforcement needs server-side validation (that's what the Supabase hook is for).
 
-**Adding puzzles.** Append to `puzzleBank` with `id` set to the date. Five words per list, no duplicates. In dev, a console warning fires if a puzzle breaks those rules.
+## Puzzles
+
+There are 365 handpicked puzzles (Oct 28, 2026 → Oct 27, 2027). After that the game loops back to the start, so every date always has a puzzle and nothing needs maintaining. A puzzle comes back once a year, with its words reshuffled on the board.
+
+**Where they live**
+- `content/batch*.txt`: the year-long bank, one puzzle per line, in date order:
+  `TARGET|5 synonyms|5 antonyms|5 related words`
+- `content/bombs.txt`: the pool of unrelated "bomb" words. These are assigned automatically, so no bomb repeats often enough for players to memorize it.
+- `src/data/puzzleBank.ts`: hand-written one-offs. A puzzle here with a date `id` replaces whatever was scheduled that day (holidays, special events).
+
+**Editing from GitHub's website** (no local setup needed): open a `content/batch*.txt` file, click the pencil, edit, commit. The deploy rebuilds `src/data/curated.json` and checks every puzzle. If a line is broken (wrong word count, duplicate word, a target used twice), the deploy fails and the live site stays on the last good version.
+
+Locally: `npm run puzzles` rebuilds and checks the bank.

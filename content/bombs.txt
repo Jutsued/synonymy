@@ -1,0 +1,48 @@
+# Bomb ("chaos") word pool. Neutral, concrete nouns with no strong trait attached.
+# Avoid words that hint at a quality (Sloth = lazy, Owl = wise, Igloo = cold, Tiara = royal).
+# The build script rotates through these so no bomb shows up more than a few times a year.
+
+[objects]
+Stapler Spatula Ladle Whisk Colander Corkscrew Thimble Doorknob Hairbrush Toothbrush
+Paperclip Thumbtack Tweezers Pliers Wrench Screwdriver Trowel Rake Hacksaw Crowbar
+Pulley Hinge Faucet Plunger Teapot Kettle Saucer Teaspoon Skillet Griddle
+Toaster Blender Thermostat Barometer Telescope Periscope Abacus Calculator Typewriter Stethoscope
+Metronome Hourglass Sundial Bookmark Envelope Mailbox Doorbell Lampshade Lantern Candlestick
+Ottoman Armchair Bookshelf Cupboard Drawer Hammock Doormat Clothespin Bucket Broom
+Mop Dustpan Sprinkler Hose Wheelbarrow Easel Globe Magnet Battery Lightbulb
+Antenna Satellite Turbine Windmill Sprocket Funnel Sieve Pincushion Spool Bobbin
+Zipper Buckle Keychain Clipboard Notepad Crayon Eraser Sharpener Protractor Stencil
+Postcard Kaleidoscope Pinwheel Seesaw Hopscotch Domino Jigsaw Pinball Jukebox Doily
+Wallpaper Lamppost Chimney Gazebo Fountain Birdhouse Scarecrow Weathervane Sandbox Trellis
+Gondola Canoe Kayak Dinghy Tugboat Rickshaw Tricycle Unicycle Scooter Moped
+Tractor Bulldozer Forklift Toboggan Blimp Zeppelin Caboose Trolley Escalator Hubcap
+
+[instruments]
+Tuba Trombone Saxophone Clarinet Oboe Bassoon Harp Cello Banjo Ukulele
+Mandolin Bagpipe Harmonica Kazoo Tambourine Xylophone Bongo Cymbal Piccolo Lute
+Harpsichord Accordion Maraca Gong Sitar Glockenspiel Bugle Fiddle Cornet Dulcimer
+
+[animals]
+Pelican Walrus Platypus Narwhal Gecko Iguana Ferret Hedgehog Tadpole Alpaca
+Llama Armadillo Capybara Tapir Wombat Koala Lemur Toucan Flamingo Ostrich
+Emu Puffin Parakeet Macaw Pigeon Seagull Sparrow Woodpecker Hummingbird Kingfisher
+Heron Stork Badger Otter Beaver Raccoon Possum Chipmunk Hamster Gerbil
+Moose Antelope Zebra Hippo Rhino Yak Bison Camel Donkey Lobster
+Crab Shrimp Squid Octopus Starfish Seahorse Haddock Halibut Sardine Catfish
+Salmon Trout Manatee Ladybug Beetle Cricket Grasshopper Caterpillar Dragonfly Moth
+Termite Salamander Newt Toad Weasel Mongoose Meerkat Aardvark Anteater Chinchilla
+
+[food]
+Pretzel Pancake Waffle Bagel Croissant Muffin Biscuit Dumpling Burrito Taco
+Lasagna Ravioli Noodle Meatball Kebab Falafel Omelet Quiche Casserole Pickle
+Gherkin Turnip Parsnip Rutabaga Radish Cabbage Spinach Cauliflower Artichoke Asparagus
+Eggplant Zucchini Cucumber Avocado Pumpkin Gourd Squash Pecan Walnut Cashew
+Pistachio Hazelnut Peanut Almond Coconut Pineapple Tangerine Pomegranate Gooseberry Rhubarb
+Kiwi Papaya Grapefruit Plum Apricot Raisin Fig Marmalade Mustard Ketchup
+Paprika Saffron Cinnamon Nutmeg Parsley Basil Oregano Popcorn Gumdrop Jellybean
+Cupcake Doughnut Brownie Pudding Custard Sherbet Granola Oatmeal Lentil Chickpea
+
+[clothing]
+Sombrero Bonnet Beret Fedora Bowtie Cufflink Locket Bracelet Anklet Mitten
+Scarf Slipper Sandal Sneaker Galoshes Apron Overalls Cardigan Poncho Pajamas
+Bathrobe Suspenders Monocle Thimble Headband Bandana Beanie Vest Kilt Clogs
