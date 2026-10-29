@@ -15,6 +15,7 @@ import {
   type ClockSync,
 } from './lib/clock';
 import { loadSeenHelp, saveSeenHelp } from './lib/storage';
+import { track } from './lib/analytics';
 
 /* ───────────────────────────── background ───────────────────────────── */
 
@@ -92,7 +93,10 @@ function Game({ clock }: { clock: ClockSync }) {
     setHelpOpen(false);
   }, []);
   const closeStats = useCallback(() => setStatsOpen(false), []);
-  const openHelp = useCallback(() => setHelpOpen(true), []);
+  const openHelp = useCallback(() => {
+    track('help_open');
+    setHelpOpen(true);
+  }, []);
   const openStats = useCallback(() => setStatsOpen(true), []);
 
   return (

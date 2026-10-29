@@ -7,6 +7,7 @@ import { MAX_ENERGY, winRate } from '../lib/stats';
 import { triggerResendNewsletter } from '../lib/integrations';
 import { loadNewsletterSubscribed, saveNewsletterSubscribed } from '../lib/storage';
 import Modal from './Modal';
+import { track } from '../lib/analytics';
 import { BoltIcon, CheckIcon, MailIcon, ShareIcon } from './icons';
 
 interface StatsModalProps {
@@ -123,6 +124,7 @@ function NewsletterForm() {
     const res = await triggerResendNewsletter(trimmed);
     if (res.ok) {
       saveNewsletterSubscribed();
+      track('newsletter_signup');
       setStatus('success');
     } else {
       setStatus('error');
@@ -187,10 +189,12 @@ export default function StatsModal({ open, onClose, puzzle, words, state, stats,
     try {
       const isTouch = window.matchMedia('(pointer: coarse)').matches;
       if (isTouch && 'share' in navigator) {
+        track('share', { method: 'share_sheet' });
         await navigator.share({ text });
         return;
       }
       await navigator.clipboard.writeText(text);
+      track('share', { method: 'clipboard' });
       setCopied(true);
       window.setTimeout(() => setCopied(false), 2000);
     } catch {

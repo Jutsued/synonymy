@@ -11,6 +11,8 @@ import {
   recordResult,
 } from '../lib/stats';
 import { saveScoreToSupabase } from '../lib/integrations';
+import { track } from '../lib/analytics';
+import { puzzleNumber } from '../lib/clock';
 
 export type SelectResult = 'correct' | 'wrong' | null;
 
@@ -139,10 +141,20 @@ export function useDailyGame(dateKey: string) {
       saveGame(next); // write immediately — don't even wait for the effect
       setSession((s) => ({ ...s, state: next }));
 
+      if (prev.selected.length === 0) track('game_start', { puzzle: puzzleNumber(prev.dateKey) });
+
       if (status !== 'playing') {
         const won = status === 'won';
         const newStats = recordResult(statsRef.current, prev.dateKey, won, next.elapsedMs, next.energy);
         if (newStats !== statsRef.current) {
+          track('game_complete', {
+            puzzle: puzzleNumber(prev.dateKey),
+            result: status,
+            charges_left: next.energy,
+            seconds: Math.round(next.elapsedMs / 1000),
+            mistakes: selected.length - found,
+            streak: newStats.currentStreak,
+          });
           statsRef.current = newStats;
           saveStats(newStats);
           setStats(newStats);
